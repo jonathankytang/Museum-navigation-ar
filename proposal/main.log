@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  15 OCT 2018 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  15 OCT 2018 17:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -937,7 +937,49 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[1] (./main.toc)
+[1]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(128.0374pt, 341.43306pt, 128.03741pt)
+* v-part:(T,H,B)=(113.81102pt, 617.4248pt, 113.81102pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=341.43306pt
+* \textheight=617.4248pt
+* \oddsidemargin=55.76741pt
+* \evensidemargin=55.76741pt
+* \topmargin=4.54103pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[1
+
+] (./main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -947,94 +989,60 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 1.
-
-! LaTeX Error: File `chapters/chapter01.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-[1]
+(./chapters/chapter01a.tex) (./chapters/chapter01b.tex)
+(./chapters/chapter01c.tex) [1]
 Chapter 2.
-
-! LaTeX Error: File `chapters/chapter02.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
 [2
 
 ]
 Chapter 3.
-
-! LaTeX Error: File `chapters/chapter03.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
 [3
 
 ]
 Chapter 4.
-
-! LaTeX Error: File `chapters/evaluation.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
 [4
 
 ]
 Appendix A.
 
-! LaTeX Error: File `chapters/initialPlan.tex' not found.
+LaTeX Warning: Empty bibliography on input line 100.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
 
-Enter file name: 
+! LaTeX Error: \begin{center} on input line 76 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.102 \end{document}
+                    
+? 
 [5
-
-]
-Appendix B.
-
-! LaTeX Error: File `chapters/wiki.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-
-LaTeX Warning: Empty bibliography on input line 97.
-
-[6
 
 ] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  )
-(\end occurred inside a group at level 1)
+(\end occurred inside a group at level 2)
 
+### semi simple group (level 2) entered at line 76 (\begingroup)
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 11332 strings out of 492995
- 185432 string characters out of 6132705
- 657492 words of memory out of 5000000
- 14763 multiletter control sequences out of 15000+600000
- 6279 words of font info for 23 fonts, out of 8000000 for 9000
+ 11336 strings out of 492995
+ 185571 string characters out of 6132705
+ 658492 words of memory out of 5000000
+ 14764 multiletter control sequences out of 15000+600000
+ 6578 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,10n,43p,737b,9408s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,10n,43p,929b,9519s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmtt12.pfb>
-Output written on main.pdf (11 pages, 49380 bytes).
+Output written on main.pdf (11 pages, 53482 bytes).
 PDF statistics:
  56 PDF objects out of 1000 (max. 8388607)
  38 compressed objects within 1 object stream

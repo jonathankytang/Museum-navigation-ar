@@ -2,7 +2,15 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Software Features}{1}
+\contentsline {chapter}{\numberline {1}Market Research}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Studies on shoppers behvaiour}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Retail experience}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Footfall in Shopping Centres}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Regulations \& Standards}{1}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Implementation and Development}{2}
 \defcounter {refsection}{0}\relax 
@@ -10,6 +18,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Evaluation}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Initial Plan and Timeline}{5}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Project Wiki}{6}
+\contentsline {chapter}{\numberline {A}Sample chapter}{5}
