@@ -1,0 +1,60 @@
+\section{Map Visualization}
+One of the main features of this software is the visualisation of the data on the Google Maps API \cite{googleapi1}. On loading of the software, users are directed to a landing page where they can choose the data set to view on the map. 
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.275]{1_Landing_Page.png}
+\caption{Landing Page}
+\label{fig:x Landing Page}
+\end{figure}
+
+Users are then directed to the main page where the map is displayed along with all the country's data. Only countries where data is available for, will show up on the map. Users can also see the change in other years by selecting from the drop-down menu, and the map will reload. This is so users can see the change in the trade area over different years.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.275]{2_Main_View.png}
+\caption{Main map view}
+\label{fig:x Main map view}
+\end{figure}
+
+Each country is filled with a colour depending on where the country's value lies on the percentile.\\
+\\
+$percentile = \frac{value - minimum}{maximum - minimum}$\\
+\\
+The value is then placed on a range of red and green, depending where the percentile is, the country will turn that colour \texttt{(line 94-99, maps.js)}. This is so users can see which countries have the greatest or least effect on that area of trade. 
+\newpage
+When users hover over the country, they can see the country's name along with the true value from the dataset. The percentile value is never shown to the user, only used to plot the point on the colour bar.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.275]{3_Country_Hover_Over.png}
+\caption{Mouse over country}
+\label{fig:x Mouse over country}
+\end{figure}
+\newpage
+If the user wanted to find out more about the context of the data, original source and when the data was sourced, they can click on the information box in the top-right hand corner, and a modal will appear. Equally, if the user wanted to know how to use the map, then they can hover over the question mark and a tooltip \cite{tooltip} will appear on the screen with instructions.
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.275]{5_Info.png}
+\caption{Information modal box}
+\label{fig:x Information modal box}
+\end{figure}
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.6]{4_Help.png}
+\caption{Help tooltip}
+\label{fig:x Help tooltip}
+\end{figure}
+\newpage
+
+\section{Country Profile}
+When a country is clicked, users can see a graph of the area of trade across all available years for that country. Users can also compare different countries data with the selected country, and refresh the graph. This is so users can see trends in data, and key trade of certain commodities. National accounts for the selected country, and year are displayed in order to give more context to the data, and how it affects the country's economy. 
+
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.275]{6_Country_View.png}
+\caption{Country Profile}
+\label{fig:x Country Profile}
+\end{figure}

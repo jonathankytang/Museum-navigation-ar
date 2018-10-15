@@ -1,0 +1,103 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage[a4paper,top=40mm,bottom=40mm,width=120mm]{geometry}
+\usepackage{lscape}
+\usepackage{afterpage}
+\setcounter{tocdepth}{1}
+\newcommand\tab[1][0.75cm]{\hspace*{#1}}
+
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[C]{\leftmark}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\usepackage[]{algorithm2e}
+
+\usepackage{listings}
+\usepackage{biblatex}
+\addbibresource{references.bib}
+
+\begin{document}
+\begin{titlepage}
+    \newgeometry{width=150mm,top=40mm,bottom=40mm}
+    \begin{center}
+         \vspace*{1cm}
+        Department of Computing\\
+        Goldsmiths, University of London\\
+        
+        \vspace*{3.75cm}
+        
+        \textbf{\Large Augmented Reality Navigation System for commercial spaces}\\
+        \vspace*{0.25cm}           
+        Software Projects\\  
+    
+        \vspace*{2cm}
+        by\\
+        \vspace*{0.25cm}    
+        \textbf{Jonathan Tang, Hamza Sheikh, Hardik Ramesh, Arif Kharoti,\\}
+        \textbf{Gabriel Sampaio Da Silva Diogo, Nicholas Orford-Williams}\\
+        Group 14
+
+        \vspace{2cm}
+        
+        Autumn 2018
+        \vfill
+        
+        Submitted in partial fulfillment for the degree of\\
+        \textit{Bachelor of Science} in \textit{Computer Science}
+        
+        \vspace{1.5cm}
+        
+    \end{center}
+\end{titlepage}
+\afterpage{\blankpage}
+\thispagestyle{plain}
+
+\newgeometry{top=40mm,bottom=40mm,width=120mm}
+\begin{center}    
+	\large
+    \textbf{Word Count}\\
+    1219\\
+    computed by \texttt{TeXcount}
+\end{center}
+
+
+\newgeometry{top=40mm,bottom=40mm,width=120mm}
+\begin{center}    
+    \large
+    \textbf{Abstract}\\
+        Frustration and confusion are common emotions that are apparent at large shopping centres. After analysing recent studies, it is evident that shopping centres have a huge role to play in the overall retail experience. In order to provide greater value to both consumers and retailers, retail settings are being challenged to become smarter. One approach that is becoming increasingly recognised is mobile augmented reality (MAR) apps. Many consumers have difficulties in locating the store which satisfies their needs. In this research, we endeavour to outline the market requirement of developing an application that allows for smart retail and describing how additional value is created to customers as well as benefiting retailers. It is proposed that the application will implement a 3D model of various shopping centres, featuring navigation functionality to assist users in finding their desired store.\\
+
+\pagenumbering{roman}
+\tableofcontents
+\afterpage{\blankpage}
+
+\chapter{Market Research}
+\pagenumbering{arabic}
+\input{chapters/chapter01a.tex}
+\input{chapters/chapter01b.tex}
+\input{chapters/chapter01c.tex}
+
+\chapter{Implementation and Development}
+
+\chapter{Software Structure}
+
+\chapter{Evaluation}
+
+\appendix
+\chapter{Sample chapter}
+
+\printbibliography
+
+\end{document}
+
