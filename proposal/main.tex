@@ -23,9 +23,13 @@
 
 \usepackage[]{algorithm2e}
 
+% !BIB TS-program = biber
+% !BIB program = biber
 \usepackage{listings}
-\usepackage{biblatex}
-\addbibresource{references.bib}
+\usepackage[nottoc]{tocbibind}
+\addcontentsline{toc}{chapter}{Bibliography}
+% \usepackage{biblatex}
+% \addbibresource{references.bib}
 
 \begin{document}
 \begin{titlepage}
@@ -89,12 +93,13 @@ Frustration and confusion are common emotions that are apparent at large shoppin
 \input{chapters/chapter01b.tex}
 \input{chapters/chapter01c.tex}
 
-\chapter{Evaluation}
+% \chapter{Evaluation}
 
-\appendix
-\chapter{Sample chapter}
+% \appendix
+% \chapter{Sample chapter}
 
-\printbibliography
+\bibliographystyle{unsrt}
+\bibliography{references}
 
 \end{document}
 
