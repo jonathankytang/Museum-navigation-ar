@@ -11,40 +11,38 @@ Warning--entry type for "sparacino" isn't style-file defined
 --line 15 of file references.bib
 Warning--entry type for "murphy" isn't style-file defined
 --line 22 of file references.bib
-Warning--entry type for "pickford" isn't style-file defined
---line 29 of file references.bib
 Warning--entry type for "Lewis" isn't style-file defined
---line 52 of file references.bib
+--line 53 of file references.bib
 You've used 8 entries,
             1791 wiz_defined-function locations,
-            482 strings with 4421 characters,
-and the built_in function-call counts, 1043 in all, are:
-= -- 74
+            483 strings with 4446 characters,
+and the built_in function-call counts, 1054 in all, are:
+= -- 77
 > -- 40
 < -- 0
 + -- 18
 - -- 10
-* -- 19
-:= -- 165
-add.period$ -- 18
+* -- 21
+:= -- 172
+add.period$ -- 19
 call.type$ -- 8
 change.case$ -- 7
 chr.to.int$ -- 0
 cite$ -- 8
-duplicate$ -- 48
-empty$ -- 142
+duplicate$ -- 51
+empty$ -- 138
 format.name$ -- 10
 if$ -- 241
 int.to.chr$ -- 0
 int.to.str$ -- 8
-missing$ -- 3
-newline$ -- 37
+missing$ -- 4
+newline$ -- 38
 num.names$ -- 8
-pop$ -- 50
+pop$ -- 46
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 32
+skip$ -- 31
 stack$ -- 0
 substring$ -- 0
 swap$ -- 8
@@ -55,5 +53,5 @@ type$ -- 0
 warning$ -- 0
 while$ -- 8
 width$ -- 9
-write$ -- 71
-(There were 6 warnings)
+write$ -- 73
+(There were 5 warnings)
