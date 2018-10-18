@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  18 OCT 2018 13:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  18 OCT 2018 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -749,28 +749,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 ]
 Chapter 1.
-(./chapters/chapter01a.tex) (./chapters/chapter01b.tex)
-(./chapters/chapter01c.tex
-Underfull \hbox (badness 10000) in paragraph at lines 2--3
+(./chapters/chapter01.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+[1]
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--5
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-[1])
-Underfull \hbox (badness 10000) in paragraph at lines 8--92
+[2])
+Underfull \hbox (badness 10000) in paragraph at lines 22--90
 
  []
 
-(./main.bbl [2]) [3
+(./main.bbl [3]) [4
 
 ] (./main.aux) )
 (\end occurred inside a group at level 1)
@@ -778,23 +782,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--92
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 3964 strings out of 492995
- 55792 string characters out of 6132705
- 143687 words of memory out of 5000000
- 7443 multiletter control sequences out of 15000+600000
+ 3968 strings out of 492995
+ 55776 string characters out of 6132705
+ 145711 words of memory out of 5000000
+ 7453 multiletter control sequences out of 15000+600000
  9311 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,43p,993b,2027s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,43p,1418b,2027s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mu10.pfb>
-Output written on main.pdf (9 pages, 64776 bytes).
+Output written on main.pdf (10 pages, 72364 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 37 compressed objects within 1 object stream
+ 57 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
