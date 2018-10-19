@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  19 OCT 2018 01:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  19 OCT 2018 01:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -764,23 +764,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--26
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 29--90
+Underfull \hbox (badness 10000) in paragraph at lines 32--90
 
  []
 
@@ -798,14 +803,14 @@ Here is how much of TeX's memory you used:
  7457 multiletter control sequences out of 15000+600000
  9311 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,10n,43p,1418b,2027s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,10n,43p,992b,2027s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mu10.pfb>
-Output written on main.pdf (10 pages, 76627 bytes).
+Output written on main.pdf (10 pages, 76633 bytes).
 PDF statistics:
  57 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream
