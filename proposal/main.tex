@@ -25,6 +25,17 @@
 
 %\usepackage{listings}
 \usepackage[nottoc]{tocbibind}
+\usepackage{url}
+
+\usepackage{graphicx}
+\usepackage[some]{background}
+
+\SetBgScale{1}
+\SetBgContents{\parbox{10cm}{%
+  \Huge Draft:  \today\\[14cm]\rotatebox{180}{\Huge Draft:  \today}}}
+\SetBgColor{gray}
+\SetBgAngle{270}
+\SetBgOpacity{0.2}
 
 
 \begin{document}
@@ -39,7 +50,7 @@
         
         \textbf{\Large Augmented Reality Navigation System for Commercial Spaces}\\
         \vspace*{0.25cm}           
-        Proposal\\
+        Proposal - Draft 1\\
         Software Projects\\  
     
         \vspace*{2cm}
@@ -70,7 +81,7 @@
 \begin{center}    
 	\large
     \textbf{Word Count}\\
-    xyz\\
+    1228\\
     computed by \texttt{TeXcount}
 \end{center}
 
@@ -84,9 +95,12 @@ Frustration and confusion are common emotions that are apparent at large shoppin
 \tableofcontents
 \afterpage{\blankpage}
 
-\chapter{Market Research}
+\chapter{Stakeholder Requirements}
 \pagenumbering{arabic}
 \input{chapters/chapter01.tex}
+
+\chapter{Market Research}
+\input{chapters/chapter02.tex}
 
 % \chapter{Evaluation}
 

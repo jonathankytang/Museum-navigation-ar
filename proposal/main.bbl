@@ -2,7 +2,8 @@
 
 \bibitem{orpheo}
 Orpheo Group.
-\newblock Mobile applications, 2018.
+\newblock Mobile applications.
+\newblock \url{https://orpheogroup.com/uk/mobile-applications/}, 2018.
 
 \bibitem{microsoft}
 Microsoft.
@@ -15,18 +16,24 @@ Jon Fingas.
 \newblock {\em Engadget UK}, 11 July 2017.
 
 \bibitem{mapspeople}
-2018.
+Mapspeople.
+\newblock \url{http://www.mapspeople.com/}, 2018.
 
 \bibitem{sparacino}
 Flavia Sparacino.
 \newblock The museum wearable: real-time sensor-driven understanding of
-  visitors? interests for personalized visually-augmented museum experiences,
+  visitors? interests for personalized visually-augmented museum experiences.
+\newblock
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.7.5282&rep=rep1&type=pdf},
   2017.
 
 \bibitem{murphy}
 Adrian Murphy.
 \newblock Retail in museums: continuing the visitor experience through the
-  museum shop, 2017.
+  museum shop.
+\newblock
+  \url{https://advisor.museumsandheritage.com/features/retail-museums-continuing-visitor-experience-museum-shop/},
+  2017.
 
 \bibitem{pickford}
 James Pickford.
@@ -46,15 +53,22 @@ P.~Arthur and R.~Passini.
 
 \bibitem{Lewis}
 Andrew Lewis.
-\newblock What do visitors say about using mobile devices in museums?, 2013.
+\newblock What do visitors say about using mobile devices in museums?
+\newblock
+  \url{https://www.vam.ac.uk/blog/digital/museum-visitors-using-mobile}, 2013.
 
 \bibitem{ITProPortal}
 Kate Brimsted.
-\newblock Virtual and augmented reality: time to update the legal handbook,
+\newblock Virtual and augmented reality: time to update the legal handbook.
+\newblock
+  \url{https://www.itproportal.com/features/virtual-and-augmented-reality-time-to-update-the-legal-handbook/},
   2016.
 
 \bibitem{eversheds}
 Eversheds Sutherland.
-\newblock Virtual and augmented reality: what are the legal issues?, 2017.
+\newblock Virtual and augmented reality: what are the legal issues?
+\newblock
+  \url{https://www.eversheds-sutherland.com/global/en/what/articles/index.page?ArticleID=en/tmt/Virtual_and_augmented_reality_what_are_the_legal_issues},
+  2017.
 
 \end{thebibliography}

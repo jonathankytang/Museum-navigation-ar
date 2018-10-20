@@ -6,45 +6,45 @@ Database file #1: references.bib
 Warning--entry type for "orpheo" isn't style-file defined
 --line 1 of file references.bib
 Warning--entry type for "murphy" isn't style-file defined
---line 16 of file references.bib
+--line 17 of file references.bib
 Warning--entry type for "Lewis" isn't style-file defined
---line 60 of file references.bib
+--line 62 of file references.bib
 Warning--entry type for "ITProPortal" isn't style-file defined
---line 67 of file references.bib
+--line 69 of file references.bib
 Warning--entry type for "eversheds" isn't style-file defined
---line 74 of file references.bib
+--line 76 of file references.bib
 Warning--entry type for "sparacino" isn't style-file defined
---line 81 of file references.bib
+--line 83 of file references.bib
 You've used 12 entries,
             1791 wiz_defined-function locations,
-            498 strings with 4695 characters,
-and the built_in function-call counts, 1518 in all, are:
-= -- 111
-> -- 53
+            509 strings with 5563 characters,
+and the built_in function-call counts, 1617 in all, are:
+= -- 134
+> -- 56
 < -- 0
-+ -- 25
-- -- 13
-* -- 28
-:= -- 245
-add.period$ -- 28
++ -- 26
+- -- 14
+* -- 29
+:= -- 275
+add.period$ -- 35
 call.type$ -- 12
 change.case$ -- 10
 chr.to.int$ -- 0
 cite$ -- 12
 duplicate$ -- 77
 empty$ -- 202
-format.name$ -- 13
-if$ -- 348
+format.name$ -- 14
+if$ -- 372
 int.to.chr$ -- 0
 int.to.str$ -- 12
 missing$ -- 6
-newline$ -- 55
-num.names$ -- 11
-pop$ -- 67
+newline$ -- 62
+num.names$ -- 12
+pop$ -- 59
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 46
+skip$ -- 38
 stack$ -- 0
 substring$ -- 0
 swap$ -- 12
@@ -53,7 +53,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 11
+while$ -- 12
 width$ -- 14
-write$ -- 106
+write$ -- 121
 (There were 6 warnings)
