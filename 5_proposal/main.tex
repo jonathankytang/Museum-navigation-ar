@@ -1,6 +1,7 @@
 \documentclass[12pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
+\usepackage{appendix}
 \usepackage{graphicx}
 \graphicspath{{images/}}
 \usepackage[a4paper,top=25mm,bottom=30mm,width=135mm]{geometry}
@@ -50,7 +51,7 @@
 
         \textbf{\Large Augmented Reality Navigation System for Commercial Spaces}\\
         \vspace*{0.25cm}           
-        Proposal - Draft 1\\
+        Proposal\\
         Software Projects\\  
 
         \vspace*{2cm}
@@ -81,7 +82,7 @@
 \begin{center}    
     \large
     \textbf{Word Count}\\
-    1228\\
+    xyz\\
     computed by \texttt{TeXcount}
 \end{center}
 
@@ -95,26 +96,45 @@ Frustration and confusion are common emotions that are apparent at large shoppin
 \tableofcontents
 \afterpage{\blankpage}
 
-\chapter{Stakeholder Requirements}
+\chapter{User Need Overview \& Concept Introduction}
 \pagenumbering{arabic}
-\input{chapters/chapter01.tex}
+\input{chapters/1_userNeedOverview.tex}
 
-\chapter{Market Research}
-\input{chapters/chapter02.tex}
+\chapter{Data Gathering and Requirements}
+\input{chapters/2_dataGathering.tex}
 
-% \chapter{Evaluation}
+\chapter{Functional Specification}
+\input{chapters/3_functionalSpecification.tex}
 
-% \appendix
-% \chapter{Sample chapter}
+\chapter{Ethical Audit}
+\input{chapters/4_ethicalAudit.tex}
 
+\chapter{Design}
+\input{chapters/5_design.tex}
 
+\chapter{Prototyping}
+\input{chapters/6_prototyping.tex}
+
+\chapter{Technical Architecture}
+\input{chapters/7_technicalArchitecture.tex}
+
+\chapter{Evaluation Plan}
+\input{chapters/8_evaluationPlan.tex}
+
+\chapter{Project Management}
+\input{chapters/9_projectManagement.tex}
+
+\chapter{Conclusion}
+\input{chapters/10_conclusion.tex}
+
+\appendix
+%\chapter{Appendix}
+\begin{appendices}
+\input{chapters/appendix.tex}
+\end{appendices}
+
+%\bibliography
 \bibliographystyle{unsrt}
 \bibliography{references}
 
-
-
-%\bibliographystyle{unsrt}
-%\bibliography{references}
-
 \end{document}
-
