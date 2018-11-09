@@ -1,0 +1,268 @@
+<html>
+<head>
+<meta http-equiv='content-type' content='text/html; charset=utf8'>
+<style>
+<!--
+body {width:auto;padding:5;margin:5;}
+.error {font-weight:bold;color:#f00;font-style:italic; border: solid 1px red;}
+.word,.hword,.oword,.altwd {border-left: 1px solid #CDF; border-bottom: 1px solid #CDF;}
+.word {color: #009}
+.hword {color: #009; font-weight: 700;}
+.oword {color: #009; font-style: italic;}
+.altwd {color: #00c; font-style: oblique;}
+.cmd {color: #c00;}
+.exclcmd {color: #f99;}
+.option {color: #cc0;}
+.optparm {color: #c90;}
+.envir, .document {color: #900; font-weight:bold;}
+.math {color: #6c0;}
+.mathgroup {color: #090;}
+.exclmath {color: #9f6;}
+.mathcmd {color: #6c0;}
+.ignore {color: #999;}
+.exclenv {color:#c66;}
+.tc {color: #999; font-weight:bold;}
+.comment {color: #999; font-style: italic;}
+.state {color: #990; font-size: 70%;}
+.cumsum {color: #999; font-size: 80%;}
+.fileinc {color: #696; font-weight:bold;}
+.warning {color: #c00; font-weight: 700;}
+
+div.filegroup, div.parse, div.stylehelp, div.count, div.sumcount, div.error {
+   border: solid 1px #999; margin: 4pt 0pt; padding: 4pt;
+}
+div.stylehelp {font-size: 80%; background: #fffff0; margin-bottom: 16pt;}
+div.filegroup {background: #dfd; margin-bottom: 16pt;}
+div.count {background: #ffe;}
+div.sumcount {background: #cec;}
+div.error {background: #fcc;}
+.parse {font-size: 80%; background: #f8fff8; border-bottom:none;}
+
+ul.count {list-style-type: none; margin: 4pt 0pt; padding: 0pt;}
+.count li.header {font-weight: bold; font-style: italic;}
+.subcount li.header {font-weight: normal; font-style: italic;}
+.subcount li {margin-left: 16pt; font-size: 80%;}
+.fielddesc {font-style: italic;}
+.nb {color: #900;}
+
+table.stat {border:2px solid #339; margin:0 0 8pt 0; background:#666; border-collapse:collapse;}
+table.stat tr {border:1px solid #CCC;}
+table.stat th, table.stat td {padding:1pt 4pt;}
+table.stat col {padding:4pt;}
+table.stat thead {background: #CCF;}
+table.stat tbody {border:1px solid #333;}
+table.stat tbody.sumstat {background:#FFC;}
+table.stat tbody.langstat {background:#FEE;}
+table.stat tbody.wordstat {background:#EEF;}
+table.stat tbody.macrostat {background:#EFE;}
+table.stat .sum {font-weight:bold; font-style:italic;}
+-->
+</style>
+</head>
+
+<body>
+
+<h1>LaTeX word count</h1>
+<div class="stylehelp"><p><h2>Format/colour codes of verbose output:</h2>
+
+<span class='error'>ERROR</span>&nbsp;&nbsp;....&nbsp;&nbsp;TeXcount error message<br>
+<span class='word'>Text which is counted</span>&nbsp;&nbsp;....&nbsp;&nbsp;counted as text words<br>
+<span class='hword'>Header and title text</span>&nbsp;&nbsp;....&nbsp;&nbsp;counted as header words<br>
+<span class='oword'>Caption text and footnotes</span>&nbsp;&nbsp;....&nbsp;&nbsp;counted as caption words<br>
+<span class='altwd'>Words in user specified counters</span>&nbsp;&nbsp;....&nbsp;&nbsp;counted in separate counters<br>
+<span class='ignore'>Ignored text or code</span>&nbsp;&nbsp;....&nbsp;&nbsp;excluded or ignored<br>
+<span class='document'>\documentclass</span>&nbsp;&nbsp;....&nbsp;&nbsp;document start, beginning of preamble<br>
+<span class='cmd'>\macro</span>&nbsp;&nbsp;....&nbsp;&nbsp;macro not counted, but parameters may be<br>
+<span class='exclcmd'>\macro</span>&nbsp;&nbsp;....&nbsp;&nbsp;macro in excluded region<br>
+<span class='option'>[Macro options]</span>&nbsp;&nbsp;....&nbsp;&nbsp;not counted<br>
+<span class='optparm'>[Optional parameter]</span>&nbsp;&nbsp;....&nbsp;&nbsp;content parsed and styled as counted<br>
+<span class='envir'>\begin{name}&nbsp; \end{name}</span>&nbsp;&nbsp;....&nbsp;&nbsp;environment<br>
+<span class='exclenv'>\begin{name}&nbsp; \end{name}</span>&nbsp;&nbsp;....&nbsp;&nbsp;environment in excluded region<br>
+<span class='mathgroup'>$&nbsp; $</span>&nbsp;&nbsp;....&nbsp;&nbsp;counted as one equation<br>
+<span class='exclmath'>$&nbsp; $</span>&nbsp;&nbsp;....&nbsp;&nbsp;equation in excluded region<br>
+<span class='math'>2+2=4</span>&nbsp;&nbsp;....&nbsp;&nbsp;maths (inside $...$ etc.)<br>
+<span class='mathcmd'>$\macro$</span>&nbsp;&nbsp;....&nbsp;&nbsp;macros inside maths<br>
+<span class='comment'>% Comments</span>&nbsp;&nbsp;....&nbsp;&nbsp;not counted<br>
+<span class='tc'>%TC:TeXcount instructions</span>&nbsp;&nbsp;....&nbsp;&nbsp;not counted<br>
+<span class='fileinc'>File to include</span>&nbsp;&nbsp;....&nbsp;&nbsp;not counted but file may be counted later<br>
+</p></div>
+
+
+<div class='filegroup'>
+<h2>File: main.tex</h2>
+<div class='parse'><p>
+<span class='document'>\documentclass</span><span class='option'>[12pt]</span><span class='document'>{report}</span><br>
+<span class='document'>\usepackage</span><span class='option'>[utf8]</span><span class='document'>{inputenc}</span><br>
+<span class='document'>\usepackage</span><span class='option'>[english]</span><span class='document'>{babel}</span><br>
+<span class='document'>\usepackage</span><span class='document'>{appendix}</span><br>
+<span class='document'>\usepackage</span><span class='document'>{graphicx}</span><br>
+<span class='exclcmd'>\graphicspath</span><span class='ignore'>{</span><span class='ignore'>{</span><span class='ignore'>images</span><span class='ignore'>/</span><span class='ignore'>}</span><span class='ignore'>}</span><br>
+<span class='document'>\usepackage</span><span class='option'>[a4paper,top=25mm,bottom=30mm,width=135mm]</span><span class='document'>{geometry}</span><br>
+<span class='document'>\usepackage</span><span class='document'>{lscape}</span><br>
+<span class='document'>\usepackage</span><span class='document'>{afterpage}</span><br>
+<span class='exclcmd'>\setcounter</span><span class='ignore'>{</span><span class='ignore'>tocdepth</span><span class='ignore'>}</span><span class='ignore'>{</span><span class='ignore'>1</span><span class='ignore'>}</span><br>
+<span class='cmd'>\newcommand</span><span class='ignore'>\tab</span><span class='option'>[1]</span><span class='option'>[0.75cm]</span><span class='ignore'>{</span><span class='ignore'>\hspace</span><span class='ignore'>*</span><span class='ignore'>{</span><span class='ignore'>#</span><span class='ignore'>1</span><span class='ignore'>}</span><span class='ignore'>}</span><br>
+<br>
+<span class='cmd'>\newcommand</span><span class='ignore'>\blankpage</span><span class='ignore'>{</span><span class='comment'>%</span><br>
+&nbsp; &nbsp; <span class='ignore'>\null</span><br>
+&nbsp; &nbsp; <span class='ignore'>\thispagestyle</span><span class='ignore'>{</span><span class='ignore'>empty</span><span class='ignore'>}</span><span class='comment'>%</span><br>
+&nbsp; &nbsp; <span class='ignore'>\addtocounter</span><span class='ignore'>{</span><span class='ignore'>page</span><span class='ignore'>}</span><span class='ignore'>{</span><span class='ignore'>-</span><span class='ignore'>1</span><span class='ignore'>}</span><span class='comment'>%</span><br>
+&nbsp; &nbsp; <span class='ignore'>\newpage</span><span class='ignore'>}</span><br>
+<br>
+<span class='document'>\usepackage</span><span class='document'>{fancyhdr}</span><br>
+<span class='exclcmd'>\pagestyle</span><span class='ignore'>{</span><span class='ignore'>fancy</span><span class='ignore'>}</span><br>
+<span class='exclcmd'>\fancyhead</span><span class='ignore'>{</span><span class='ignore'>}</span><br>
+<span class='exclcmd'>\fancyhead</span><span class='option'>[C]</span><span class='ignore'>{</span><span class='exclcmd'>\leftmark</span><span class='ignore'>}</span><br>
+<span class='cmd'>\renewcommand</span><span class='ignore'>{</span><span class='ignore'>\headrulewidth</span><span class='ignore'>}</span><span class='ignore'>{</span><span class='ignore'>0.4pt</span><span class='ignore'>}</span><br>
+<br>
+<span class='document'>\usepackage</span><span class='option'>[]</span><span class='document'>{algorithm2e}</span><br>
+<br>
+<span class='comment'>%\usepackage{listings}</span><br>
+<span class='document'>\usepackage</span><span class='option'>[nottoc]</span><span class='document'>{tocbibind}</span><br>
+<span class='document'>\usepackage</span><span class='document'>{url}</span><br>
+<br>
+<span class='document'>\usepackage</span><span class='document'>{graphicx}</span><br>
+<span class='document'>\usepackage</span><span class='option'>[some]</span><span class='document'>{background}</span><br>
+<br>
+<span class='exclcmd'>\SetBgScale</span><span class='ignore'>{</span><span class='ignore'>1</span><span class='ignore'>}</span><br>
+<span class='exclcmd'>\SetBgContents</span><span class='ignore'>{</span><span class='exclcmd'>\parbox</span><span class='ignore'>{</span><span class='ignore'>10cm</span><span class='ignore'>}</span><span class='ignore'>{</span><span class='comment'>%</span><br>
+&nbsp; &nbsp; <span class='exclcmd'>\Huge</span> <span class='ignore'>Draft</span><span class='ignore'>:</span>&nbsp; <span class='exclcmd'>\today</span><span class='exclcmd'>\\</span><span class='option'>[14cm]</span><span class='exclcmd'>\rotatebox</span><span class='ignore'>{</span><span class='ignore'>180</span><span class='ignore'>}</span><span class='ignore'>{</span><span class='exclcmd'>\Huge</span> <span class='ignore'>Draft</span><span class='ignore'>:</span>&nbsp; <span class='exclcmd'>\today</span><span class='ignore'>}</span><span class='ignore'>}</span><span class='ignore'>}</span><br>
+<span class='exclcmd'>\SetBgColor</span><span class='ignore'>{</span><span class='ignore'>gray</span><span class='ignore'>}</span><br>
+<span class='exclcmd'>\SetBgAngle</span><span class='ignore'>{</span><span class='ignore'>270</span><span class='ignore'>}</span><br>
+<span class='exclcmd'>\SetBgOpacity</span><span class='ignore'>{</span><span class='ignore'>0.2</span><span class='ignore'>}</span><br>
+<br>
+<br>
+<span class='envir'>\begin</span><span class='envir'>{document}</span><br>
+<span class='envir'>\begin</span><span class='envir'>{titlepage}</span><br>
+&nbsp;&nbsp;<span class='exclcmd'>\newgeometry</span><span class='ignore'>{</span><span class='ignore'>width</span><span class='ignore'>=</span><span class='ignore'>150mm</span><span class='ignore'>,</span><span class='ignore'>top</span><span class='ignore'>=</span><span class='ignore'>40mm</span><span class='ignore'>,</span><span class='ignore'>bottom</span><span class='ignore'>=</span><span class='ignore'>40mm</span><span class='ignore'>}</span><br>
+&nbsp;&nbsp;<span class='exclenv'>\begin</span><span class='exclenv'>{center}</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='exclcmd'>\vspace</span><span class='option'>*</span><span class='ignore'>{</span><span class='ignore'>1cm</span><span class='ignore'>}</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='ignore'>Department</span> <span class='ignore'>of</span> <span class='ignore'>Computing</span><span class='exclcmd'>\\</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='ignore'>Goldsmiths</span><span class='ignore'>,</span> <span class='ignore'>University</span> <span class='ignore'>of</span> <span class='ignore'>London</span><span class='exclcmd'>\\</span><br>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span class='exclcmd'>\vspace</span><span class='option'>*</span><span class='ignore'>{</span><span class='ignore'>3.75cm</span><span class='ignore'>}</span><br>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span class='exclcmd'>\textbf</span><span class='ignore'>{</span><span class='exclcmd'>\Large</span> <span class='ignore'>Augmented</span> <span class='ignore'>Reality</span> <span class='ignore'>Navigation</span> <span class='ignore'>System</span> <span class='ignore'>for</span> <span class='ignore'>Commercial</span> <span class='ignore'>Spaces</span><span class='ignore'>}</span><span class='exclcmd'>\\</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='exclcmd'>\vspace</span><span class='option'>*</span><span class='ignore'>{</span><span class='ignore'>0.25cm</span><span class='ignore'>}</span>           <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='ignore'>Proposal</span><span class='exclcmd'>\\</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='ignore'>Software</span> <span class='ignore'>Projects</span><span class='exclcmd'>\\</span>  <br>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span class='exclcmd'>\vspace</span><span class='option'>*</span><span class='ignore'>{</span><span class='ignore'>2cm</span><span class='ignore'>}</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='ignore'>by</span><span class='exclcmd'>\\</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='exclcmd'>\vspace</span><span class='option'>*</span><span class='ignore'>{</span><span class='ignore'>0.25cm</span><span class='ignore'>}</span>    <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='exclcmd'>\textbf</span><span class='ignore'>{</span><span class='ignore'>Jonathan</span> <span class='ignore'>Tang</span><span class='ignore'>,</span> <span class='ignore'>Hamza</span> <span class='ignore'>Sheikh</span><span class='ignore'>,</span> <span class='ignore'>Hardik</span> <span class='ignore'>Ramesh</span><span class='ignore'>,</span> <span class='ignore'>Arif</span> <span class='ignore'>Kharoti</span><span class='ignore'>,</span><span class='exclcmd'>\\</span><span class='ignore'>}</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='exclcmd'>\textbf</span><span class='ignore'>{</span><span class='ignore'>Gabriel</span> <span class='ignore'>Sampaio</span> <span class='ignore'>Da</span> <span class='ignore'>Silva</span> <span class='ignore'>Diogo</span><span class='ignore'>,</span> <span class='ignore'>Nicholas</span> <span class='ignore'>Orford-Williams</span><span class='ignore'>}</span><span class='exclcmd'>\\</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='exclcmd'>\vspace</span><span class='option'>*</span><span class='ignore'>{</span><span class='ignore'>0.1cm</span><span class='ignore'>}</span>    <br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='ignore'>Group</span> <span class='ignore'>14</span><br>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span class='exclcmd'>\vspace</span><span class='ignore'>{</span><span class='ignore'>2cm</span><span class='ignore'>}</span><br>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span class='ignore'>Autumn</span> <span class='ignore'>2018</span><br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span class='exclcmd'>\vfill</span><br>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span class='ignore'>Submitted</span> <span class='ignore'>in</span> <span class='ignore'>partial</span> <span class='ignore'>fulfillment</span> <span class='ignore'>for</span> <span class='ignore'>the</span> <span class='ignore'>degree</span> <span class='ignore'>of</span><span class='exclcmd'>\\</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;<span class='exclcmd'>\textit</span><span class='ignore'>{</span><span class='ignore'>Bachelor</span> <span class='ignore'>of</span> <span class='ignore'>Science</span><span class='ignore'>}</span> <span class='ignore'>in</span> <span class='exclcmd'>\textit</span><span class='ignore'>{</span><span class='ignore'>Computer</span> <span class='ignore'>Science</span><span class='ignore'>}</span><br>
+<br>
+&nbsp; &nbsp; &nbsp; &nbsp; <span class='exclcmd'>\vspace</span><span class='ignore'>{</span><span class='ignore'>1.5cm</span><span class='ignore'>}</span><br>
+<br>
+&nbsp; &nbsp; <span class='exclenv'>\end</span><span class='exclenv'>{center}</span><br>
+<span class='envir'>\end</span><span class='envir'>{titlepage}</span><br>
+<span class='cmd'>\afterpage</span><span class='ignore'>{</span><span class='cmd'>\blankpage</span><span class='ignore'>}</span><br>
+<span class='cmd'>\thispagestyle</span><span class='ignore'>{</span><span class='ignore'>plain</span><span class='ignore'>}</span><br>
+<br>
+<span class='cmd'>\pagenumbering</span><span class='ignore'>{</span><span class='ignore'>roman</span><span class='ignore'>}</span><br>
+<span class='cmd'>\newgeometry</span><span class='ignore'>{</span><span class='ignore'>top</span><span class='ignore'>=</span><span class='ignore'>25mm</span><span class='ignore'>,</span><span class='ignore'>bottom</span><span class='ignore'>=</span><span class='ignore'>30mm</span><span class='ignore'>,</span><span class='ignore'>width</span><span class='ignore'>=</span><span class='ignore'>135mm</span><span class='ignore'>}</span><br>
+<span class='envir'>\begin</span><span class='envir'>{center}</span><br>
+&nbsp;&nbsp;<span class='cmd'>\large</span><br>
+&nbsp;&nbsp;<span class='cmd'>\textbf</span><span class='ignore'>{</span><span class='word'>Word</span> <span class='word'>Count</span><span class='ignore'>}</span><span class='cmd'>\\</span><br>
+&nbsp;&nbsp;<span class='word'>xyz</span><span class='cmd'>\\</span><br>
+&nbsp;&nbsp;<span class='word'>computed</span> <span class='word'>by</span> <span class='cmd'>\texttt</span><span class='ignore'>{</span><span class='word'>TeXcount</span><span class='ignore'>}</span><br>
+<span class='envir'>\end</span><span class='envir'>{center}</span><br>
+<br>
+<span class='cmd'>\newgeometry</span><span class='ignore'>{</span><span class='ignore'>top</span><span class='ignore'>=</span><span class='ignore'>25mm</span><span class='ignore'>,</span><span class='ignore'>bottom</span><span class='ignore'>=</span><span class='ignore'>30mm</span><span class='ignore'>,</span><span class='ignore'>width</span><span class='ignore'>=</span><span class='ignore'>135mm</span><span class='ignore'>}</span><br>
+<span class='envir'>\begin</span><span class='envir'>{center}</span><br>
+&nbsp;&nbsp;<span class='cmd'>\large</span><br>
+&nbsp;&nbsp;<span class='cmd'>\textbf</span><span class='ignore'>{</span><span class='word'>Abstract</span><span class='ignore'>}</span><span class='cmd'>\\</span><br>
+<span class='envir'>\end</span><span class='envir'>{center}</span><br>
+<span class='comment'>% Rewrite this section</span><br>
+<span class='word'>Frustration</span> <span class='word'>and</span> <span class='word'>confusion</span> <span class='word'>are</span> <span class='word'>common</span> <span class='word'>emotions</span> <span class='word'>that</span> <span class='word'>are</span> <span class='word'>apparent</span> <span class='word'>at</span> <span class='word'>large</span> <span class='word'>shopping</span> <span class='word'>centres</span><span class='ignore'>.</span> <span class='word'>After</span> <span class='word'>analysing</span> <span class='word'>recent</span> <span class='word'>studies</span><span class='ignore'>,</span> <span class='word'>it</span> <span class='word'>is</span> <span class='word'>evident</span> <span class='word'>that</span> <span class='word'>shopping</span> <span class='word'>centres</span> <span class='word'>have</span> <span class='word'>a</span> <span class='word'>huge</span> <span class='word'>role</span> <span class='word'>to</span> <span class='word'>play</span> <span class='word'>in</span> <span class='word'>the</span> <span class='word'>overall</span> <span class='word'>retail</span> <span class='word'>experience</span><span class='ignore'>.</span> <span class='word'>In</span> <span class='word'>order</span> <span class='word'>to</span> <span class='word'>provide</span> <span class='word'>greater</span> <span class='word'>value</span> <span class='word'>to</span> <span class='word'>both</span> <span class='word'>consumers</span> <span class='word'>and</span> <span class='word'>retailers</span><span class='ignore'>,</span> <span class='word'>retail</span> <span class='word'>settings</span> <span class='word'>are</span> <span class='word'>being</span> <span class='word'>challenged</span> <span class='word'>to</span> <span class='word'>become</span> <span class='word'>smarter</span><span class='ignore'>.</span> <span class='word'>One</span> <span class='word'>approach</span> <span class='word'>that</span> <span class='word'>is</span> <span class='word'>becoming</span> <span class='word'>increasingly</span> <span class='word'>recognised</span> <span class='word'>is</span> <span class='word'>mobile</span> <span class='word'>augmented</span> <span class='word'>reality</span> <span class='ignore'>(</span><span class='word'>MAR</span><span class='ignore'>)</span> <span class='word'>apps</span><span class='ignore'>.</span> <span class='word'>Many</span> <span class='word'>consumers</span> <span class='word'>have</span> <span class='word'>difficulties</span> <span class='word'>in</span> <span class='word'>locating</span> <span class='word'>the</span> <span class='word'>store</span> <span class='word'>which</span> <span class='word'>satisfies</span> <span class='word'>their</span> <span class='word'>needs</span><span class='ignore'>.</span> <span class='word'>In</span> <span class='word'>this</span> <span class='word'>research</span><span class='ignore'>,</span> <span class='word'>we</span> <span class='word'>endeavour</span> <span class='word'>to</span> <span class='word'>outline</span> <span class='word'>the</span> <span class='word'>market</span> <span class='word'>requirement</span> <span class='word'>of</span> <span class='word'>developing</span> <span class='word'>an</span> <span class='word'>application</span> <span class='word'>that</span> <span class='word'>allows</span> <span class='word'>for</span> <span class='word'>smart</span> <span class='word'>retail</span> <span class='word'>and</span> <span class='word'>describing</span> <span class='word'>how</span> <span class='word'>additional</span> <span class='word'>value</span> <span class='word'>is</span> <span class='word'>created</span> <span class='word'>to</span> <span class='word'>customers</span> <span class='word'>as</span> <span class='word'>well</span> <span class='word'>as</span> <span class='word'>benefiting</span> <span class='word'>retailers</span><span class='ignore'>.</span> <span class='word'>It</span> <span class='word'>is</span> <span class='word'>proposed</span> <span class='word'>that</span> <span class='word'>the</span> <span class='word'>application</span> <span class='word'>will</span> <span class='word'>implement</span> <span class='word'>a</span> <span class='word'>3D</span> <span class='word'>model</span> <span class='word'>of</span> <span class='word'>various</span> <span class='word'>shopping</span> <span class='word'>centres</span><span class='ignore'>,</span> <span class='word'>featuring</span> <span class='word'>navigation</span> <span class='word'>functionality</span> <span class='word'>to</span> <span class='word'>assist</span> <span class='word'>users</span> <span class='word'>in</span> <span class='word'>finding</span> <span class='word'>their</span> <span class='word'>desired</span> <span class='word'>store</span><span class='ignore'>.</span><span class='cmd'>\\</span><br>
+<br>
+<span class='cmd'>\tableofcontents</span><br>
+<span class='cmd'>\afterpage</span><span class='ignore'>{</span><span class='cmd'>\blankpage</span><span class='ignore'>}</span><br>
+<br>
+<span class='cmd'>\chapter</span><span class='ignore'>{</span><span class='hword'>User</span> <span class='hword'>Need</span> <span class='hword'>Overview</span> <span class='cmd'>\&amp;</span> <span class='hword'>Concept</span> <span class='hword'>Introduction</span><span class='ignore'>}</span><br>
+<span class='cmd'>\pagenumbering</span><span class='ignore'>{</span><span class='ignore'>arabic</span><span class='ignore'>}</span><br>
+<span class='cmd'>\input</span><span class='fileinc'>{chapters/1_userNeedOverview.tex}</span><br>
+<br>
+<span class='cmd'>\chapter</span><span class='ignore'>{</span><span class='hword'>Data</span> <span class='hword'>Gathering</span> <span class='hword'>and</span> <span class='hword'>Requirements</span><span class='ignore'>}</span><br>
+<span class='cmd'>\input</span><span class='fileinc'>{chapters/2_dataGathering.tex}</span><br>
+<br>
+<span class='cmd'>\chapter</span><span class='ignore'>{</span><span class='hword'>Functional</span> <span class='hword'>Specification</span><span class='ignore'>}</span><br>
+<span class='cmd'>\input</span><span class='fileinc'>{chapters/3_functionalSpecification.tex}</span><br>
+<br>
+<span class='cmd'>\chapter</span><span class='ignore'>{</span><span class='hword'>Ethical</span> <span class='hword'>Audit</span><span class='ignore'>}</span><br>
+<span class='cmd'>\input</span><span class='fileinc'>{chapters/4_ethicalAudit.tex}</span><br>
+<br>
+<span class='cmd'>\chapter</span><span class='ignore'>{</span><span class='hword'>Design</span><span class='ignore'>}</span><br>
+<span class='cmd'>\input</span><span class='fileinc'>{chapters/5_design.tex}</span><br>
+<br>
+<span class='cmd'>\chapter</span><span class='ignore'>{</span><span class='hword'>Prototyping</span><span class='ignore'>}</span><br>
+<span class='cmd'>\input</span><span class='fileinc'>{chapters/6_prototyping.tex}</span><br>
+<br>
+<span class='cmd'>\chapter</span><span class='ignore'>{</span><span class='hword'>Technical</span> <span class='hword'>Architecture</span><span class='ignore'>}</span><br>
+<span class='cmd'>\input</span><span class='fileinc'>{chapters/7_technicalArchitecture.tex}</span><br>
+<br>
+<span class='cmd'>\chapter</span><span class='ignore'>{</span><span class='hword'>Evaluation</span> <span class='hword'>Plan</span><span class='ignore'>}</span><br>
+<span class='cmd'>\input</span><span class='fileinc'>{chapters/8_evaluationPlan.tex}</span><br>
+<br>
+<span class='cmd'>\chapter</span><span class='ignore'>{</span><span class='hword'>Project</span> <span class='hword'>Management</span><span class='ignore'>}</span><br>
+<span class='cmd'>\input</span><span class='fileinc'>{chapters/9_projectManagement.tex}</span><br>
+<br>
+<span class='cmd'>\chapter</span><span class='ignore'>{</span><span class='hword'>Conclusion</span><span class='ignore'>}</span><br>
+<span class='cmd'>\input</span><span class='fileinc'>{chapters/10_conclusion.tex}</span><br>
+<br>
+<span class='cmd'>\appendix</span><br>
+<span class='comment'>%\chapter{Appendix}</span><br>
+<span class='envir'>\begin</span><span class='envir'>{appendices}</span><br>
+<span class='cmd'>\input</span><span class='fileinc'>{chapters/appendix.tex}</span><br>
+<span class='envir'>\end</span><span class='envir'>{appendices}</span><br>
+<br>
+<span class='comment'>%\bibliography</span><br>
+<span class='cmd'>\bibliographystyle</span><span class='ignore'>{</span><span class='ignore'>unsrt</span><span class='ignore'>}</span><br>
+<span class='cmd'>\bibliography</span><span class='ignore'>{</span><span class='ignore'>references</span><span class='ignore'>}</span><br>
+<br>
+<span class='envir'>\end</span><span class='envir'>{document}</span><br>
+</p></div>
+<div class='count'>
+<ul class='count'>
+<li class='header'>File: main.tex</li>
+<li>Encoding: ascii</li>
+<li>Words in text: 144</li>
+<li>Words in headers: 22</li>
+<li>Words outside text (captions, etc.): 0</li>
+<li>Number of headers: 10</li>
+<li>Number of floats/tables/figures: 0</li>
+<li>Number of math inlines: 0</li>
+<li>Number of math displayed: 0</li>
+<li>Subcounts:</li>
+<span class='subcount'>
+<li class='fielddesc'>&nbsp; text+headers+captions (#headers/#floats/#inlines/#displayed)</li>
+  <li>144+0+0 (0/0/0/0) _top_</li>
+  <li>0+5+0 (1/0/0/0) Chapter: User Need Overview \&amp; Concept Introduction</li>
+  <li>0+4+0 (1/0/0/0) Chapter: Data Gathering and Requirements</li>
+  <li>0+2+0 (1/0/0/0) Chapter: Functional Specification</li>
+  <li>0+2+0 (1/0/0/0) Chapter: Ethical Audit</li>
+  <li>0+1+0 (1/0/0/0) Chapter: Design</li>
+  <li>0+1+0 (1/0/0/0) Chapter: Prototyping</li>
+  <li>0+2+0 (1/0/0/0) Chapter: Technical Architecture</li>
+  <li>0+2+0 (1/0/0/0) Chapter: Evaluation Plan</li>
+  <li>0+2+0 (1/0/0/0) Chapter: Project Management</li>
+  <li>0+1+0 (1/0/0/0) Chapter: Conclusion</li>
+</span>
+</ul>
+</div>
+</div>
+
+</body>
+
+</html>
