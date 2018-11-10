@@ -5,16 +5,20 @@ The style file: unsrt.bst
 Database file #1: references.bib
 Warning--entry type for "orpheo" isn't style-file defined
 --line 1 of file references.bib
+I was expecting a `,' or a `}'---line 13 of file references.bib
+ :  howpublished = "\url{https://www.microsoft.com/en-us/research/blog/path-guide-new-approach-indoor-navigation/}"
+ :                                                                                                                 s
+I'm skipping whatever remains of this entry
 Warning--entry type for "murphy" isn't style-file defined
---line 17 of file references.bib
+--line 16 of file references.bib
 Warning--entry type for "Lewis" isn't style-file defined
---line 62 of file references.bib
+--line 61 of file references.bib
 Warning--entry type for "ITProPortal" isn't style-file defined
---line 69 of file references.bib
+--line 68 of file references.bib
 Warning--entry type for "eversheds" isn't style-file defined
---line 76 of file references.bib
+--line 75 of file references.bib
 Warning--entry type for "sparacino" isn't style-file defined
---line 83 of file references.bib
+--line 82 of file references.bib
 You've used 12 entries,
             1791 wiz_defined-function locations,
             509 strings with 5563 characters,
@@ -56,4 +60,4 @@ warning$ -- 0
 while$ -- 12
 width$ -- 14
 write$ -- 121
-(There were 6 warnings)
+(There was 1 error message)

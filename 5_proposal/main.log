@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  9 NOV 2018 01:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  10 NOV 2018 00:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1035,7 +1035,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
@@ -1058,26 +1058,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 ]
 Chapter 1.
 (./chapters/1_userNeedOverview.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 ) [1]
 Chapter 2.
-(./chapters/2_dataGathering.tex) [2
-
-]
-Chapter 3.
-(./chapters/3_functionalSpecification.tex) [3
-
-]
-Chapter 4.
-(./chapters/4_ethicalAudit.tex
-Underfull \hbox (badness 10000) in paragraph at lines 1--2
-
- []
-
-
+(./chapters/2_dataGathering.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1087,36 +1074,70 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 7--114
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[4
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
+(/usr/local/texlive/2017/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
+ [2
 
-] [5]
+]) [3]
+Chapter 3.
+(./chapters/3_functionalSpecification.tex) [4
+
+]
+Chapter 4.
+(./chapters/4_ethicalAudit.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 9--115
+
+ []
+
+[5
+
+] [6]
 Chapter 5.
-(./chapters/5_design.tex) [6
+(./chapters/5_design.tex) [7
 
 ]
 Chapter 6.
-(./chapters/6_prototyping.tex) [7
+(./chapters/6_prototyping.tex) [8
 
 ]
 Chapter 7.
-(./chapters/7_technicalArchitecture.tex) [8
+(./chapters/7_technicalArchitecture.tex) [9
 
 ]
 Chapter 8.
-(./chapters/8_evaluationPlan.tex) [9
+(./chapters/8_evaluationPlan.tex) [10
 
 ]
 Chapter 9.
-(./chapters/9_projectManagement.tex) [10
+(./chapters/9_projectManagement.tex) [11
 
 ]
 Chapter 10.
-(./chapters/10_conclusion.tex) (./chapters/appendix.tex) (./main.bbl [11
+(./chapters/10_conclusion.tex) (./chapters/appendix.tex) (./main.bbl [12
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1149,7 +1170,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 irtual _ and _
  []
 
-) [12
+) [13
 
 ] (./main.aux) )
 (\end occurred inside a group at level 1)
@@ -1157,23 +1178,24 @@ irtual _ and _
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14294 strings out of 492995
- 274442 string characters out of 6132705
+ 14311 strings out of 492995
+ 274744 string characters out of 6132705
  336881 words of memory out of 5000000
- 17517 multiletter control sequences out of 15000+600000
+ 17531 multiletter control sequences out of 15000+600000
  9181 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,997b,11100s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,56p,986b,11099s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mu10.pfb>
-Output written on main.pdf (18 pages, 75573 bytes).
+/cmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+u10.pfb>
+Output written on main.pdf (19 pages, 86105 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 93 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,12 +1,12 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}User Need Overview \& Concept Introduction}{1}
 \contentsline {chapter}{\numberline {2}Data Gathering and Requirements}{2}
-\contentsline {chapter}{\numberline {3}Functional Specification}{3}
-\contentsline {chapter}{\numberline {4}Ethical Audit}{4}
-\contentsline {chapter}{\numberline {5}Design}{6}
-\contentsline {chapter}{\numberline {6}Prototyping}{7}
-\contentsline {chapter}{\numberline {7}Technical Architecture}{8}
-\contentsline {chapter}{\numberline {8}Evaluation Plan}{9}
-\contentsline {chapter}{\numberline {9}Project Management}{10}
-\contentsline {chapter}{\numberline {10}Conclusion}{11}
-\contentsline {chapter}{Bibliography}{12}
+\contentsline {chapter}{\numberline {3}Functional Specification}{4}
+\contentsline {chapter}{\numberline {4}Ethical Audit}{5}
+\contentsline {chapter}{\numberline {5}Design}{7}
+\contentsline {chapter}{\numberline {6}Prototyping}{8}
+\contentsline {chapter}{\numberline {7}Technical Architecture}{9}
+\contentsline {chapter}{\numberline {8}Evaluation Plan}{10}
+\contentsline {chapter}{\numberline {9}Project Management}{11}
+\contentsline {chapter}{\numberline {10}Conclusion}{12}
+\contentsline {chapter}{Bibliography}{13}
