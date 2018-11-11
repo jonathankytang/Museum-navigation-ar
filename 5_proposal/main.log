@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  10 NOV 2018 00:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  10 NOV 2018 22:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -814,34 +814,337 @@ File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/everypage/everypage.sty
 Package: everypage 2007/06/20 1.1 Hooks to run on every page
 ))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/05/13 L3 programming layer (loader) 
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/05/13 L3 programming layer (code)
+\c_max_int=\count120
+\l_tmpa_int=\count121
+\l_tmpb_int=\count122
+\g_tmpa_int=\count123
+\g_tmpb_int=\count124
+\g__prg_map_int=\count125
+\c_log_iow=\count126
+\l_iow_line_count_int=\count127
+\l__iow_line_target_int=\count128
+\l__iow_one_indent_int=\count129
+\l__iow_indent_int=\count130
+\c_zero_dim=\dimen166
+\c_max_dim=\dimen167
+\l_tmpa_dim=\dimen168
+\l_tmpb_dim=\dimen169
+\g_tmpa_dim=\dimen170
+\g_tmpb_dim=\dimen171
+\c_zero_skip=\skip70
+\c_max_skip=\skip71
+\l_tmpa_skip=\skip72
+\l_tmpb_skip=\skip73
+\g_tmpa_skip=\skip74
+\g_tmpb_skip=\skip75
+\c_zero_muskip=\muskip11
+\c_max_muskip=\muskip12
+\l_tmpa_muskip=\muskip13
+\l_tmpb_muskip=\muskip14
+\g_tmpa_muskip=\muskip15
+\g_tmpb_muskip=\muskip16
+\l_keys_choice_int=\count131
+\c__fp_leading_shift_int=\count132
+\c__fp_middle_shift_int=\count133
+\c__fp_trailing_shift_int=\count134
+\c__fp_big_leading_shift_int=\count135
+\c__fp_big_middle_shift_int=\count136
+\c__fp_big_trailing_shift_int=\count137
+\c__fp_Bigg_leading_shift_int=\count138
+\c__fp_Bigg_middle_shift_int=\count139
+\c__fp_Bigg_trailing_shift_int=\count140
+\c__fp_rand_size_int=\count141
+\c__fp_rand_four_int=\count142
+\c__fp_rand_eight_int=\count143
+\l__sort_length_int=\count144
+\l__sort_min_int=\count145
+\l__sort_top_int=\count146
+\l__sort_max_int=\count147
+\l__sort_true_max_int=\count148
+\l__sort_block_int=\count149
+\l__sort_begin_int=\count150
+\l__sort_end_int=\count151
+\l__sort_A_int=\count152
+\l__sort_B_int=\count153
+\l__sort_C_int=\count154
+\c_empty_box=\box47
+\l_tmpa_box=\box48
+\l_tmpb_box=\box49
+\g_tmpa_box=\box50
+\g_tmpb_box=\box51
+\l__box_top_dim=\dimen172
+\l__box_bottom_dim=\dimen173
+\l__box_left_dim=\dimen174
+\l__box_right_dim=\dimen175
+\l__box_top_new_dim=\dimen176
+\l__box_bottom_new_dim=\dimen177
+\l__box_left_new_dim=\dimen178
+\l__box_right_new_dim=\dimen179
+\l__box_internal_box=\box52
+\l__coffin_internal_box=\box53
+\l__coffin_internal_dim=\dimen180
+\l__coffin_offset_x_dim=\dimen181
+\l__coffin_offset_y_dim=\dimen182
+\l__coffin_x_dim=\dimen183
+\l__coffin_y_dim=\dimen184
+\l__coffin_x_prime_dim=\dimen185
+\l__coffin_y_prime_dim=\dimen186
+\c_empty_coffin=\box54
+\l__coffin_aligned_coffin=\box55
+\l__coffin_aligned_internal_coffin=\box56
+\l_tmpa_coffin=\box57
+\l_tmpb_coffin=\box58
+\l__coffin_display_coffin=\box59
+\l__coffin_display_coord_coffin=\box60
+\l__coffin_display_pole_coffin=\box61
+\l__coffin_display_offset_dim=\dimen187
+\l__coffin_display_x_dim=\dimen188
+\l__coffin_display_y_dim=\dimen189
+\l__coffin_bounding_shift_dim=\dimen190
+\l__coffin_left_corner_dim=\dimen191
+\l__coffin_right_corner_dim=\dimen192
+\l__coffin_bottom_corner_dim=\dimen193
+\l__coffin_top_corner_dim=\dimen194
+\l__coffin_scaled_total_height_dim=\dimen195
+\l__coffin_scaled_width_dim=\dimen196
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count155
+\l__driver_tmp_box=\box62
+))
+Package: xpatch 2012/10/02 v0.3 Extending etoolbox patching commands
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2017/05/13 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count156
+\g__xparse_grabber_int=\count157
+\l__xparse_m_args_int=\count158
+\l__xparse_mandatory_args_int=\count159
+\l__xparse_v_nesting_int=\count160
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count161
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchcmd with sig. '' on line 125.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretocmd with sig. '' on line 126.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptocmd with sig. '' on line 127.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowcmd with sig. '' on line 128.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibmacro with sig. 'm' on line 131.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibmacro with sig. 'm' on line 133.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibmacro with sig. 'm' on line 135.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibmacro with sig. 'm' on line 137.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchfieldformat with sig. 'O{*}m' on line 139.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretofieldformat with sig. 'O{*}m' on line 141.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptofieldformat with sig. 'O{*}m' on line 143.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowfieldformat with sig. 'O{*}m' on line 145.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchnameformat with sig. 'O{*}m' on line 147.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretonameformat with sig. 'O{*}m' on line 149.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptonameformat with sig. 'O{*}m' on line 151.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshownameformat with sig. 'O{*}m' on line 153.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchlistformat with sig. 'O{*}m' on line 155.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretolistformat with sig. 'O{*}m' on line 157.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptolistformat with sig. 'O{*}m' on line 159.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowlistformat with sig. 'O{*}m' on line 161.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexfieldformat with sig. 'O{*}m' on line 163.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexfieldformat with sig. 'O{*}m' on line 165.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexfieldformat with sig. 'O{*}m' on line 167.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexfieldformat with sig. 'O{*}m' on line 169.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexnameformat with sig. 'O{*}m' on line 171.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexnameformat with sig. 'O{*}m' on line 173.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptoindexnameformat with sig. 'O{*}m' on line 175.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexnameformat with sig. 'O{*}m' on line 177.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchindexlistformat with sig. 'O{*}m' on line 179.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretoindexlistformat with sig. 'O{*}m' on line 181.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xappindextolistformat with sig. 'O{*}m' on line 183.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowindexlistformat with sig. 'O{*}m' on line 185.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpatchbibdriver with sig. 'm' on line 187.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xpretobibdriver with sig. 'm' on line 189.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xapptobibdriver with sig. 'm' on line 191.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \xshowbibdriver with sig. 'm' on line 193.
+.................................................
+)
+\chaptertopskip=\skip76
+
+Failure!!!
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count120
-\scratchdimen=\dimen166
-\scratchbox=\box47
-\nofMPsegments=\count121
-\nofMParguments=\count122
+\scratchcounter=\count162
+\scratchdimen=\dimen197
+\scratchbox=\box63
+\nofMPsegments=\count163
+\nofMParguments=\count164
 \everyMPshowfont=\toks33
-\MPscratchCnt=\count123
-\MPscratchDim=\dimen167
-\MPnumerator=\count124
-\makeMPintoPDFobject=\count125
+\MPscratchCnt=\count165
+\MPscratchDim=\dimen198
+\MPnumerator=\count166
+\makeMPintoPDFobject=\count167
 \everyMPtoPDFconversion=\toks34
 ) (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
@@ -897,14 +1200,14 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(106.69783pt, 384.1122pt, 106.69785pt)
+* h-part:(L,W,R)=(99.58464pt, 398.33858pt, 99.58466pt)
 * v-part:(T,H,B)=(71.13188pt, 688.5567pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=384.1122pt
+* \textwidth=398.33858pt
 * \textheight=688.5567pt
-* \oddsidemargin=34.42784pt
-* \evensidemargin=34.42784pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -968,14 +1271,14 @@ ABD: EveryShipout initializing macros
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(106.69783pt, 384.1122pt, 106.69785pt)
+* h-part:(L,W,R)=(99.58464pt, 398.33858pt, 99.58466pt)
 * v-part:(T,H,B)=(71.13188pt, 688.5567pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=384.1122pt
+* \textwidth=398.33858pt
 * \textheight=688.5567pt
-* \oddsidemargin=34.42784pt
-* \evensidemargin=34.42784pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -1008,14 +1311,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(106.69783pt, 384.1122pt, 106.69785pt)
+* h-part:(L,W,R)=(99.58464pt, 398.33858pt, 99.58466pt)
 * v-part:(T,H,B)=(71.13188pt, 688.5567pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=384.1122pt
+* \textwidth=398.33858pt
 * \textheight=688.5567pt
-* \oddsidemargin=34.42784pt
-* \evensidemargin=34.42784pt
+* \oddsidemargin=27.31465pt
+* \evensidemargin=27.31465pt
 * \topmargin=-38.1381pt
 * \headheight=12.0pt
 * \headsep=25.0pt
@@ -1035,7 +1338,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
@@ -1109,7 +1412,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 9--115
+Underfull \hbox (badness 10000) in paragraph at lines 9--121
 
  []
 
@@ -1147,27 +1450,33 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 6.
 
-Underfull \hbox (badness 3009) in paragraph at lines 4--7
+Underfull \hbox (badness 6032) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 Oxford Dic-tio-nary On-line.  Aug-mented re-al-ity.  $\OT1/cm
 tt/m/n/12 https : / / en .
  []
 
 
-Underfull \hbox (badness 3098) in paragraph at lines 9--14
+Underfull \hbox (badness 1648) in paragraph at lines 9--14
+[]\OT1/cmr/m/n/12 Kate Brim-sted.  Vir-tual and aug-mented re-al-ity: time to u
+p-date
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
 \OT1/cmr/m/n/12 the le-gal hand-book.  $\OT1/cmtt/m/n/12 https : / / www . itpr
 oportal . com / features /
  []
 
 
-Overfull \hbox (37.12944pt too wide) in paragraph at lines 9--14
+Overfull \hbox (22.90306pt too wide) in paragraph at lines 9--14
 \OT1/cmtt/m/n/12 virtual-[]and-[]augmented-[]reality-[]time-[]to-[]update-[]the
 -[]legal-[]handbook/$\OT1/cmr/m/n/12 ,
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--21
-\OT1/cmtt/m/n/12 en / what / articles / index . page ? ArticleID = en / tmt / V
-irtual _ and _
+\OT1/cmtt/m/n/12 articles / index . page ? ArticleID = en / tmt / Virtual _ and
+ _ augmented _
  []
 
 ) [13
@@ -1178,13 +1487,13 @@ irtual _ and _
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14311 strings out of 492995
- 274744 string characters out of 6132705
- 336881 words of memory out of 5000000
- 17531 multiletter control sequences out of 15000+600000
+ 22039 strings out of 492995
+ 430761 string characters out of 6132705
+ 464614 words of memory out of 5000000
+ 25233 multiletter control sequences out of 15000+600000
  9181 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,986b,11099s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,56p,10407b,13886s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1192,7 +1501,7 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (19 pages, 86105 bytes).
+Output written on main.pdf (19 pages, 86053 bytes).
 PDF statistics:
  93 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream
