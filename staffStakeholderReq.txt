@@ -1,6 +1,6 @@
 Staff Stakeholder Requirements  
-One key stakeholder whom would be affected are the museum staff as they would be instrumental to any on-the-ground assistance and would be the first port of help besides that of any virtual help featuring in within the project. Furthermore, the app should endeavour to make the jobs undertaken by musem staff with relation to the parameters of app easier.  
-The chief stakeholder requirements are that, with relation to musem staff, the project needs to: 
+One key stakeholder whom would be affected are the museum staff as they would be instrumental to any on-the-ground assistance and would be the first port of help besides that of any virtual help featuring in within the project. Furthermore, the app should endeavour to make the jobs undertaken by museum staff with relation to the parameters of app easier.  
+The chief stakeholder requirements are that, with relation to museum staff, the project needs to: 
 
 ·       Exhibit an effective and easy-to-use design  
 
