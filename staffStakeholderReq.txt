@@ -1,0 +1,11 @@
+Staff Stakeholder Requirements  
+One key stakeholder whom would be affected are the museum staff as they would be instrumental to any on-the-ground assistance and would be the first port of help besides that of any virtual help featuring in within the project. Furthermore, the app should endeavour to make the jobs undertaken by musem staff with relation to the parameters of app easier.  
+The chief stakeholder requirements are that, with relation to musem staff, the project needs to: 
+
+·       Exhibit an effective and easy-to-use design  
+
+·       Be economic and effective in its use of data, given that most data the app would download would be sourced from in-museum Wi-Fi 
+
+·       Written content and other media to be within control of the museum  
+
+When meeting staff at the Natural History Museum and the Science Museum, while it was our intention the gauge requirements from a range of museum staff, it became apparent to target staff who would regularity come into contact with museum-goers as they would be our chief method of distribution and a first point of human contact for the users. During our field research we spoke to museum-floor staff and receptionists. Most importantly, for our project, all staff members whom we spoke to had received a navigational inquiry be it from themselves or members of the public. All staff responded positively to the use of a phone but citied concerns about efficiency of our project with specific references to battery performance and data usage. One major concern highlighted by every member of museum staff was ease of use, and therefore, we agreed to endeavour to supply a solution to this by designing a simple and efficient graphical user interface. Another issue we agreed on was the problem that became more apparent upon speaking to staff than before was the mechanism were the project would fetch information and data. We would need to make sure if the project did utilise the museum Wi-Fi, it would use as little data as viable.  
