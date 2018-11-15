@@ -77,7 +77,8 @@ class ViewController: UIViewController, ARSKViewDelegate {
             // Call modal segue
             self.performSegue(withIdentifier: "showImageInformation", sender: self)
             // Call private function to create and return an already scanned image
-            return imageSeenMarker()
+//            return imageSeenMarker()
+            return nil
         }
         
         return nil

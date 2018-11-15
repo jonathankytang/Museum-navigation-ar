@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:../../../../../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-Heavy.otf">
-   </FileRef>
-   <FileRef
       location = "self:iosmuseumetest.xcodeproj">
    </FileRef>
 </Workspace>
