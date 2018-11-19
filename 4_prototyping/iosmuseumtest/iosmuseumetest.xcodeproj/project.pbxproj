@@ -17,7 +17,6 @@
 		8FC4EF65219A2864009A68AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC4EF63219A2864009A68AC /* LaunchScreen.storyboard */; };
 		8FC4EF70219A2864009A68AC /* iosmuseumetestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4EF6F219A2864009A68AC /* iosmuseumetestTests.swift */; };
 		8FC4EF7B219A2864009A68AC /* iosmuseumetestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC4EF7A219A2864009A68AC /* iosmuseumetestUITests.swift */; };
-		8FFA4122219C651F0023F780 /* SF-Pro-Display-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8FFA4121219C651F0023F780 /* SF-Pro-Display-Heavy.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +53,6 @@
 		8FC4EF76219A2864009A68AC /* iosmuseumetestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iosmuseumetestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC4EF7A219A2864009A68AC /* iosmuseumetestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosmuseumetestUITests.swift; sourceTree = "<group>"; };
 		8FC4EF7C219A2864009A68AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FFA4121219C651F0023F780 /* SF-Pro-Display-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF-Pro-Display-Heavy.otf"; path = "../../../../../../../../../../Volumes/SF-Font/SF Pro/SF-Pro-Display-Heavy.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +103,6 @@
 		8FC4EF55219A2864009A68AC /* iosmuseumetest */ = {
 			isa = PBXGroup;
 			children = (
-				8FFA4121219C651F0023F780 /* SF-Pro-Display-Heavy.otf */,
 				8FC4EF56219A2864009A68AC /* AppDelegate.swift */,
 				8FC4EF58219A2864009A68AC /* Scene.sks */,
 				8FC4EF5A219A2864009A68AC /* Scene.swift */,
@@ -242,7 +239,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC4EF59219A2864009A68AC /* Scene.sks in Resources */,
-				8FFA4122219C651F0023F780 /* SF-Pro-Display-Heavy.otf in Resources */,
 				8FC4EF65219A2864009A68AC /* LaunchScreen.storyboard in Resources */,
 				8FC4EF62219A2864009A68AC /* Assets.xcassets in Resources */,
 				8FC4EF60219A2864009A68AC /* Main.storyboard in Resources */,
