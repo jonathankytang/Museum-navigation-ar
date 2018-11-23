@@ -8,6 +8,10 @@ import android.hardware.SensorManager;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.widget.TextView;
+import android.util.Log;
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+import java.util.Scanner;
 
 public class MainActivity extends Activity implements SensorEventListener{
 
@@ -91,19 +95,19 @@ public class MainActivity extends Activity implements SensorEventListener{
         Sensor sensor = event.sensor;
 
         if(sensor.getType() == Sensor.TYPE_ACCELEROMETER){
-            Log.d(TAG, "Accelerometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
+            Log.i(TAG, "Accelerometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
             xAccel.setText("X: " + event.values[0]);
             yAccel.setText("Y: " + event.values[1]);
             zAccel.setText("Z: " + event.values[2]);
         }
         else if (sensor.getType() == Sensor.TYPE_GYROSCOPE) {
-            Log.d(TAG, "Gyroscope: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
+            Log.i(TAG, "Gyroscope: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
             xGyro.setText("X: " + event.values[0]);
             yGyro.setText("Y: " + event.values[1]);
             zGyro.setText("Z: " + event.values[2]);
         }
         else if (sensor.getType() == Sensor.TYPE_MAGNETIC_FIELD) {
-            Log.d(TAG, "Magnetometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
+            Log.i(TAG, "Magnetometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
             xMagno.setText("X: " + event.values[0]);
             yMagno.setText("Y: " + event.values[1]);
             zMagno.setText("Z: " + event.values[2]);
