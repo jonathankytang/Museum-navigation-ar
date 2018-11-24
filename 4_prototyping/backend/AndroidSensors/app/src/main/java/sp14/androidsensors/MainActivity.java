@@ -9,9 +9,12 @@ import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.widget.TextView;
 import android.util.Log;
-import java.io.FileNotFoundException;
-import java.io.PrintStream;
-import java.util.Scanner;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 
 public class MainActivity extends Activity implements SensorEventListener{
 
@@ -19,6 +22,12 @@ public class MainActivity extends Activity implements SensorEventListener{
     private SensorManager SensorManager;
     private TextView xAccel, yAccel, zAccel, xGyro, yGyro, zGyro, xMagno, yMagno, zMagno;
     private static final String TAG = "MyActivity";
+
+    File outFile;
+    FileOutputStream fOut;
+    OutputStreamWriter outWriter;
+    BufferedWriter bufferedWriter;
+    PrintWriter printWriter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +47,13 @@ public class MainActivity extends Activity implements SensorEventListener{
         yMagno = (TextView) findViewById(R.id.yMagno);
         zMagno = (TextView) findViewById(R.id.zMagno);
 
+        outFile = new File("/sdcard/ResearchData/sensors.txt");
+        outFile.createNewFile();
+
+        fOut = new FileOutputStream(outFile);
+        outWriter = new OutputStreamWriter(fOut);
+        bufferedWriter = new BufferedWriter(outWriter);
+        printWriter = new PrintWriter(bufferedWriter);
 
         // Create the sensor manager
         Log.d(TAG, "onCreate: Initialising sensor services");

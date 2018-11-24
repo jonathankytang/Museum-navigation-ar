@@ -110,8 +110,3 @@
         tools:layout_editor_absoluteY="2dp" />
 
 </android.support.constraint.ConstraintLayout>
-<uses-permission android:name="android.permission.READ_LOGS" />
-
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
-<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
