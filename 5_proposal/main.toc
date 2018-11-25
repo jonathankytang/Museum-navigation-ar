@@ -3,8 +3,8 @@
 \contentsline {chapter}{\numberline {2}Stakeholder Requirements}{2}
 \contentsline {chapter}{\numberline {3}Prior Knowledge}{4}
 \contentsline {chapter}{\numberline {4}Design}{5}
-\contentsline {chapter}{\numberline {5}Functional Specification}{6}
-\contentsline {chapter}{\numberline {6}Prototyping}{7}
+\contentsline {chapter}{\numberline {5}Prototyping}{6}
+\contentsline {chapter}{\numberline {6}Functional Specification}{7}
 \contentsline {chapter}{\numberline {7}Ethical Audit}{8}
 \contentsline {chapter}{\numberline {8}Technical Architecture}{10}
 \contentsline {chapter}{\numberline {9}Evaluation Plan}{11}
