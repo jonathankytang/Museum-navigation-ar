@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  12 NOV 2018 15:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  25 NOV 2018 00:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1057,14 +1057,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 ]
 Chapter 1.
-(./chapters/1_userNeedOverview.tex
+(./chapters/1_conceptIntroduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 ) [1]
 Chapter 2.
-(./chapters/2_dataGathering.tex
+(./chapters/2_stakeholderRequirements.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1089,11 +1089,23 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 ]) [3]
 Chapter 3.
-(./chapters/3_functionalSpecification.tex) [4
+(./chapters/3_priorKnowledge.tex) [4
 
 ]
 Chapter 4.
-(./chapters/4_ethicalAudit.tex
+(./chapters/4_design.tex) [5
+
+]
+Chapter 5.
+(./chapters/5_functionalSpecification.tex) [6
+
+]
+Chapter 6.
+(./chapters/6_prototyping.tex) [7
+
+]
+Chapter 7.
+(./chapters/7_ethicalAudit.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -1109,35 +1121,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 9--121
+Underfull \hbox (badness 10000) in paragraph at lines 9--130
 
  []
 
-[5
+[8
 
-] [6]
-Chapter 5.
-(./chapters/5_design.tex) [7
-
-]
-Chapter 6.
-(./chapters/6_prototyping.tex) [8
-
-]
-Chapter 7.
-(./chapters/7_technicalArchitecture.tex) [9
-
-]
+] [9]
 Chapter 8.
-(./chapters/8_evaluationPlan.tex) [10
+(./chapters/8_technicalArchitecture.tex) [10
 
 ]
 Chapter 9.
-(./chapters/9_projectManagement.tex) [11
+(./chapters/9_evaluationPlan.tex) [11
 
 ]
 Chapter 10.
-(./chapters/10_conclusion.tex) (./chapters/appendix.tex) (./main.bbl [12
+(./chapters/10_projectManagement.tex) [12
+
+]
+Chapter 11.
+(./chapters/11_conclusion.tex) (./chapters/appendix.tex) (./main.bbl [13
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1176,7 +1180,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
  _ augmented _
  []
 
-) [13
+) [14
 
 ] (./main.aux) )
 (\end occurred inside a group at level 1)
@@ -1184,9 +1188,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--21
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14311 strings out of 492995
- 274744 string characters out of 6132705
- 336882 words of memory out of 5000000
+ 14314 strings out of 492995
+ 274862 string characters out of 6132705
+ 336879 words of memory out of 5000000
  17531 multiletter control sequences out of 15000+600000
  9181 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1198,10 +1202,10 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (19 pages, 86053 bytes).
+Output written on main.pdf (20 pages, 87555 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/xAccValue3"
+        android:id="@+id/xMagno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="X"
@@ -15,7 +16,7 @@
         tools:layout_editor_absoluteY="402dp" />
 
     <TextView
-        android:id="@+id/zAccValue3"
+        android:id="@+id/zMagno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Z"
@@ -23,7 +24,7 @@
         tools:layout_editor_absoluteY="476dp" />
 
     <TextView
-        android:id="@+id/yAccValue3"
+        android:id="@+id/yMagno"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Y"
@@ -41,7 +42,7 @@
         tools:layout_editor_absoluteY="339dp" />
 
     <TextView
-        android:id="@+id/xAccValue2"
+        android:id="@+id/xGyro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="X"
@@ -49,7 +50,7 @@
         tools:layout_editor_absoluteY="232dp" />
 
     <TextView
-        android:id="@+id/zAccValue2"
+        android:id="@+id/zGyro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Z"
@@ -57,7 +58,7 @@
         tools:layout_editor_absoluteY="304dp" />
 
     <TextView
-        android:id="@+id/yAccValue2"
+        android:id="@+id/yGyro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Y"
@@ -75,7 +76,7 @@
         tools:layout_editor_absoluteY="169dp" />
 
     <TextView
-        android:id="@+id/xAccValue"
+        android:id="@+id/xAccel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="X"
@@ -83,7 +84,7 @@
         tools:layout_editor_absoluteY="65dp" />
 
     <TextView
-        android:id="@+id/yAccValue"
+        android:id="@+id/yAccel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Y"
@@ -91,7 +92,7 @@
         tools:layout_editor_absoluteY="101dp" />
 
     <TextView
-        android:id="@+id/zAccValue"
+        android:id="@+id/zAccel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Z"

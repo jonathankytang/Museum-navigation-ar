@@ -8,6 +8,13 @@ import android.hardware.SensorManager;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.widget.TextView;
+import android.util.Log;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.PrintWriter;
 
 public class MainActivity extends Activity implements SensorEventListener{
 
@@ -15,6 +22,12 @@ public class MainActivity extends Activity implements SensorEventListener{
     private SensorManager SensorManager;
     private TextView xAccel, yAccel, zAccel, xGyro, yGyro, zGyro, xMagno, yMagno, zMagno;
     private static final String TAG = "MyActivity";
+
+    File outFile;
+    FileOutputStream fOut;
+    OutputStreamWriter outWriter;
+    BufferedWriter bufferedWriter;
+    PrintWriter printWriter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +47,13 @@ public class MainActivity extends Activity implements SensorEventListener{
         yMagno = (TextView) findViewById(R.id.yMagno);
         zMagno = (TextView) findViewById(R.id.zMagno);
 
+        outFile = new File("/sdcard/ResearchData/sensors.txt");
+        outFile.createNewFile();
+
+        fOut = new FileOutputStream(outFile);
+        outWriter = new OutputStreamWriter(fOut);
+        bufferedWriter = new BufferedWriter(outWriter);
+        printWriter = new PrintWriter(bufferedWriter);
 
         // Create the sensor manager
         Log.d(TAG, "onCreate: Initialising sensor services");
@@ -91,19 +111,19 @@ public class MainActivity extends Activity implements SensorEventListener{
         Sensor sensor = event.sensor;
 
         if(sensor.getType() == Sensor.TYPE_ACCELEROMETER){
-            Log.d(TAG, "Accelerometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
+            Log.i(TAG, "Accelerometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
             xAccel.setText("X: " + event.values[0]);
             yAccel.setText("Y: " + event.values[1]);
             zAccel.setText("Z: " + event.values[2]);
         }
         else if (sensor.getType() == Sensor.TYPE_GYROSCOPE) {
-            Log.d(TAG, "Gyroscope: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
+            Log.i(TAG, "Gyroscope: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
             xGyro.setText("X: " + event.values[0]);
             yGyro.setText("Y: " + event.values[1]);
             zGyro.setText("Z: " + event.values[2]);
         }
         else if (sensor.getType() == Sensor.TYPE_MAGNETIC_FIELD) {
-            Log.d(TAG, "Magnetometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
+            Log.i(TAG, "Magnetometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
             xMagno.setText("X: " + event.values[0]);
             yMagno.setText("Y: " + event.values[1]);
             zMagno.setText("Z: " + event.values[2]);
