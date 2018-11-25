@@ -24,6 +24,7 @@ public class MainActivity extends Activity implements SensorEventListener, Locat
     private TextView xAccel, yAccel, zAccel, xGyro, yGyro, zGyro, xMagno, yMagno, zMagno;
     private static final String TAG = "MyActivity";
     private LocationManager locationManager;
+    private Location currentBestLocation = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -114,17 +115,17 @@ public class MainActivity extends Activity implements SensorEventListener, Locat
 
     @Override
     public void onStatusChanged(String s, int i, Bundle bundle) {
-
+        // not used
     }
 
     @Override
     public void onProviderEnabled(String s) {
-
+        // not used
     }
 
     @Override
     public void onProviderDisabled(String s) {
-
+        // not used
     }
 
     @Override
