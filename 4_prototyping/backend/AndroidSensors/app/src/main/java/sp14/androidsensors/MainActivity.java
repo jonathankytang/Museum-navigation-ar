@@ -1,3 +1,6 @@
+// https://stackoverflow.com/questions/33415033/getting-current-location-in-android-studio-app
+// https://developer.android.com/guide/topics/sensors/sensors_overview
+
 package sp14.androidsensors;
 
 import android.Manifest;
