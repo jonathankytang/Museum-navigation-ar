@@ -7,13 +7,15 @@
 \contentsline {section}{\numberline {4.2}The Unified Modeling Language}{5}
 \contentsline {section}{\numberline {4.3}Service Model}{7}
 \contentsline {chapter}{\numberline {5}Prototyping}{8}
-\contentsline {section}{\numberline {5.1}Unity}{8}
-\contentsline {section}{\numberline {5.2}iOS (XCode)}{8}
-\contentsline {section}{\numberline {5.3}Android (Android Studio)}{8}
-\contentsline {chapter}{\numberline {6}Functional Specification}{9}
-\contentsline {chapter}{\numberline {7}Ethical Audit}{10}
-\contentsline {chapter}{\numberline {8}Technical Architecture}{12}
-\contentsline {chapter}{\numberline {9}Evaluation Plan}{13}
-\contentsline {chapter}{\numberline {10}Project Management}{14}
-\contentsline {chapter}{\numberline {11}Conclusion}{15}
-\contentsline {chapter}{Bibliography}{16}
+\contentsline {section}{\numberline {5.1}UI/UX Designs}{8}
+\contentsline {section}{\numberline {5.2}Augmented Reality}{8}
+\contentsline {subsection}{\numberline {5.2.1}Unity}{8}
+\contentsline {subsection}{\numberline {5.2.2}iOS (XCode)}{8}
+\contentsline {subsection}{\numberline {5.2.3}Android (Android Studio)}{9}
+\contentsline {chapter}{\numberline {6}Functional Specification}{10}
+\contentsline {chapter}{\numberline {7}Ethical Audit}{11}
+\contentsline {chapter}{\numberline {8}Technical Architecture}{13}
+\contentsline {chapter}{\numberline {9}Evaluation Plan}{14}
+\contentsline {chapter}{\numberline {10}Project Management}{15}
+\contentsline {chapter}{\numberline {11}Conclusion}{16}
+\contentsline {chapter}{Bibliography}{17}

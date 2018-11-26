@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  26 NOV 2018 14:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  26 NOV 2018 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1003,47 +1003,7 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[1]
-*geometry* verbose mode - [ newgeometry ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(99.58464pt, 398.33858pt, 99.58466pt)
-* v-part:(T,H,B)=(71.13188pt, 688.5567pt, 85.35826pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=398.33858pt
-* \textheight=688.5567pt
-* \oddsidemargin=27.31465pt
-* \evensidemargin=27.31465pt
-* \topmargin=-38.1381pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
  []
 
@@ -1053,9 +1013,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2
-
-] (./main.toc
+[1] (./main.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1066,9 +1024,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
- [3
+ [2
 
-] [3
+] [2
 
 ]
 Chapter 1.
@@ -1118,7 +1076,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<assets/use_case.pdf, id=43, 844.15375pt x 598.235pt>
+<assets/use_case.pdf, id=40, 844.15375pt x 598.235pt>
 File: assets/use_case.pdf Graphic file (type pdf)
 
 <use assets/use_case.pdf>
@@ -1130,7 +1088,7 @@ Package pdftex.def Info: assets/use_case.pdf used on input line 14.
 
 pdfTeX warning: pdflatex (file ./assets/Activity_Diagram.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<assets/Activity_Diagram.pdf, id=47, 736.1904pt x 431.45189pt>
+<assets/Activity_Diagram.pdf, id=44, 736.1904pt x 431.45189pt>
 File: assets/Activity_Diagram.pdf Graphic file (type pdf)
 
 <use assets/Activity_Diagram.pdf>
@@ -1144,9 +1102,9 @@ ther resource which is no dict (key 'ProcSets', type <array>); ignored.
 Chapter 5.
 (./chapters/5_prototyping.tex) [8
 
-]
+] [9]
 Chapter 6.
-(./chapters/6_functionalSpecification.tex) [9
+(./chapters/6_functionalSpecification.tex) [10
 
 ]
 Chapter 7.
@@ -1170,23 +1128,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--133
 
  []
 
-[10
+[11
 
-] [11]
+] [12]
 Chapter 8.
-(./chapters/8_technicalArchitecture.tex) [12
+(./chapters/8_technicalArchitecture.tex) [13
 
 ]
 Chapter 9.
-(./chapters/9_evaluationPlan.tex) [13
+(./chapters/9_evaluationPlan.tex) [14
 
 ]
 Chapter 10.
-(./chapters/10_projectManagement.tex) [14
+(./chapters/10_projectManagement.tex) [15
 
 ]
 Chapter 11.
-(./chapters/11_conclusion.tex) (./chapters/appendix.tex) (./main.bbl [15
+(./chapters/11_conclusion.tex) (./chapters/appendix.tex) (./main.bbl [16
 
 ]
 Underfull \hbox (badness 6032) in paragraph at lines 4--7
@@ -1234,7 +1192,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--28
  _ augmented _
  []
 
-) [16
+) [17
 
 ] (./main.aux) )
 (\end occurred inside a group at level 1)
@@ -1242,13 +1200,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--28
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14389 strings out of 492995
- 276005 string characters out of 6132705
+ 14388 strings out of 492995
+ 275988 string characters out of 6132705
  338273 words of memory out of 5000000
- 17599 multiletter control sequences out of 15000+600000
- 9787 words of font info for 35 fonts, out of 8000000 for 9000
+ 17598 multiletter control sequences out of 15000+600000
+ 9618 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,997b,11051s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,56p,997b,11043s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1256,7 +1214,7 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (22 pages, 611773 bytes).
+Output written on main.pdf (22 pages, 612805 bytes).
 PDF statistics:
  133 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream
