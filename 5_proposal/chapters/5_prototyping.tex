@@ -1,1 +1,26 @@
 % Describe the prototyping you did, and what you learned from this, particularly the low fidelity interaction prototypes, any technical prototypes to explore technical feasibility of the solution, and the functional digital prototypes that you used with users to validate that what you are developing meets the expectations of users.
+
+\documentclass[back-end prototyping]{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+
+\title {Back-End Prototyping Report}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+In terms of Back-end prototyping, we had a research on Android and iOS platforms. This will help us to identify which platforms are best/worse for our \textbf {Augmented Reality (AR)} applications. We divided this prototyping into three parts where Hardik was working on Unity, Jonathan works on iOS and Gabriel works on Android. We had also built a small AR application to give any information about the various libraries and how they help with our project.
+
+\subsection{Unity}
+Unity is mostly used to create the games for iOS and Android, therefore, I have used unity to create a simple AR camera application where when your camera hover to an object/image it will display an information about that picture on your phone. In order to create this application, I have used \textbf {Vuforia} which is a software development kit (SDK) for mobile devices that enables to recognise and track the image targets. It is good for developing games, but this won’t help us with our project. The disadvantages of unity are that there is a limited amount of library for locating user current location compare to Android.
+
+\subsection{iOS (XCode)}
+It is an integrated development environment (IDE) that includes everything you need to create an application for Apple platforms. In order to create an application, we have to learn \textbf {Swift programming} which is not that hard to learn. It is good for recognising images using an AR camera but when it comes to GPS it is difficult to locate the user location.
+
+\subsection{Android (Android Studio)}
+It is an IDE that helps us to build the apps for every Android device. Gabriel has used \textbf {ARCore} to create a simple 3D model which will show on your mobile device when your camera target on the flat surface. It is easy to code a GPS location function in Android studio compare to Unity and iOS.
+
+\end{document}
