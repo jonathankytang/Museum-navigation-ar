@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  26 NOV 2018 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  26 NOV 2018 22:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1069,6 +1069,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
+
+LaTeX Warning: Reference `fig:Activity Diagram' on page 5 undefined on input li
+ne 11.
+
 [5
 
 ]) [6]
@@ -1125,7 +1129,7 @@ Appendix A.
 File: assets/use_case.pdf Graphic file (type pdf)
 
 <use assets/use_case.pdf>
-Package pdftex.def Info: assets/use_case.pdf used on input line 7.
+Package pdftex.def Info: assets/use_case.pdf used on input line 6.
 (pdftex.def)             Requested size: 398.33858pt x 282.3024pt.
 
 
@@ -1135,15 +1139,19 @@ ound PDF version <1.7>, but at most version <1.5> allowed
 File: assets/Activity_Diagram.pdf Graphic file (type pdf)
 
 <use assets/Activity_Diagram.pdf>
-Package pdftex.def Info: assets/Activity_Diagram.pdf used on input line 16.
-(pdftex.def)             Requested size: 398.33858pt x 233.44797pt.
+Package pdftex.def Info: assets/Activity_Diagram.pdf used on input line 14.
+(pdftex.def)             Requested size: 736.1886pt x 431.45084pt.
 ) [16
 
  <./assets/use_case.pdf
 
 pdfTeX warning: pdflatex (file ./assets/use_case.pdf): PDF inclusion: invalid o
 ther resource which is no dict (key 'ProcSets', type <array>); ignored.
->] (./main.bbl [17 <./assets/Activity_Diagram.pdf>]
+>]
+Overfull \vbox (17.98393pt too high) has occurred while \output is active []
+
+
+[17 <./assets/Activity_Diagram.pdf>] (./main.bbl
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1200,7 +1208,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--28
 
 ] (./main.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were undefined references.
 
  )
 (\end occurred inside a group at level 1)
@@ -1208,13 +1216,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14388 strings out of 492995
- 275988 string characters out of 6132705
+ 14389 strings out of 492995
+ 276016 string characters out of 6132705
  338271 words of memory out of 5000000
- 17598 multiletter control sequences out of 15000+600000
+ 17599 multiletter control sequences out of 15000+600000
  9618 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,997b,11087s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,56p,997b,11088s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1222,7 +1230,7 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (23 pages, 612678 bytes).
+Output written on main.pdf (23 pages, 612874 bytes).
 PDF statistics:
  136 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
