@@ -5,17 +5,18 @@
 \contentsline {chapter}{\numberline {4}Design}{5}
 \contentsline {section}{\numberline {4.1}The Importance of Design}{5}
 \contentsline {section}{\numberline {4.2}The Unified Modeling Language}{5}
-\contentsline {section}{\numberline {4.3}Service Model}{7}
-\contentsline {chapter}{\numberline {5}Prototyping}{8}
-\contentsline {section}{\numberline {5.1}Augmented Reality}{8}
-\contentsline {subsection}{\numberline {5.1.1}Unity}{8}
-\contentsline {subsection}{\numberline {5.1.2}iOS (XCode)}{8}
-\contentsline {subsection}{\numberline {5.1.3}Android (Android Studio)}{8}
-\contentsline {section}{\numberline {5.2}UI/UX Designs}{9}
-\contentsline {chapter}{\numberline {6}Functional Specification}{10}
-\contentsline {chapter}{\numberline {7}Ethical Audit}{11}
-\contentsline {chapter}{\numberline {8}Technical Architecture}{13}
-\contentsline {chapter}{\numberline {9}Evaluation Plan}{14}
-\contentsline {chapter}{\numberline {10}Project Management}{15}
-\contentsline {chapter}{\numberline {11}Conclusion}{16}
-\contentsline {chapter}{Bibliography}{17}
+\contentsline {section}{\numberline {4.3}Service Model}{6}
+\contentsline {chapter}{\numberline {5}Prototyping}{7}
+\contentsline {section}{\numberline {5.1}Augmented Reality}{7}
+\contentsline {subsection}{\numberline {5.1.1}Unity}{7}
+\contentsline {subsection}{\numberline {5.1.2}iOS (XCode)}{7}
+\contentsline {subsection}{\numberline {5.1.3}Android (Android Studio)}{7}
+\contentsline {section}{\numberline {5.2}UI/UX Designs}{8}
+\contentsline {chapter}{\numberline {6}Functional Specification}{9}
+\contentsline {chapter}{\numberline {7}Ethical Audit}{10}
+\contentsline {chapter}{\numberline {8}Technical Architecture}{12}
+\contentsline {chapter}{\numberline {9}Evaluation Plan}{13}
+\contentsline {chapter}{\numberline {10}Project Management}{14}
+\contentsline {chapter}{\numberline {11}Conclusion}{15}
+\contentsline {chapter}{\numberline {A}Appendix}{16}
+\contentsline {chapter}{Bibliography}{18}
