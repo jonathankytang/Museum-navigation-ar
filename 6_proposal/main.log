@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  27 NOV 2018 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  1 DEC 2018 18:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -911,14 +911,14 @@ e
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(99.58464pt, 398.33858pt, 99.58466pt)
-* v-part:(T,H,B)=(71.13188pt, 688.5567pt, 85.35826pt)
+* v-part:(T,H,B)=(56.9055pt, 702.78308pt, 85.35826pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=398.33858pt
-* \textheight=688.5567pt
+* \textheight=702.78308pt
 * \oddsidemargin=27.31465pt
 * \evensidemargin=27.31465pt
-* \topmargin=-38.1381pt
+* \topmargin=-52.36449pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -972,9 +972,7 @@ ABD: EveryShipout initializing macros
  [1
 
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [0
-
-]
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1008,17 +1006,13 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
+[1
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[1] (./main.toc)
+] (./main.toc)
 \tf@toc=\write4
 \openout4 = `main.toc'.
 
@@ -1058,7 +1052,14 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
  [2
 
-]) [3]
+])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
 Chapter 3.
 (./chapters/3_priorKnowledge.tex) [4
 
@@ -1074,19 +1075,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-
-LaTeX Warning: Reference `fig:Activity Diagram' on page 5 undefined on input li
-ne 11.
-
 [5
 
 ]) [6]
 Chapter 5.
 (./chapters/5_prototyping.tex) [7
 
-] [8]
+]
 Chapter 6.
-(./chapters/6_functionalSpecification.tex) [9
+(./chapters/6_functionalSpecification.tex) [8
 
 ]
 Chapter 7.
@@ -1106,31 +1103,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 9--127
+Underfull \hbox (badness 10000) in paragraph at lines 9--126
 
  []
 
-[10
+[9
 
-] [11]
+] [10]
 Chapter 8.
-(./chapters/8_technicalArchitecture.tex) [12
+(./chapters/8_technicalArchitecture.tex) [11
 
 ]
 Chapter 9.
-(./chapters/9_evaluationPlan.tex) [13
+(./chapters/9_evaluationPlan.tex) [12
 
 ]
 Chapter 10.
-(./chapters/10_projectManagement.tex) [14
+(./chapters/10_projectManagement.tex) [13
 
 ]
 Chapter 11.
-(./chapters/11_conclusion.tex) [15
+(./chapters/11_conclusion.tex) [14
 
 ]
 Appendix A.
-(./chapters/appendix.tex <assets/use_case.pdf, id=75, 844.15375pt x 598.235pt>
+(./chapters/appendix.tex <assets/use_case.pdf, id=68, 844.15375pt x 598.235pt>
 File: assets/use_case.pdf Graphic file (type pdf)
 
 <use assets/use_case.pdf>
@@ -1140,13 +1137,13 @@ Package pdftex.def Info: assets/use_case.pdf used on input line 6.
 
 pdfTeX warning: pdflatex (file ./assets/Activity_Diagram.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<assets/Activity_Diagram.pdf, id=76, 736.1904pt x 431.45189pt>
+<assets/Activity_Diagram.pdf, id=69, 736.1904pt x 431.45189pt>
 File: assets/Activity_Diagram.pdf Graphic file (type pdf)
 
 <use assets/Activity_Diagram.pdf>
 Package pdftex.def Info: assets/Activity_Diagram.pdf used on input line 14.
 (pdftex.def)             Requested size: 736.1886pt x 431.45084pt.
-) [16
+) [15
 
  <./assets/use_case.pdf
 
@@ -1156,7 +1153,7 @@ ther resource which is no dict (key 'ProcSets', type <array>); ignored.
 Overfull \vbox (17.98393pt too high) has occurred while \output is active []
 
 
-[17 <./assets/Activity_Diagram.pdf>] (./main.bbl
+[16 <./assets/Activity_Diagram.pdf>] (./main.bbl
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 6.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1209,25 +1206,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--28
  _ augmented _
  []
 
-) [18
+) [17
 
-] (./main.aux)
-
-LaTeX Warning: There were undefined references.
-
- )
+] (./main.aux) )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14403 strings out of 492995
- 276309 string characters out of 6132705
- 338635 words of memory out of 5000000
- 17610 multiletter control sequences out of 15000+600000
+ 14402 strings out of 492995
+ 276287 string characters out of 6132705
+ 338602 words of memory out of 5000000
+ 17609 multiletter control sequences out of 15000+600000
  9618 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,997b,11086s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,56p,997b,11093s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1235,10 +1228,10 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (23 pages, 612874 bytes).
+Output written on main.pdf (21 pages, 610615 bytes).
 PDF statistics:
- 136 PDF objects out of 1000 (max. 8388607)
- 92 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
