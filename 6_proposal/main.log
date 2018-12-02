@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  1 DEC 2018 21:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  2 DEC 2018 22:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,23 +1106,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
 ]
 Chapter 8.
-(./chapters/8_technicalArchitecture.tex) [10
+(./chapters/8_technicalArchitecture.tex
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--26
+
+ []
+
+[10
 
 ]
+Overfull \hbox (8.11923pt too wide) in paragraph at lines 30--30
+[]\OT1/cmr/bx/n/17.28 Technicalities of sat-is-fy-ing user-related ques-tions
+ []
+
+) [11]
 Chapter 9.
-(./chapters/9_evaluationPlan.tex) [11
+(./chapters/9_evaluationPlan.tex) [12
 
 ]
 Chapter 10.
-(./chapters/10_projectManagement.tex) [12
+(./chapters/10_projectManagement.tex) [13
 
 ]
 Chapter 11.
-(./chapters/11_conclusion.tex) [13
+(./chapters/11_conclusion.tex) [14
 
 ]
 Appendix A.
-(./chapters/appendix.tex <assets/use_case.pdf, id=65, 844.15375pt x 598.235pt>
+(./chapters/appendix.tex <assets/use_case.pdf, id=68, 844.15375pt x 598.235pt>
 File: assets/use_case.pdf Graphic file (type pdf)
 
 <use assets/use_case.pdf>
@@ -1132,13 +1159,13 @@ Package pdftex.def Info: assets/use_case.pdf used on input line 6.
 
 pdfTeX warning: pdflatex (file ./assets/Activity_Diagram.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<assets/Activity_Diagram.pdf, id=66, 736.1904pt x 431.45189pt>
+<assets/Activity_Diagram.pdf, id=69, 736.1904pt x 431.45189pt>
 File: assets/Activity_Diagram.pdf Graphic file (type pdf)
 
 <use assets/Activity_Diagram.pdf>
 Package pdftex.def Info: assets/Activity_Diagram.pdf used on input line 14.
 (pdftex.def)             Requested size: 736.1886pt x 431.45084pt.
-) [14
+) [15
 
  <./assets/use_case.pdf
 
@@ -1148,14 +1175,7 @@ ther resource which is no dict (key 'ProcSets', type <array>); ignored.
 Overfull \vbox (17.98393pt too high) has occurred while \output is active []
 
 
-[15 <./assets/Activity_Diagram.pdf>] (./main.bbl
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 6.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 6.
-
+[16 <./assets/Activity_Diagram.pdf>] (./main.bbl
 Underfull \hbox (badness 6032) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 Oxford Dic-tio-nary On-line.  Aug-mented re-al-ity.  $\OT1/cm
 tt/m/n/12 https : / / en .
@@ -1195,7 +1215,7 @@ Overfull \hbox (22.90306pt too wide) in paragraph at lines 22--27
 -[]legal-[]handbook/$\OT1/cmr/m/n/12 ,
  []
 
-) [16
+) [17
 
 ] (./main.aux) )
 (\end occurred inside a group at level 1)
@@ -1209,7 +1229,7 @@ Here is how much of TeX's memory you used:
  17609 multiletter control sequences out of 15000+600000
  9618 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,1020b,11093s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,56p,1020b,11081s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1217,10 +1237,10 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (20 pages, 609861 bytes).
+Output written on main.pdf (21 pages, 612019 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
+ 130 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
