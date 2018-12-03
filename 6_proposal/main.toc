@@ -10,10 +10,11 @@
 \contentsline {section}{\numberline {5.1}Augmented Reality (AR) Libraries}{7}
 \contentsline {section}{\numberline {5.2}UI/UX Designs}{7}
 \contentsline {chapter}{\numberline {6}Functional Specification}{8}
-\contentsline {chapter}{\numberline {7}Ethical Audit}{9}
-\contentsline {chapter}{\numberline {8}Technical Architecture}{10}
-\contentsline {chapter}{\numberline {9}Evaluation Plan}{12}
-\contentsline {chapter}{\numberline {10}Project Management}{13}
-\contentsline {chapter}{\numberline {11}Conclusion}{14}
-\contentsline {chapter}{\numberline {A}Appendix}{15}
-\contentsline {chapter}{Bibliography}{17}
+\contentsline {chapter}{\numberline {7}Technical Architecture}{9}
+\contentsline {chapter}{\numberline {8}System Requirements Specification}{11}
+\contentsline {chapter}{\numberline {9}Ethical Audit}{12}
+\contentsline {chapter}{\numberline {10}Evaluation Plan}{13}
+\contentsline {chapter}{\numberline {11}Project Management}{14}
+\contentsline {chapter}{\numberline {12}Conclusion}{15}
+\contentsline {chapter}{\numberline {A}Appendix}{16}
+\contentsline {chapter}{Bibliography}{18}
