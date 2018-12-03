@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  3 DEC 2018 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  3 DEC 2018 15:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex
+**main
 (./main.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
@@ -1153,7 +1153,7 @@ Chapter 12.
 
 ]
 Appendix A.
-(./chapters/appendix.tex <assets/use_case.pdf, id=72, 844.15375pt x 598.235pt>
+(./appendix/figures.tex <assets/use_case.pdf, id=72, 844.15375pt x 598.235pt>
 File: assets/use_case.pdf Graphic file (type pdf)
 
 <use assets/use_case.pdf>
@@ -1179,7 +1179,11 @@ ther resource which is no dict (key 'ProcSets', type <array>); ignored.
 Overfull \vbox (17.98393pt too high) has occurred while \output is active []
 
 
-[17 <./assets/Activity_Diagram.pdf>] (./main.bbl
+[17 <./assets/Activity_Diagram.pdf>]
+Appendix A.
+(./appendix/minutes.tex [18
+
+] [19] [20]) (./main.bbl [21]
 Underfull \hbox (badness 6032) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 Oxford Dic-tio-nary On-line.  Aug-mented re-al-ity.  $\OT1/cm
 tt/m/n/12 https : / / en .
@@ -1219,7 +1223,7 @@ Overfull \hbox (22.90306pt too wide) in paragraph at lines 22--27
 -[]legal-[]handbook/$\OT1/cmr/m/n/12 ,
  []
 
-) [18
+) [22
 
 ] (./main.aux) )
 (\end occurred inside a group at level 1)
@@ -1227,13 +1231,13 @@ Overfull \hbox (22.90306pt too wide) in paragraph at lines 22--27
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14405 strings out of 492995
- 276419 string characters out of 6132705
- 338602 words of memory out of 5000000
+ 14410 strings out of 492995
+ 276482 string characters out of 6132705
+ 339602 words of memory out of 5000000
  17609 multiletter control sequences out of 15000+600000
  9618 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,1024b,11081s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,56p,1020b,11117s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1241,10 +1245,10 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (22 pages, 611922 bytes).
+Output written on main.pdf (26 pages, 614946 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 146 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
