@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  4 DEC 2018 00:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  4 DEC 2018 00:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1035,11 +1035,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- (./nomenclature.tex) (./main.nls [2]) [3
+ (./nomenclature.tex) (./main.nls [2] [2
 
-] [3
+]) [3] [3
 
-] [3]
+]
 Chapter 1.
 (./chapters/1_conceptIntroduction.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1261,7 +1261,7 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (32 pages, 617724 bytes).
+Output written on main.pdf (32 pages, 617721 bytes).
 PDF statistics:
  166 PDF objects out of 1000 (max. 8388607)
  112 compressed objects within 2 object streams
