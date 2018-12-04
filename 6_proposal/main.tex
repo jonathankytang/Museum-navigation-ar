@@ -29,6 +29,10 @@
 \usepackage[nottoc]{tocbibind}
 \usepackage{url}
 \usepackage[some]{background}
+% \usepackage{nomencl}
+\usepackage[intoc, english]{nomencl}
+\makenomenclature
+% \renewcommand{\nomname}{List of Abbreviations}
 
 % \SetBgScale{1}
 % \SetBgContents{\parbox{10cm}{%
@@ -75,9 +79,9 @@
 
     \end{center}
 \end{titlepage}
+\afterpage{\blankpage}
 
 \thispagestyle{plain}
-
 \pagenumbering{roman}
 
 \newgeometry{top=25mm,bottom=30mm,width=140mm}
@@ -105,7 +109,15 @@ Frustration and confusion are common emotions that are apparent at large shoppin
     \normalsize Dr. Basil Elmasri
 \end{center}
 
+\afterpage{\blankpage}
+
 \tableofcontents
+\input{nomenclature.tex}
+
+% \printnomenclature
+\printnomenclature[1in]
+
+\afterpage{\blankpage}
 \afterpage{\blankpage}
 
 \chapter{Concept Introduction \& User Needs}
@@ -145,15 +157,15 @@ Frustration and confusion are common emotions that are apparent at large shoppin
 \chapter{Conclusion}
 \input{chapters/12_conclusion.tex}
 
-\appendix
+% \appendix
+\begin{appendices}
 \chapter{Figures}
-\begin{appendices}
 \input{appendix/figures.tex}
-\end{appendices}
 
-\appendix
-\begin{appendices}
-\chapter{Minutes}
+\chapter{Systems Requirements Specification}
+\input{appendix/systemsRequirementsSpecification.tex}
+
+\chapter{Meeting Minutes}
 \input{appendix/minutes.tex}
 \end{appendices}
 
