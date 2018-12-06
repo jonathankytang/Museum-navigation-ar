@@ -20,18 +20,15 @@
 \contentsline {chapter}{\numberline {10}Evaluation Plan}{13}
 \contentsline {chapter}{\numberline {11}Project Management}{14}
 \contentsline {chapter}{\numberline {12}Conclusion}{15}
-\contentsline {chapter}{\numberline {A}Figures}{16}
-\contentsline {section}{\numberline {A.1}UML Models}{16}
-\contentsline {section}{\numberline {A.2}User Stories}{18}
-\contentsline {chapter}{\numberline {B}Systems Requirements Specification}{21}
-\contentsline {section}{\numberline {B.1}Purpose}{21}
-\contentsline {section}{\numberline {B.2}Scope}{21}
-\contentsline {section}{\numberline {B.3}System Overview}{21}
-\contentsline {section}{\numberline {B.4}References}{21}
-\contentsline {section}{\numberline {B.5}Definitions}{21}
-\contentsline {section}{\numberline {B.6}Use Cases}{21}
-\contentsline {section}{\numberline {B.7}Functional requirements}{21}
-\contentsline {section}{\numberline {B.8}Non-functional requirements}{21}
-\contentsline {chapter}{\numberline {C}Meeting Minutes}{22}
-\contentsline {chapter}{\numberline {D}Current project tracking form}{28}
+\contentsline {chapter}{\numberline {A}Systems Requirements Specification}{16}
+\contentsline {section}{\numberline {A.1}Purpose}{17}
+\contentsline {section}{\numberline {A.2}Scope}{17}
+\contentsline {section}{\numberline {A.3}System Overview}{17}
+\contentsline {section}{\numberline {A.4}References}{17}
+\contentsline {section}{\numberline {A.5}Definitions}{17}
+\contentsline {section}{\numberline {A.6}Use Cases}{17}
+\contentsline {section}{\numberline {A.7}Functional requirements}{21}
+\contentsline {section}{\numberline {A.8}Non-functional requirements}{21}
+\contentsline {chapter}{\numberline {B}Meeting Minutes}{22}
+\contentsline {chapter}{\numberline {C}Current project tracking form}{28}
 \contentsline {chapter}{Bibliography}{29}
