@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  5 DEC 2018 00:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  6 DEC 2018 13:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -838,7 +838,14 @@ Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 
 
 Writing nomenclature file main.nlo
-(./main.aux)
+(./main.aux
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+
+LaTeX Warning: Label `fig:my_label' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
@@ -853,8 +860,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
-
-(/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count121
 \scratchdimen=\dimen168
@@ -1101,31 +1107,42 @@ Chapter 6.
 Chapter 7.
 (./chapters/7_technicalArchitecture.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 4.
+(Font)              <12> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 4.
+(Font)              <8> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--10
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--17
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--26
-
- []
-
-[9
+(Font)              <6> on input line 12.
+ [9
 
 ]
-Overfull \hbox (8.11923pt too wide) in paragraph at lines 30--30
-[]\OT1/cmr/bx/n/17.28 Technicalities of sat-is-fy-ing user-related ques-tions
+Overfull \hbox (17.7312pt too wide) in paragraph at lines 25--25
+[]\OT1/cmr/bx/n/17.28 Technicalities of sat-is-fy-ing user-related ques-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+Overfull \hbox (7.22804pt too wide) in paragraph at lines 37--39
+\OT1/cmr/m/n/12 The lay-out would be sim-ple and the ba-sic map/guidance will w
+ork straight-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
+
  []
 
 ) [10]
@@ -1181,7 +1198,7 @@ File: assets/Activity_Diagram.pdf Graphic file (type pdf)
 <use assets/Activity_Diagram.pdf>
 Package pdftex.def Info: assets/Activity_Diagram.pdf used on input line 14.
 (pdftex.def)             Requested size: 736.1886pt x 431.45084pt.
-) [16
+ [16
 
  <./assets/use_case.pdf
 
@@ -1192,8 +1209,30 @@ Overfull \vbox (17.98393pt too high) has occurred while \output is active []
 
 
 [17 <./assets/Activity_Diagram.pdf>]
+<assets/userstory_aTob.png, id=122, 768.8725pt x 558.085pt>
+File: assets/userstory_aTob.png Graphic file (type png)
+
+<use assets/userstory_aTob.png>
+Package pdftex.def Info: assets/userstory_aTob.png used on input line 23.
+(pdftex.def)             Requested size: 398.33858pt x 289.14142pt.
+
+<assets/userstory_info.png, id=124, 416.55624pt x 549.05125pt>
+File: assets/userstory_info.png Graphic file (type png)
+
+<use assets/userstory_info.png>
+Package pdftex.def Info: assets/userstory_info.png used on input line 30.
+(pdftex.def)             Requested size: 398.33858pt x 525.06416pt.
+ [18 <./assets/userstory_aTob.png>]
+<assets/userstory_explore.jpeg, id=129, 1341.01pt x 594.22pt>
+File: assets/userstory_explore.jpeg Graphic file (type jpg)
+
+<use assets/userstory_explore.jpeg>
+Package pdftex.def Info: assets/userstory_explore.jpeg used on input line 37.
+(pdftex.def)             Requested size: 398.33858pt x 176.50836pt.
+) [19 <./assets/userstory_info.png>]
+[20 <./assets/userstory_explore.jpeg>]
 Appendix B.
-(./appendix/systemsRequirementsSpecification.tex) [18
+(./appendix/systemsRequirementsSpecification.tex) [21
 
 ]
 Appendix C.
@@ -1202,11 +1241,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[19
+[22
 
-] [20] [21] [22] [23]) [24]
+] [23] [24] [25] [26]) [27]
 Appendix D.
-(./appendix/trackingForm.tex) (./main.bbl [25
+(./appendix/trackingForm.tex) (./main.bbl [28
 
 ]
 Underfull \hbox (badness 6032) in paragraph at lines 4--7
@@ -1231,38 +1270,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--14
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 22--27
+Underfull \hbox (badness 1648) in paragraph at lines 29--34
 []\OT1/cmr/m/n/12 Kate Brim-sted.  Vir-tual and aug-mented re-al-ity: time to u
 p-date
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--27
+Underfull \hbox (badness 10000) in paragraph at lines 29--34
 \OT1/cmr/m/n/12 the le-gal hand-book.  $\OT1/cmtt/m/n/12 https : / / www . itpr
 oportal . com / features /
  []
 
 
-Overfull \hbox (22.90306pt too wide) in paragraph at lines 22--27
+Overfull \hbox (22.90306pt too wide) in paragraph at lines 29--34
 \OT1/cmtt/m/n/12 virtual-[]and-[]augmented-[]reality-[]time-[]to-[]update-[]the
 -[]legal-[]handbook/$\OT1/cmr/m/n/12 ,
  []
 
-) [26
+) [29
 
-] (./main.aux) )
+] (./main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14515 strings out of 492995
- 277866 string characters out of 6132705
- 340058 words of memory out of 5000000
- 17698 multiletter control sequences out of 15000+600000
+ 14537 strings out of 492995
+ 278377 string characters out of 6132705
+ 340115 words of memory out of 5000000
+ 17715 multiletter control sequences out of 15000+600000
  9618 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,986b,11197s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,56p,986b,11199s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1270,10 +1313,10 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (34 pages, 619357 bytes).
+Output written on main.pdf (37 pages, 1071361 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 116 compressed objects within 2 object streams
+ 190 PDF objects out of 1000 (max. 8388607)
+ 126 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
