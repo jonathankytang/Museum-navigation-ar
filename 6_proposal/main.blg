@@ -5,51 +5,57 @@ The style file: unsrt.bst
 Database file #1: references.bib
 Warning--entry type for "oxforddict" isn't style-file defined
 --line 1 of file references.bib
+Warning--entry type for "orpheo" isn't style-file defined
+--line 6 of file references.bib
+Warning--entry type for "Lewis" isn't style-file defined
+--line 67 of file references.bib
 Warning--entry type for "ITProPortal" isn't style-file defined
 --line 74 of file references.bib
+Warning--entry type for "sparacino" isn't style-file defined
+--line 88 of file references.bib
 Warning--entry type for "InteractionDesign" isn't style-file defined
 --line 95 of file references.bib
 Warning--entry type for "newgenapps" isn't style-file defined
 --line 117 of file references.bib
-You've used 5 entries,
+You've used 12 entries,
             1791 wiz_defined-function locations,
-            473 strings with 4454 characters,
-and the built_in function-call counts, 661 in all, are:
-= -- 54
-> -- 20
+            508 strings with 5554 characters,
+and the built_in function-call counts, 1556 in all, are:
+= -- 129
+> -- 48
 < -- 0
-+ -- 10
-- -- 5
-* -- 8
-:= -- 112
-add.period$ -- 15
-call.type$ -- 5
-change.case$ -- 5
++ -- 24
+- -- 12
+* -- 21
+:= -- 264
+add.period$ -- 35
+call.type$ -- 12
+change.case$ -- 11
 chr.to.int$ -- 0
-cite$ -- 5
-duplicate$ -- 28
-empty$ -- 87
-format.name$ -- 5
-if$ -- 152
+cite$ -- 12
+duplicate$ -- 72
+empty$ -- 201
+format.name$ -- 12
+if$ -- 358
 int.to.chr$ -- 0
-int.to.str$ -- 5
-missing$ -- 1
-newline$ -- 28
-num.names$ -- 5
-pop$ -- 26
+int.to.str$ -- 12
+missing$ -- 4
+newline$ -- 62
+num.names$ -- 12
+pop$ -- 59
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 17
+skip$ -- 38
 stack$ -- 0
 substring$ -- 0
-swap$ -- 5
+swap$ -- 12
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 5
-width$ -- 6
-write$ -- 51
-(There were 4 warnings)
+while$ -- 12
+width$ -- 14
+write$ -- 119
+(There were 7 warnings)

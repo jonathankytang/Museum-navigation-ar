@@ -3,34 +3,36 @@
 \contentsline {chapter}{\numberline {1}Concept Introduction \& User Needs}{1}
 \contentsline {chapter}{\numberline {2}Stakeholder Requirements}{2}
 \contentsline {chapter}{\numberline {3}Prior Knowledge}{4}
-\contentsline {chapter}{\numberline {4}Design}{5}
-\contentsline {section}{\numberline {4.1}Importance of Design}{5}
-\contentsline {section}{\numberline {4.2}Unified Modeling Language}{5}
-\contentsline {section}{\numberline {4.3}Service Model}{5}
-\contentsline {chapter}{\numberline {5}Prototyping}{7}
-\contentsline {section}{\numberline {5.1}AR Libraries}{7}
-\contentsline {section}{\numberline {5.2}UI/UX Designs}{7}
-\contentsline {chapter}{\numberline {6}Functional Specification}{8}
-\contentsline {chapter}{\numberline {7}Technical Architecture}{9}
-\contentsline {section}{\numberline {7.1}Means of Software Development}{9}
-\contentsline {section}{\numberline {7.2}Technicalities of satisfying user-related questions}{10}
-\contentsline {chapter}{\numberline {8}System Requirements Specification}{11}
-\contentsline {chapter}{\numberline {9}Ethical Audit}{12}
-\contentsline {chapter}{\numberline {10}Evaluation Plan}{13}
-\contentsline {chapter}{\numberline {11}Project Management}{14}
-\contentsline {chapter}{\numberline {12}Conclusion}{15}
-\contentsline {chapter}{\numberline {A}Figures}{16}
-\contentsline {section}{\numberline {A.1}UML Models}{16}
-\contentsline {section}{\numberline {A.2}User Stories}{18}
-\contentsline {chapter}{\numberline {B}Systems Requirements Specification}{21}
-\contentsline {section}{\numberline {B.1}Purpose}{21}
-\contentsline {section}{\numberline {B.2}Scope}{21}
-\contentsline {section}{\numberline {B.3}System Overview}{21}
-\contentsline {section}{\numberline {B.4}References}{21}
-\contentsline {section}{\numberline {B.5}Definitions}{21}
-\contentsline {section}{\numberline {B.6}Use Cases}{21}
-\contentsline {section}{\numberline {B.7}Functional requirements}{21}
-\contentsline {section}{\numberline {B.8}Non-functional requirements}{21}
-\contentsline {chapter}{\numberline {C}Meeting Minutes}{22}
-\contentsline {chapter}{\numberline {D}Current project tracking form}{28}
-\contentsline {chapter}{Bibliography}{29}
+\contentsline {section}{\numberline {3.1}Current Solutions \& Competitors}{4}
+\contentsline {section}{\numberline {3.2}Studies on Museum Visitors' Behaviour and the Retail Experience}{5}
+\contentsline {chapter}{\numberline {4}Design}{6}
+\contentsline {section}{\numberline {4.1}Importance of Design}{6}
+\contentsline {section}{\numberline {4.2}Unified Modeling Language}{6}
+\contentsline {section}{\numberline {4.3}Service Model}{6}
+\contentsline {chapter}{\numberline {5}Prototyping}{8}
+\contentsline {section}{\numberline {5.1}AR Libraries}{8}
+\contentsline {section}{\numberline {5.2}UI/UX Designs}{8}
+\contentsline {chapter}{\numberline {6}Functional Specification}{9}
+\contentsline {chapter}{\numberline {7}Technical Architecture}{10}
+\contentsline {section}{\numberline {7.1}Means of Software Development}{10}
+\contentsline {section}{\numberline {7.2}Technicalities of satisfying user-related questions}{11}
+\contentsline {chapter}{\numberline {8}System Requirements Specification}{12}
+\contentsline {chapter}{\numberline {9}Ethical Audit}{13}
+\contentsline {chapter}{\numberline {10}Evaluation Plan}{14}
+\contentsline {chapter}{\numberline {11}Project Management}{15}
+\contentsline {chapter}{\numberline {12}Conclusion}{16}
+\contentsline {chapter}{\numberline {A}Figures}{17}
+\contentsline {section}{\numberline {A.1}UML Models}{17}
+\contentsline {section}{\numberline {A.2}User Stories}{19}
+\contentsline {chapter}{\numberline {B}Systems Requirements Specification}{22}
+\contentsline {section}{\numberline {B.1}Purpose}{22}
+\contentsline {section}{\numberline {B.2}Scope}{22}
+\contentsline {section}{\numberline {B.3}System Overview}{22}
+\contentsline {section}{\numberline {B.4}References}{22}
+\contentsline {section}{\numberline {B.5}Definitions}{22}
+\contentsline {section}{\numberline {B.6}Use Cases}{22}
+\contentsline {section}{\numberline {B.7}Functional requirements}{22}
+\contentsline {section}{\numberline {B.8}Non-functional requirements}{22}
+\contentsline {chapter}{\numberline {C}Meeting Minutes}{23}
+\contentsline {chapter}{\numberline {D}Current project tracking form}{29}
+\contentsline {chapter}{Bibliography}{30}

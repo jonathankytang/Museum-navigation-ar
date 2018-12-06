@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{oxforddict}
 Oxford~Dictionary Online.
@@ -17,6 +17,44 @@ Amber Jamieson.
 \newblock Snapchat users paying up to thousands for custom filters to celebrate
   life events.
 \newblock {\em The Guardian}, 3 May 2016.
+
+\bibitem{orpheo}
+Orpheo Group.
+\newblock Mobile applications.
+\newblock \url{https://orpheogroup.com/uk/mobile-applications/}, 2018.
+
+\bibitem{microsoft}
+Microsoft.
+\newblock Path guide: A new approach to indoor navigation.
+\newblock {\em Microsoft Research Blog}, 14 July 2017.
+
+\bibitem{engadget}
+Jon Fingas.
+\newblock Ar navigation app promises better accuracy than gps alone.
+\newblock {\em Engadget UK}, 11 July 2017.
+
+\bibitem{mapspeople}
+Mapspeople.
+\newblock \url{http://www.mapspeople.com/}, 2018.
+
+\bibitem{sparacino}
+Flavia Sparacino.
+\newblock The museum wearable: real-time sensor-driven understanding of
+  visitors? interests for personalized visually-augmented museum experiences.
+\newblock
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.7.5282&rep=rep1&type=pdf},
+  2017.
+
+\bibitem{pickford}
+James Pickford.
+\newblock Museums hit by stratospheric art prices and funding cuts.
+\newblock {\em Financial Times}, 15 February 2018.
+
+\bibitem{Lewis}
+Andrew Lewis.
+\newblock What do visitors say about using mobile devices in museums?
+\newblock
+  \url{https://www.vam.ac.uk/blog/digital/museum-visitors-using-mobile}, 2013.
 
 \bibitem{newgenapps}
 new~gen apps.
