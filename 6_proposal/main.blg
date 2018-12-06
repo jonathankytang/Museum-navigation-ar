@@ -7,55 +7,51 @@ Warning--entry type for "oxforddict" isn't style-file defined
 --line 1 of file references.bib
 Warning--entry type for "orpheo" isn't style-file defined
 --line 6 of file references.bib
-Warning--entry type for "Lewis" isn't style-file defined
---line 67 of file references.bib
 Warning--entry type for "ITProPortal" isn't style-file defined
---line 74 of file references.bib
-Warning--entry type for "sparacino" isn't style-file defined
---line 88 of file references.bib
+--line 36 of file references.bib
 Warning--entry type for "InteractionDesign" isn't style-file defined
---line 95 of file references.bib
+--line 50 of file references.bib
 Warning--entry type for "newgenapps" isn't style-file defined
---line 117 of file references.bib
-You've used 12 entries,
+--line 72 of file references.bib
+You've used 9 entries,
             1791 wiz_defined-function locations,
-            508 strings with 5554 characters,
-and the built_in function-call counts, 1556 in all, are:
-= -- 129
-> -- 48
+            492 strings with 4974 characters,
+and the built_in function-call counts, 1167 in all, are:
+= -- 96
+> -- 36
 < -- 0
-+ -- 24
-- -- 12
-* -- 21
-:= -- 264
-add.period$ -- 35
-call.type$ -- 12
-change.case$ -- 11
++ -- 18
+- -- 9
+* -- 16
+:= -- 198
+add.period$ -- 26
+call.type$ -- 9
+change.case$ -- 8
 chr.to.int$ -- 0
-cite$ -- 12
-duplicate$ -- 72
-empty$ -- 201
-format.name$ -- 12
-if$ -- 358
+cite$ -- 9
+duplicate$ -- 54
+empty$ -- 151
+format.name$ -- 9
+if$ -- 268
 int.to.chr$ -- 0
-int.to.str$ -- 12
-missing$ -- 4
-newline$ -- 62
-num.names$ -- 12
-pop$ -- 59
+int.to.str$ -- 9
+missing$ -- 3
+newline$ -- 47
+num.names$ -- 9
+pop$ -- 44
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 38
+skip$ -- 30
 stack$ -- 0
 substring$ -- 0
-swap$ -- 12
+swap$ -- 9
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 12
-width$ -- 14
-write$ -- 119
-(There were 7 warnings)
+while$ -- 9
+width$ -- 10
+write$ -- 89
+(There were 5 warnings)
