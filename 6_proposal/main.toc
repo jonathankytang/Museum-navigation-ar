@@ -21,13 +21,16 @@
 \contentsline {chapter}{\numberline {11}Project Management}{15}
 \contentsline {chapter}{\numberline {12}Conclusion}{16}
 \contentsline {chapter}{\numberline {A}Systems Requirements Specification}{17}
-\contentsline {section}{\numberline {A.1}Purpose}{18}
-\contentsline {section}{\numberline {A.2}Scope}{18}
-\contentsline {section}{\numberline {A.3}System Overview}{18}
-\contentsline {section}{\numberline {A.4}References}{18}
-\contentsline {section}{\numberline {A.5}Definitions}{18}
-\contentsline {section}{\numberline {A.6}Use Cases}{18}
-\contentsline {section}{\numberline {A.7}Functional requirements}{22}
-\contentsline {section}{\numberline {A.8}Non-functional requirements}{22}
-\contentsline {chapter}{\numberline {B}Meeting Minutes}{23}
-\contentsline {chapter}{Bibliography}{29}
+\contentsline {section}{\numberline {A.1}Purpose}{17}
+\contentsline {section}{\numberline {A.2}Scope}{17}
+\contentsline {section}{\numberline {A.3}System Overview}{17}
+\contentsline {section}{\numberline {A.4}References}{17}
+\contentsline {section}{\numberline {A.5}Definitions}{17}
+\contentsline {section}{\numberline {A.6}Use Cases}{17}
+\contentsline {subsection}{\numberline {A.6.1}Use Case Model:}{18}
+\contentsline {subsection}{\numberline {A.6.2}Activity Model:}{18}
+\contentsline {subsection}{\numberline {A.6.3}User \& Acceptance Stories:}{18}
+\contentsline {section}{\numberline {A.7}Functional requirements}{23}
+\contentsline {section}{\numberline {A.8}Non-functional requirements}{23}
+\contentsline {chapter}{\numberline {B}Meeting Minutes}{24}
+\contentsline {chapter}{Bibliography}{31}

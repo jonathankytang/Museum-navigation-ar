@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  7 DEC 2018 12:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  7 DEC 2018 16:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1196,65 +1196,61 @@ Chapter 12.
 
 ]
 Appendix A.
-(./appendix/systemsRequirementsSpecification.tex
-<assets/use_case.pdf, id=87, 844.15375pt x 598.235pt>
+(./appendix/systemsRequirementsSpecification.tex [17
+
+]
+<assets/use_case.pdf, id=91, 844.15375pt x 598.235pt>
 File: assets/use_case.pdf Graphic file (type pdf)
 
 <use assets/use_case.pdf>
-Package pdftex.def Info: assets/use_case.pdf used on input line 17.
+Package pdftex.def Info: assets/use_case.pdf used on input line 41.
 (pdftex.def)             Requested size: 398.33858pt x 282.3024pt.
- [17
-
-]
-Overfull \vbox (46.87909pt too high) has occurred while \output is active []
-
-
-[18 <./assets/use_case.pdf
-
-pdfTeX warning: pdflatex (file ./assets/use_case.pdf): PDF inclusion: invalid o
-ther resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <assets/Activity_Diagram.pdf, id=120, 844.15375pt x 597.23125pt>
+ [18]
+<assets/Activity_Diagram.pdf, id=95, 844.15375pt x 597.23125pt>
 File: assets/Activity_Diagram.pdf Graphic file (type pdf)
 
 <use assets/Activity_Diagram.pdf>
-Package pdftex.def Info: assets/Activity_Diagram.pdf used on input line 25.
+Package pdftex.def Info: assets/Activity_Diagram.pdf used on input line 49.
 (pdftex.def)             Requested size: 844.15169pt x 597.22978pt.
+ [19 <./assets/use_case.pdf
 
-<assets/userstory_aTob.png, id=121, 768.8725pt x 558.085pt>
+pdfTeX warning: pdflatex (file ./assets/use_case.pdf): PDF inclusion: invalid o
+ther resource which is no dict (key 'ProcSets', type <array>); ignored.
+>] <assets/userstory_aTob.png, id=124, 768.8725pt x 558.085pt>
 File: assets/userstory_aTob.png Graphic file (type png)
 
 <use assets/userstory_aTob.png>
-Package pdftex.def Info: assets/userstory_aTob.png used on input line 33.
+Package pdftex.def Info: assets/userstory_aTob.png used on input line 57.
 (pdftex.def)             Requested size: 398.33858pt x 289.14142pt.
- [19 <./assets/Activity_Diagram.pdf
+ [20 <./assets/Activity_Diagram.pdf
 
 pdfTeX warning: pdflatex (file ./assets/Activity_Diagram.pdf): PDF inclusion: i
 nvalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 
->] <assets/userstory_info.png, id=145, 416.55624pt x 549.05125pt>
+>] <assets/userstory_info.png, id=148, 416.55624pt x 549.05125pt>
 File: assets/userstory_info.png Graphic file (type png)
 
 <use assets/userstory_info.png>
-Package pdftex.def Info: assets/userstory_info.png used on input line 40.
+Package pdftex.def Info: assets/userstory_info.png used on input line 64.
 (pdftex.def)             Requested size: 398.33858pt x 525.06416pt.
- [20 <./assets/userstory_aTob.png>]
-<assets/userstory_explore.jpeg, id=150, 1341.01pt x 594.22pt>
+ [21 <./assets/userstory_aTob.png>]
+<assets/userstory_explore.jpeg, id=153, 1341.01pt x 594.22pt>
 File: assets/userstory_explore.jpeg Graphic file (type jpg)
 
 <use assets/userstory_explore.jpeg>
-Package pdftex.def Info: assets/userstory_explore.jpeg used on input line 47.
+Package pdftex.def Info: assets/userstory_explore.jpeg used on input line 71.
 (pdftex.def)             Requested size: 398.33858pt x 176.50836pt.
- [21 <./assets/userstory_info.png>])
-[22 <./assets/userstory_explore.jpeg>]
+ [22 <./assets/userstory_info.png>])
+[23 <./assets/userstory_explore.jpeg>]
 Appendix B.
 (./appendix/minutes.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[23
+[24
 
-] [24] [25] [26] [27]) (./main.bbl [28]
+] [25] [26] [27] [28] [29]) (./main.bbl [30]
 Underfull \hbox (badness 4608) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 Oxford Dic-tio-nary On-line.  Aug-mented re-al-ity.  $\OT1/cm
 tt/m/n/12 https : / / en .
@@ -1311,7 +1307,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--60
  com / blog / agile /
  []
 
-) [29
+) [31
 
 ] (./main.aux) )
 (\end occurred inside a group at level 1)
@@ -1333,10 +1329,10 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (37 pages, 678520 bytes).
+Output written on main.pdf (39 pages, 682080 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 137 compressed objects within 2 object streams
+ 211 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
