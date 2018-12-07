@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  7 DEC 2018 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  7 DEC 2018 22:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1203,14 +1203,14 @@ Appendix A.
 File: assets/use_case.pdf Graphic file (type pdf)
 
 <use assets/use_case.pdf>
-Package pdftex.def Info: assets/use_case.pdf used on input line 41.
+Package pdftex.def Info: assets/use_case.pdf used on input line 36.
 (pdftex.def)             Requested size: 398.33858pt x 282.3024pt.
  [18]
 <assets/Activity_Diagram.pdf, id=95, 844.15375pt x 597.23125pt>
 File: assets/Activity_Diagram.pdf Graphic file (type pdf)
 
 <use assets/Activity_Diagram.pdf>
-Package pdftex.def Info: assets/Activity_Diagram.pdf used on input line 49.
+Package pdftex.def Info: assets/Activity_Diagram.pdf used on input line 47.
 (pdftex.def)             Requested size: 844.15169pt x 597.22978pt.
  [19 <./assets/use_case.pdf
 
@@ -1220,7 +1220,7 @@ ther resource which is no dict (key 'ProcSets', type <array>); ignored.
 File: assets/userstory_aTob.png Graphic file (type png)
 
 <use assets/userstory_aTob.png>
-Package pdftex.def Info: assets/userstory_aTob.png used on input line 57.
+Package pdftex.def Info: assets/userstory_aTob.png used on input line 58.
 (pdftex.def)             Requested size: 398.33858pt x 289.14142pt.
  [20 <./assets/Activity_Diagram.pdf
 
@@ -1231,14 +1231,14 @@ nvalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 File: assets/userstory_info.png Graphic file (type png)
 
 <use assets/userstory_info.png>
-Package pdftex.def Info: assets/userstory_info.png used on input line 64.
+Package pdftex.def Info: assets/userstory_info.png used on input line 65.
 (pdftex.def)             Requested size: 398.33858pt x 525.06416pt.
  [21 <./assets/userstory_aTob.png>]
 <assets/userstory_explore.jpeg, id=153, 1341.01pt x 594.22pt>
 File: assets/userstory_explore.jpeg Graphic file (type jpg)
 
 <use assets/userstory_explore.jpeg>
-Package pdftex.def Info: assets/userstory_explore.jpeg used on input line 71.
+Package pdftex.def Info: assets/userstory_explore.jpeg used on input line 72.
 (pdftex.def)             Requested size: 398.33858pt x 176.50836pt.
  [22 <./assets/userstory_info.png>])
 [23 <./assets/userstory_explore.jpeg>]
@@ -1317,7 +1317,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--60
 Here is how much of TeX's memory you used:
  14535 strings out of 492995
  278303 string characters out of 6132705
- 340119 words of memory out of 5000000
+ 341119 words of memory out of 5000000
  17719 multiletter control sequences out of 15000+600000
  9618 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1329,7 +1329,7 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (39 pages, 682080 bytes).
+Output written on main.pdf (39 pages, 682248 bytes).
 PDF statistics:
  211 PDF objects out of 1000 (max. 8388607)
  141 compressed objects within 2 object streams
