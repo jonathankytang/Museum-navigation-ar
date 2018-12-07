@@ -9,26 +9,25 @@
 \contentsline {section}{\numberline {4.2}Unified Modeling Language}{5}
 \contentsline {section}{\numberline {4.3}Service Model}{5}
 \contentsline {chapter}{\numberline {5}Prototyping}{7}
-\contentsline {section}{\numberline {5.1}AR Libraries}{7}
-\contentsline {section}{\numberline {5.2}UI/UX Designs}{7}
-\contentsline {chapter}{\numberline {6}Functional Specification}{8}
-\contentsline {chapter}{\numberline {7}Technical Architecture}{9}
-\contentsline {section}{\numberline {7.1}Means of Software Development}{9}
-\contentsline {section}{\numberline {7.2}Satisfying user-related questions from the user stories}{10}
-\contentsline {chapter}{\numberline {8}System Requirements Specification}{11}
-\contentsline {chapter}{\numberline {9}Ethical Audit}{12}
-\contentsline {chapter}{\numberline {10}Evaluation Plan}{13}
-\contentsline {chapter}{\numberline {11}Project Management}{14}
-\contentsline {chapter}{\numberline {12}Conclusion}{15}
-\contentsline {chapter}{\numberline {A}Systems Requirements Specification}{16}
-\contentsline {section}{\numberline {A.1}Purpose}{17}
-\contentsline {section}{\numberline {A.2}Scope}{17}
-\contentsline {section}{\numberline {A.3}System Overview}{17}
-\contentsline {section}{\numberline {A.4}References}{17}
-\contentsline {section}{\numberline {A.5}Definitions}{17}
-\contentsline {section}{\numberline {A.6}Use Cases}{17}
-\contentsline {section}{\numberline {A.7}Functional requirements}{21}
-\contentsline {section}{\numberline {A.8}Non-functional requirements}{21}
-\contentsline {chapter}{\numberline {B}Meeting Minutes}{22}
-\contentsline {chapter}{\numberline {C}Current project tracking form}{28}
+\contentsline {section}{\numberline {5.1}Augmented Reality Libraries}{7}
+\contentsline {section}{\numberline {5.2}User Interface/User Experience Designs}{7}
+\contentsline {chapter}{\numberline {6}Functional Specification}{9}
+\contentsline {chapter}{\numberline {7}Technical Architecture}{10}
+\contentsline {section}{\numberline {7.1}Means of Software Development}{10}
+\contentsline {section}{\numberline {7.2}Satisfying user-related questions from the user stories}{11}
+\contentsline {chapter}{\numberline {8}System Requirements Specification}{12}
+\contentsline {chapter}{\numberline {9}Ethical Audit}{13}
+\contentsline {chapter}{\numberline {10}Evaluation Plan}{14}
+\contentsline {chapter}{\numberline {11}Project Management}{15}
+\contentsline {chapter}{\numberline {12}Conclusion}{16}
+\contentsline {chapter}{\numberline {A}Systems Requirements Specification}{17}
+\contentsline {section}{\numberline {A.1}Purpose}{18}
+\contentsline {section}{\numberline {A.2}Scope}{18}
+\contentsline {section}{\numberline {A.3}System Overview}{18}
+\contentsline {section}{\numberline {A.4}References}{18}
+\contentsline {section}{\numberline {A.5}Definitions}{18}
+\contentsline {section}{\numberline {A.6}Use Cases}{18}
+\contentsline {section}{\numberline {A.7}Functional requirements}{22}
+\contentsline {section}{\numberline {A.8}Non-functional requirements}{22}
+\contentsline {chapter}{\numberline {B}Meeting Minutes}{23}
 \contentsline {chapter}{Bibliography}{29}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  7 DEC 2018 00:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  7 DEC 2018 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1106,11 +1106,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
 ]) [6]
 Chapter 5.
-(./chapters/5_prototyping.tex) [7
+(./chapters/5_prototyping.tex
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
-]
+ []
+
+[7
+
+]) [8]
 Chapter 6.
-(./chapters/6_functionalSpecification.tex) [8
+(./chapters/6_functionalSpecification.tex) [9
 
 ]
 Chapter 7.
@@ -1121,7 +1126,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 12.
- [9
+ [10
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 28--31
@@ -1144,9 +1149,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-) [10]
+) [11]
 Chapter 8.
-(./chapters/8_systemsRequirementsSpecification.tex) [11
+(./chapters/8_systemsRequirementsSpecification.tex) [12
 
 ]
 Chapter 9.
@@ -1165,11 +1170,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) [12
+) [13
 
 ]
 Chapter 10.
-(./chapters/10_evaluationPlan.tex) [13
+(./chapters/10_evaluationPlan.tex) [14
 
 ]
 Chapter 11.
@@ -1178,81 +1183,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-) [14
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+) [15
 
 ]
 Chapter 12.
-(./chapters/12_conclusion.tex) [15
+(./chapters/12_conclusion.tex) [16
 
 ]
 Appendix A.
 (./appendix/systemsRequirementsSpecification.tex
-<assets/use_case.pdf, id=84, 844.15375pt x 598.235pt>
+<assets/use_case.pdf, id=87, 844.15375pt x 598.235pt>
 File: assets/use_case.pdf Graphic file (type pdf)
 
 <use assets/use_case.pdf>
 Package pdftex.def Info: assets/use_case.pdf used on input line 17.
 (pdftex.def)             Requested size: 398.33858pt x 282.3024pt.
- [16
+ [17
 
 ]
 Overfull \vbox (46.87909pt too high) has occurred while \output is active []
 
 
-[17 <./assets/use_case.pdf
+[18 <./assets/use_case.pdf
 
 pdfTeX warning: pdflatex (file ./assets/use_case.pdf): PDF inclusion: invalid o
 ther resource which is no dict (key 'ProcSets', type <array>); ignored.
->]
-
-pdfTeX warning: pdflatex (file ./assets/Activity_Diagram.pdf): PDF inclusion: f
-ound PDF version <1.7>, but at most version <1.5> allowed
-<assets/Activity_Diagram.pdf, id=117, 736.1904pt x 431.45189pt>
+>] <assets/Activity_Diagram.pdf, id=120, 844.15375pt x 597.23125pt>
 File: assets/Activity_Diagram.pdf Graphic file (type pdf)
 
 <use assets/Activity_Diagram.pdf>
 Package pdftex.def Info: assets/Activity_Diagram.pdf used on input line 25.
-(pdftex.def)             Requested size: 736.1886pt x 431.45084pt.
+(pdftex.def)             Requested size: 844.15169pt x 597.22978pt.
 
-Overfull \vbox (17.98393pt too high) has occurred while \output is active []
-
-
-[18 <./assets/Activity_Diagram.pdf>]
-<assets/userstory_aTob.png, id=125, 768.8725pt x 558.085pt>
+<assets/userstory_aTob.png, id=121, 768.8725pt x 558.085pt>
 File: assets/userstory_aTob.png Graphic file (type png)
 
 <use assets/userstory_aTob.png>
 Package pdftex.def Info: assets/userstory_aTob.png used on input line 33.
 (pdftex.def)             Requested size: 398.33858pt x 289.14142pt.
+ [19 <./assets/Activity_Diagram.pdf
 
-<assets/userstory_info.png, id=127, 416.55624pt x 549.05125pt>
+pdfTeX warning: pdflatex (file ./assets/Activity_Diagram.pdf): PDF inclusion: i
+nvalid other resource which is no dict (key 'ProcSets', type <array>); ignored.
+
+>] <assets/userstory_info.png, id=145, 416.55624pt x 549.05125pt>
 File: assets/userstory_info.png Graphic file (type png)
 
 <use assets/userstory_info.png>
 Package pdftex.def Info: assets/userstory_info.png used on input line 40.
 (pdftex.def)             Requested size: 398.33858pt x 525.06416pt.
- [19 <./assets/userstory_aTob.png>]
-<assets/userstory_explore.jpeg, id=132, 1341.01pt x 594.22pt>
+ [20 <./assets/userstory_aTob.png>]
+<assets/userstory_explore.jpeg, id=150, 1341.01pt x 594.22pt>
 File: assets/userstory_explore.jpeg Graphic file (type jpg)
 
 <use assets/userstory_explore.jpeg>
 Package pdftex.def Info: assets/userstory_explore.jpeg used on input line 47.
 (pdftex.def)             Requested size: 398.33858pt x 176.50836pt.
- [20 <./assets/userstory_info.png>])
-[21 <./assets/userstory_explore.jpeg>]
+ [21 <./assets/userstory_info.png>])
+[22 <./assets/userstory_explore.jpeg>]
 Appendix B.
 (./appendix/minutes.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[22
+[23
 
-] [23] [24] [25] [26]) [27]
-Appendix C.
-(./appendix/trackingForm.tex) (./main.bbl [28
-
-]
+] [24] [25] [26] [27]) (./main.bbl [28]
 Underfull \hbox (badness 4608) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 Oxford Dic-tio-nary On-line.  Aug-mented re-al-ity.  $\OT1/cm
 tt/m/n/12 https : / / en .
@@ -1317,9 +1319,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--60
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14538 strings out of 492995
- 278367 string characters out of 6132705
- 340117 words of memory out of 5000000
+ 14535 strings out of 492995
+ 278303 string characters out of 6132705
+ 340119 words of memory out of 5000000
  17719 multiletter control sequences out of 15000+600000
  9618 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1331,10 +1333,10 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (37 pages, 1077624 bytes).
+Output written on main.pdf (37 pages, 678520 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 205 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 
