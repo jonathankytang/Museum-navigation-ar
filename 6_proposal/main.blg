@@ -6,52 +6,54 @@ Database file #1: references.bib
 Warning--entry type for "oxforddict" isn't style-file defined
 --line 1 of file references.bib
 Warning--entry type for "orpheo" isn't style-file defined
---line 6 of file references.bib
+--line 7 of file references.bib
 Warning--entry type for "ITProPortal" isn't style-file defined
 --line 36 of file references.bib
 Warning--entry type for "InteractionDesign" isn't style-file defined
 --line 50 of file references.bib
 Warning--entry type for "newgenapps" isn't style-file defined
 --line 72 of file references.bib
-You've used 9 entries,
+Warning--entry type for "scrumroles" isn't style-file defined
+--line 79 of file references.bib
+You've used 10 entries,
             1791 wiz_defined-function locations,
-            492 strings with 4974 characters,
-and the built_in function-call counts, 1167 in all, are:
-= -- 96
-> -- 36
+            496 strings with 5118 characters,
+and the built_in function-call counts, 1298 in all, are:
+= -- 107
+> -- 40
 < -- 0
-+ -- 18
-- -- 9
-* -- 16
-:= -- 198
-add.period$ -- 26
-call.type$ -- 9
-change.case$ -- 8
++ -- 20
+- -- 10
+* -- 17
+:= -- 220
+add.period$ -- 29
+call.type$ -- 10
+change.case$ -- 9
 chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 54
-empty$ -- 151
-format.name$ -- 9
-if$ -- 268
+cite$ -- 10
+duplicate$ -- 59
+empty$ -- 169
+format.name$ -- 10
+if$ -- 299
 int.to.chr$ -- 0
-int.to.str$ -- 9
+int.to.str$ -- 10
 missing$ -- 3
-newline$ -- 47
-num.names$ -- 9
-pop$ -- 44
+newline$ -- 52
+num.names$ -- 10
+pop$ -- 50
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 30
+skip$ -- 32
 stack$ -- 0
 substring$ -- 0
-swap$ -- 9
+swap$ -- 10
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 9
-width$ -- 10
-write$ -- 89
-(There were 5 warnings)
+while$ -- 10
+width$ -- 12
+write$ -- 99
+(There were 6 warnings)

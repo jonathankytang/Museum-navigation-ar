@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{oxforddict}
 Oxford~Dictionary Online.
@@ -50,5 +50,12 @@ Kate Brimsted.
 \newblock
   \url{https://www.itproportal.com/features/virtual-and-augmented-reality-time-to-update-the-legal-handbook/},
   2016.
+
+\bibitem{scrumroles}
+Samuel Nicholson.
+\newblock Agile scrum roles and responsibilities.
+\newblock
+  \url{https://www.knowledgehut.com/blog/agile/agile-scrum-roles-responsibilities},
+  2017.
 
 \end{thebibliography}
