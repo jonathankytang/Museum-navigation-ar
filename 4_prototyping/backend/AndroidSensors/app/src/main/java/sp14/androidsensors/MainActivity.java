@@ -113,7 +113,7 @@ public class MainActivity extends Activity implements SensorEventListener, Locat
     public void onLocationChanged(Location location) {
         double longitude = location.getLongitude();
         double latitude = location.getLatitude();
-        Log.i(TAG, "Longitude: " + longitude + " Latitude :" + latitude);
+//        Log.i(TAG, "Longitude: " + longitude + " Latitude :" + latitude);
     }
 
     @Override
@@ -142,19 +142,19 @@ public class MainActivity extends Activity implements SensorEventListener, Locat
         Sensor sensor = event.sensor;
 
         if(sensor.getType() == Sensor.TYPE_ACCELEROMETER){
-//            Log.i(TAG, "Accelerometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
+            Log.i(TAG, "Accelerometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
             xAccel.setText("X: " + event.values[0]);
             yAccel.setText("Y: " + event.values[1]);
             zAccel.setText("Z: " + event.values[2]);
         }
         else if (sensor.getType() == Sensor.TYPE_GYROSCOPE) {
-//            Log.i(TAG, "Gyroscope: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
+            Log.i(TAG, "Gyroscope: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
             xGyro.setText("X: " + event.values[0]);
             yGyro.setText("Y: " + event.values[1]);
             zGyro.setText("Z: " + event.values[2]);
         }
         else if (sensor.getType() == Sensor.TYPE_MAGNETIC_FIELD) {
-//            Log.i(TAG, "Magnetometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
+            Log.i(TAG, "Magnetometer: X: " + event.values[0] + " Y :" + event.values[1] + " Z: " + event.values[2]);
             xMagno.setText("X: " + event.values[0]);
             yMagno.setText("Y: " + event.values[1]);
             zMagno.setText("Z: " + event.values[2]);
