@@ -1,3 +1,6 @@
+%-----------------------
+% PREAMBLE
+%-----------------------
 \documentclass[12pt]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
@@ -8,6 +11,15 @@
 \usepackage{pdflscape}
 \usepackage{afterpage}
 \usepackage{float}
+
+\usepackage[
+    backend=biber,
+    style=ieee,
+    urldate =comp
+  ]{biblatex}
+ 
+ \addbibresource{references.bib}
+
 \setcounter{tocdepth}{0}
 \newcommand\tab[1][0.75cm]{\hspace*{#1}}
 
@@ -23,24 +35,17 @@
 \fancyhead[C]{\leftmark}
 \renewcommand{\headrulewidth}{0.4pt}
 
-\usepackage[]{algorithm2e}
-
-%\usepackage{listings}
+\usepackage[]{algorithm2e} 
 \usepackage[nottoc]{tocbibind}
 \usepackage{url}
 \usepackage[some]{background}
-% \usepackage{nomencl}
 \usepackage[intoc, english]{nomencl}
 \makenomenclature
-% \renewcommand{\nomname}{List of Abbreviations}
 
-% \SetBgScale{1}
-% \SetBgContents{\parbox{10cm}{%
-%     \Huge Draft:  \today\\[14cm]\rotatebox{180}{\Huge Draft:  \today}}}
-% \SetBgColor{gray}
-% \SetBgAngle{270}
-% \SetBgOpacity{0.2}
 
+%-----------------------
+% FRONT PAGE
+%-----------------------
 \begin{document}
 \begin{titlepage}
     \newgeometry{width=150mm,top=40mm,bottom=40mm}
@@ -79,10 +84,15 @@
 
     \end{center}
 \end{titlepage}
+
 \afterpage{\blankpage}
 
 \thispagestyle{plain}
 \pagenumbering{roman}
+
+%-----------------------
+% ABSTRACT
+%-----------------------
 
 \newgeometry{top=25mm,bottom=30mm,width=140mm}
 \begin{center}        
@@ -111,14 +121,21 @@ Frustration and confusion are common emotions that are apparent at large shoppin
 
 \afterpage{\blankpage}
 
+%-----------------------
+% TOC & NOMENCLATURE
+%-----------------------
+
 \tableofcontents
 \input{nomenclature.tex}
 
 \afterpage{\blankpage}
-% \printnomenclature
 \printnomenclature[1in]
 
 \afterpage{\blankpage}
+
+%-----------------------
+% CHAPTERS
+%-----------------------
 
 \chapter{Concept Introduction \& User Needs}
 \pagenumbering{arabic}
@@ -157,20 +174,26 @@ Frustration and confusion are common emotions that are apparent at large shoppin
 \chapter{Conclusion}
 \input{chapters/12_conclusion.tex}
 
-% \appendix
+
+%-----------------------
+% APPENDICES
+%-----------------------
+
 \begin{appendices}
+
 \chapter{Systems Requirements Specification}
 \input{appendix/systemsRequirementsSpecification.tex}
 
 \chapter{Meeting Minutes}
 \input{appendix/minutes.tex}
 
-% \chapter{Current project tracking form}
-% \input{appendix/trackingForm.tex}
 \end{appendices}
 
-%\bibliography
-\bibliographystyle{unsrt}
-\bibliography{references}
+%-----------------------
+% BIBLIOGRAPHY
+%-----------------------
+% \bibliographystyle{unsrt}
+% \bibliography{references}
+\printbibliography
 
 \end{document}

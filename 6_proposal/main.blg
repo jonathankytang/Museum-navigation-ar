@@ -1,59 +1,24 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: main.aux
-The style file: unsrt.bst
-Database file #1: references.bib
-Warning--entry type for "oxforddict" isn't style-file defined
---line 1 of file references.bib
-Warning--entry type for "orpheo" isn't style-file defined
---line 7 of file references.bib
-Warning--entry type for "ITProPortal" isn't style-file defined
---line 36 of file references.bib
-Warning--entry type for "InteractionDesign" isn't style-file defined
---line 50 of file references.bib
-Warning--entry type for "newgenapps" isn't style-file defined
---line 72 of file references.bib
-Warning--entry type for "scrumroles" isn't style-file defined
---line 79 of file references.bib
-You've used 10 entries,
-            1791 wiz_defined-function locations,
-            496 strings with 5118 characters,
-and the built_in function-call counts, 1298 in all, are:
-= -- 107
-> -- 40
-< -- 0
-+ -- 20
-- -- 10
-* -- 17
-:= -- 220
-add.period$ -- 29
-call.type$ -- 10
-change.case$ -- 9
-chr.to.int$ -- 0
-cite$ -- 10
-duplicate$ -- 59
-empty$ -- 169
-format.name$ -- 10
-if$ -- 299
-int.to.chr$ -- 0
-int.to.str$ -- 10
-missing$ -- 3
-newline$ -- 52
-num.names$ -- 10
-pop$ -- 50
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 0
-skip$ -- 32
-stack$ -- 0
-substring$ -- 0
-swap$ -- 10
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 10
-width$ -- 12
-write$ -- 99
-(There were 6 warnings)
+[0] Config.pm:354> INFO - This is Biber 2.7
+[0] Config.pm:357> INFO - Logfile is 'main.blg'
+[38] biber-darwin:303> INFO - === Sat Dec  8, 2018, 15:36:48
+[58] Biber.pm:359> INFO - Reading 'main.bcf'
+[132] Biber.pm:835> INFO - Found 11 citekeys in bib section 0
+[142] Biber.pm:3670> INFO - Processing section 0
+[153] Biber.pm:3840> INFO - Looking for bibtex format file 'references.bib' for section 0
+[155] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[159] bibtex.pm:1292> INFO - Found BibTeX data source 'references.bib'
+[167] Utils.pm:164> WARN - month field 'Sep' in entry 'InteractionDesign' is not an integer - this will probably not sort properly.
+[169] Utils.pm:164> WARN - month field 'May' in entry 'Snapchat' is not an integer - this will probably not sort properly.
+[171] Utils.pm:164> WARN - month field 'Jul' in entry 'microsoft' is not an integer - this will probably not sort properly.
+[172] Utils.pm:164> WARN - month field 'Jul' in entry 'engadget' is not an integer - this will probably not sort properly.
+[174] Utils.pm:164> WARN - month field 'May' in entry 'applear' is not an integer - this will probably not sort properly.
+[175] Utils.pm:164> WARN - month field 'Sep' in entry 'newgenapps' is not an integer - this will probably not sort properly.
+[177] Utils.pm:164> WARN - month field 'Sep' in entry 'ITProPortal' is not an integer - this will probably not sort properly.
+[178] Utils.pm:164> WARN - month field 'Jul' in entry 'scrumroles' is not an integer - this will probably not sort properly.
+[190] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[190] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[191] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[191] Biber.pm:3505> INFO - No sort tailoring available for locale 'en-US'
+[198] bbl.pm:608> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[200] bbl.pm:712> INFO - Output to main.bbl
+[200] Biber.pm:109> INFO - WARNINGS: 8
