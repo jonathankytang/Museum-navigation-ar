@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  8 DEC 2018 15:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  8 DEC 2018 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1324,7 +1324,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 
 [2
 
-]) [3]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+) [3]
 Chapter 3.
 (./chapters/3_priorKnowledge.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
@@ -1535,7 +1540,7 @@ cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 cmti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mtt12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 u10.pfb>
-Output written on main.pdf (40 pages, 684511 bytes).
+Output written on main.pdf (40 pages, 683800 bytes).
 PDF statistics:
  214 PDF objects out of 1000 (max. 8388607)
  143 compressed objects within 2 object streams
