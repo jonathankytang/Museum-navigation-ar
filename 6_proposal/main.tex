@@ -6,12 +6,13 @@
 \usepackage[english]{babel}
 \usepackage{appendix}
 \usepackage{graphicx}
-\graphicspath{{assets/}}
+\graphicspath{{figures/}}
 \usepackage[a4paper,top=20mm,bottom=30mm,width=140mm]{geometry}
 \usepackage{pdflscape}
 \usepackage{afterpage}
 \usepackage{float}
-
+\usepackage{subcaption}
+% \usepackage{subfig}
 \usepackage[
     backend=biber,
     style=ieee,
@@ -127,8 +128,8 @@ Frustration and confusion are common emotions that are apparent at large shoppin
 
 \tableofcontents
 \input{nomenclature.tex}
-
-\afterpage{\blankpage}
+\listoffigures
+% \afterpage{\blankpage}
 \printnomenclature[1in]
 
 \afterpage{\blankpage}
