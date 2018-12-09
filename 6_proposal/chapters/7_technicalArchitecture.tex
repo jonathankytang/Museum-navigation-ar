@@ -3,16 +3,16 @@
 \section{Means of Software Development}
 
 \subsection*{SDKs}
-Google's \textbf{ARCore} kit gives the ability to apply the AR element of the application without having to spend time pre-defining AR methods. It has distinct advantages over Apple's ARKit as ARCore can detect horizontal surfaces that is similar to motion tracking, and can accurately anchor virtual objects. \cite{newgenapps}
+Google's \textbf{ARCore} kit gives the ability to apply the AR to the application without having to spend time pre-defining AR methods. It has distinct advantages over Apple's ARKit as ARCore can detect horizontal surfaces that is similar to motion tracking, and can accurately anchor virtual objects. \cite{newgenapps}
 
 \subsection*{Platform \& Languages}
-The app will be developed on Android since ARCore only works on that platform. Java is imperative to the project since android development is only possible in this language.
+The app will be developed on Android since ARCore only it. Java is imperative to the project since android development is only possible in this language.
 
 \subsection*{IDE}
-Android Studio is the IDE utilised in the project because it involves a number of relevant exclusive packages. Other IDEs, requires them to be pre-defined, and therefore takes out valuable time from application development.
+Android Studio will be utilised because it involves a number of relevant exclusive packages. Other IDEs, requires them to be pre-defined, and therefore takes out valuable time from application development.
 
 \subsection*{Architectural Pattern}
-The application fits under the MVC pattern perfectly be it that the following are true.
+The application fits under the MVC (Figure~\ref{fig:MVC}) pattern perfectly be it that the following are true.
 \begin{itemize}
     \item Model: Data provided by the user (e.g. geolocational data)
     \item View: Front-end interface (e.g. 3D line to location)
@@ -26,10 +26,10 @@ The pattern's simplicity makes the most sensible one we can use.
 \subsection*{Questions}
 \begin{enumerate}
     \item How will the navigation system get me from point A to point B? (Figure~\ref{fig:AtoB})\\\\
-    In order for user to get from one point to another, it will use route calculation to calculate the quickest route.\\
+    In order for users to get from one point to another, the quickest route will be calculated.\\
     Route Calculations:
     \begin{itemize}
-        \item Algorithms to request and process GPS signal.
+        \item Algorithms to request, and process GPS signal.
         \item Algorithms to calculation quickest route when user enter their destination.
         \item Once calculated, show the result for user to start their journey.
     \end{itemize}
@@ -38,5 +38,5 @@ The pattern's simplicity makes the most sensible one we can use.
     The layout would be simple and the basic map/guidance will work straightforwardly. Once the route has been calculated, a 3D line will be superimposed on the users screen.
     
     \item Can the app be used without Internet? \\\\
-    No, otherwise the app would not have access to the user's real time location, and would take up too much storage space on the user's device if it was used without.
+    No, otherwise the app would not have access to the user's real time location, and would take up too much storage space on the user's device otherwise.
 \end{enumerate}

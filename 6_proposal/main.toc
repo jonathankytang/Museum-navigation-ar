@@ -2,9 +2,7 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{iii}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Nomenclature}{iv}
+\contentsline {chapter}{Nomenclature}{iii}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Concept Introduction \& User Needs}{1}
 \defcounter {refsection}{0}\relax 
@@ -88,16 +86,16 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Storyboard}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Prototype 1}{29}
+\contentsline {subsubsection}{Prototype 1}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Prototype 2}{29}
+\contentsline {subsubsection}{Prototype 2}{33}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Prototype 3}{30}
+\contentsline {subsubsection}{Prototype 3}{34}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Prototype Reviews}{31}
+\contentsline {subsubsection}{Prototype Reviews}{35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Final Prototype}{32}
+\contentsline {subsubsection}{Final Prototype}{36}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Technical Architecture}{33}
+\contentsline {section}{\numberline {B.2}Technical Architecture}{40}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Meeting Minutes}{34}
+\contentsline {chapter}{\numberline {C}Meeting Minutes}{41}
