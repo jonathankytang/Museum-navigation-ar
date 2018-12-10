@@ -1,0 +1,16 @@
+Plan
+
+Week 1
+- Create tests for development
+- Getting to grips with Android studio
+
+Week 2
+- Create tests for development
+- Building a more functional prototype for the fair
+
+Week 3
+- Practice using CI/CD & issue tracking for Gitlab
+- Building a more functional prototype for the fair
+
+Week 4
+- Computer Fair preparation
