@@ -43,7 +43,6 @@
 \usepackage[intoc, english]{nomencl}
 \makenomenclature
 
-
 %-----------------------
 % FRONT PAGE
 %-----------------------
@@ -126,10 +125,13 @@ Frustration and confusion are common emotions that are apparent at large shoppin
 % TOC & NOMENCLATURE
 %-----------------------
 
+\setcounter{tocdepth}{0}
 \tableofcontents
+
+\setcounter{tocdepth}{1}
+\listoffigures
+
 \input{nomenclature.tex}
-% \listoffigures
-\afterpage{\blankpage}
 \printnomenclature[1in]
 
 \afterpage{\blankpage}
@@ -197,6 +199,7 @@ Frustration and confusion are common emotions that are apparent at large shoppin
 %-----------------------
 % \bibliographystyle{unsrt}
 % \bibliography{references}
+\addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
 
 \end{document}
