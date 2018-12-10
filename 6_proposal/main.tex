@@ -43,12 +43,22 @@
 \usepackage[intoc, english]{nomencl}
 \makenomenclature
 
+\usepackage[some]{background}
+
+\SetBgScale{1}
+\SetBgContents{\parbox{10cm}{%
+      \Huge Draft:  \today\\[14cm]\rotatebox{180}{\Huge Draft:  \today}}}
+      \SetBgColor{gray}
+      \SetBgAngle{270}
+      \SetBgOpacity{0.2}
+
 %-----------------------
 % FRONT PAGE
 %-----------------------
 \begin{document}
 \begin{titlepage}
     \newgeometry{width=150mm,top=40mm,bottom=40mm}
+    \BgThispage
     \begin{center}
         \vspace*{1cm}
         Department of Computing\\

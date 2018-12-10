@@ -2132,6 +2132,10 @@
     <bcf:citekey order="9">newgenapps</bcf:citekey>
     <bcf:citekey order="10">ITProPortal</bcf:citekey>
     <bcf:citekey order="11">scrumroles</bcf:citekey>
+    <bcf:citekey order="12">IEEE610</bcf:citekey>
+    <bcf:citekey order="13">IEEE29148</bcf:citekey>
+    <bcf:citekey order="14">IEEE730</bcf:citekey>
+    <bcf:citekey order="15">IEEE1220</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

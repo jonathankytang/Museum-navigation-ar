@@ -311,6 +311,50 @@
       \verb https://www.knowledgehut.com/blog/agile/agile-scrum-roles-responsibilities
       \endverb
     \endentry
+    \entry{IEEE610}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Std 610.12-1990}
+      \field{title}{Standard Glossary of Software Engineering Terminology}
+      \field{year}{1990}
+      \verb{doi}
+      \verb 10.1109/IEEESTD.1990.101064
+      \endverb
+    \endentry
+    \entry{IEEE29148}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISO/IEC/IEEE Std 29148-2011}
+      \field{title}{International Standard - Systems and software engineering -- Life cycle processes --Requirements engineering}
+      \field{year}{1998}
+      \verb{doi}
+      \verb 10.1109/IEEESTD.2011.6146379
+      \endverb
+    \endentry
+    \entry{IEEE730}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE 730-2014}
+      \field{title}{Standard for Software Quality Assurance Processes}
+      \field{year}{1998}
+      \verb{doi}
+      \verb 10.1109/IEEESTD.2014.6835311
+      \endverb
+    \endentry
+    \entry{IEEE1220}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Std 1220-2005}
+      \field{title}{Systems engineering — Application and management of the systems engineering process}
+      \field{year}{2005}
+      \verb{doi}
+      \verb 10.1109/IEEESTD.2005.96469
+      \endverb
+    \endentry
   \endsortlist
 \endrefsection
 \endinput
