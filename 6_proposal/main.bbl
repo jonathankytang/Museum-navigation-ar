@@ -311,48 +311,48 @@
       \verb https://www.knowledgehut.com/blog/agile/agile-scrum-roles-responsibilities
       \endverb
     \endentry
-    \entry{IEEE610}{article}{}
+    \entry{IEEE24765}{article}{}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Std 610.12-1990}
-      \field{title}{Standard Glossary of Software Engineering Terminology}
-      \field{year}{1990}
+      \field{journaltitle}{ISO/IEC/IEEE Std 24765-2017}
+      \field{title}{International Standard - Systems and software engineering -Vocabulary}
+      \field{year}{2017}
       \verb{doi}
-      \verb 10.1109/IEEESTD.1990.101064
+      \verb 10.1109/IEEESTD.2017.8016712
       \endverb
     \endentry
     \entry{IEEE29148}{article}{}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{ISO/IEC/IEEE Std 29148-2011}
+      \field{journaltitle}{ISO/IEC/IEEE Std 29148-2018}
       \field{title}{International Standard - Systems and software engineering -- Life cycle processes --Requirements engineering}
-      \field{year}{1998}
+      \field{year}{2018}
       \verb{doi}
-      \verb 10.1109/IEEESTD.2011.6146379
+      \verb 10.1109/IEEESTD.2018.8559686
       \endverb
     \endentry
     \entry{IEEE730}{article}{}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE 730-2014}
+      \field{journaltitle}{IEEE Std 730-2014}
       \field{title}{Standard for Software Quality Assurance Processes}
       \field{year}{1998}
       \verb{doi}
       \verb 10.1109/IEEESTD.2014.6835311
       \endverb
     \endentry
-    \entry{IEEE1220}{article}{}
+    \entry{IEEE24748}{article}{}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Std 1220-2005}
-      \field{title}{Systems engineering — Application and management of the systems engineering process}
-      \field{year}{2005}
+      \field{journaltitle}{IEEE Std 24748-4-2016}
+      \field{title}{International Standard for Systems and Software Engineering -- Life Cycle Management -- Part 4: Systems Engineering Planning}
+      \field{year}{2016}
       \verb{doi}
-      \verb 10.1109/IEEESTD.2005.96469
+      \verb 10.1109/IEEESTD.2016.7470727
       \endverb
     \endentry
   \endsortlist
