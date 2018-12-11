@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  11 DEC 2018 15:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  11 DEC 2018 17:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1440,9 +1440,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
 ) [11]
 Chapter 8.
-(./chapters/8_systemsRequirementsSpecification.tex) [12
+(./chapters/8_systemsRequirementsSpecification.tex
+Overfull \hbox (49.68118pt too wide) in paragraph at lines 13--13
+[]\OT1/cmr/bx/n/17.28 Difference be-tween func-tional Re-quire-ment(FR)
+ []
 
-]
+[12
+
+]) [13]
 Chapter 9.
 (./chapters/9_ethicalAudit.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
@@ -1459,11 +1464,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-) [13
+) [14
 
 ]
 Chapter 10.
-(./chapters/10_evaluationPlan.tex) [14
+(./chapters/10_evaluationPlan.tex) [15
 
 ]
 Chapter 11.
@@ -1477,17 +1482,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) [15
+) [16
 
 ]
 Chapter 12.
-(./chapters/12_conclusion.tex) [16
+(./chapters/12_conclusion.tex) [17
 
-] [16
+] [17
 
-] [16]
+] [17]
 Appendix A.
-(./appendix/systemsRequirementsSpecification.tex [17]
+(./appendix/systemsRequirementsSpecification.tex [18]
 Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
@@ -1507,29 +1512,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
-[18] <figures/uml/use_case.pdf, id=101, 844.15375pt x 598.235pt>
+[19] <figures/uml/use_case.pdf, id=104, 844.15375pt x 598.235pt>
 File: figures/uml/use_case.pdf Graphic file (type pdf)
 
 <use figures/uml/use_case.pdf>
 Package pdftex.def Info: figures/uml/use_case.pdf used on input line 48.
 (pdftex.def)             Requested size: 398.33858pt x 282.3024pt.
- [19 <./figures/uml/use_case.pdf
+ [20 <./figures/uml/use_case.pdf
 
 pdfTeX warning: pdflatex (file ./figures/uml/use_case.pdf): PDF inclusion: inva
 lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
->] <figures/uml/Activity_Diagram.pdf, id=130, 844.15375pt x 597.23125pt>
+>] <figures/uml/Activity_Diagram.pdf, id=133, 844.15375pt x 597.23125pt>
 File: figures/uml/Activity_Diagram.pdf Graphic file (type pdf)
 
 <use figures/uml/Activity_Diagram.pdf>
 Package pdftex.def Info: figures/uml/Activity_Diagram.pdf used on input line 60
 .
 (pdftex.def)             Requested size: 844.15169pt x 597.22978pt.
- [20 <./figures/uml/Activity_Diagram.pdf
+ [21 <./figures/uml/Activity_Diagram.pdf
 
 pdfTeX warning: pdflatex (file ./figures/uml/Activity_Diagram.pdf): PDF inclusi
 on: invalid other resource which is no dict (key 'ProcSets', type <array>); ign
 ored.
->] <figures/userstories/userstory_aTob.png, id=153, 768.8725pt x 558.085pt>
+>] <figures/userstories/userstory_aTob.png, id=157, 768.8725pt x 558.085pt>
 File: figures/userstories/userstory_aTob.png Graphic file (type png)
 
 <use figures/userstories/userstory_aTob.png>
@@ -1537,26 +1542,26 @@ Package pdftex.def Info: figures/userstories/userstory_aTob.png used on input l
 ine 72.
 (pdftex.def)             Requested size: 398.33858pt x 289.14142pt.
 
-<figures/userstories/userstory_info.png, id=155, 416.55624pt x 549.05125pt>
+<figures/userstories/userstory_info.png, id=159, 416.55624pt x 549.05125pt>
 File: figures/userstories/userstory_info.png Graphic file (type png)
 
 <use figures/userstories/userstory_info.png>
 Package pdftex.def Info: figures/userstories/userstory_info.png used on input l
 ine 79.
 (pdftex.def)             Requested size: 398.33858pt x 525.06416pt.
- [21 <./figures/userstories/userstory_aTob.png>]
-<figures/userstories/userstory_explore.jpeg, id=161, 1341.01pt x 594.22pt>
+ [22 <./figures/userstories/userstory_aTob.png>]
+<figures/userstories/userstory_explore.jpeg, id=164, 1341.01pt x 594.22pt>
 File: figures/userstories/userstory_explore.jpeg Graphic file (type jpg)
 
 <use figures/userstories/userstory_explore.jpeg>
 Package pdftex.def Info: figures/userstories/userstory_explore.jpeg used on inp
 ut line 86.
 (pdftex.def)             Requested size: 398.33858pt x 176.50836pt.
- [22 <./figures/userstories/userstory_info.png>]) [23 <./figures/userstories/us
+ [23 <./figures/userstories/userstory_info.png>]) [24 <./figures/userstories/us
 erstory_explore.jpeg>]
 Appendix B.
 (./appendix/figures.tex
-<figures/prototypes/ar/vulforia/1.jpeg, id=169, 803.0pt x 1606.0pt>
+<figures/prototypes/ar/vulforia/1.jpeg, id=172, 803.0pt x 1606.0pt>
 File: figures/prototypes/ar/vulforia/1.jpeg Graphic file (type jpg)
 
 <use figures/prototypes/ar/vulforia/1.jpeg>
@@ -1564,7 +1569,7 @@ Package pdftex.def Info: figures/prototypes/ar/vulforia/1.jpeg used on input li
 ne 9.
 (pdftex.def)             Requested size: 170.71794pt x 284.50949pt.
 
-<figures/prototypes/ar/vulforia/2.jpeg, id=170, 803.0pt x 1606.0pt>
+<figures/prototypes/ar/vulforia/2.jpeg, id=173, 803.0pt x 1606.0pt>
 File: figures/prototypes/ar/vulforia/2.jpeg Graphic file (type jpg)
 
 <use figures/prototypes/ar/vulforia/2.jpeg>
@@ -1576,10 +1581,10 @@ Overfull \hbox (4.08693pt too wide) in paragraph at lines 8--12
  [][] 
  []
 
-[24
+[25
 
  <./figures/prototypes/ar/vulforia/1.jpeg> <./figures/prototypes/ar/vulforia/2.
-jpeg>] <figures/prototypes/ar/ios/1.png, id=174, 581.17125pt x 1029.8475pt>
+jpeg>] <figures/prototypes/ar/ios/1.png, id=178, 581.17125pt x 1029.8475pt>
 File: figures/prototypes/ar/ios/1.png Graphic file (type png)
 
 <use figures/prototypes/ar/ios/1.png>
@@ -1587,7 +1592,7 @@ Package pdftex.def Info: figures/prototypes/ar/ios/1.png used on input line 21.
 
 (pdftex.def)             Requested size: 170.71686pt x 284.52107pt.
 
-<figures/prototypes/ar/ios/2.png, id=175, 582.175pt x 1032.85875pt>
+<figures/prototypes/ar/ios/2.png, id=179, 582.175pt x 1032.85875pt>
 File: figures/prototypes/ar/ios/2.png Graphic file (type png)
 
 <use figures/prototypes/ar/ios/2.png>
@@ -1595,7 +1600,7 @@ Package pdftex.def Info: figures/prototypes/ar/ios/2.png used on input line 21.
 
 (pdftex.def)             Requested size: 170.70967pt x 284.51772pt.
 
-<figures/prototypes/ar/ios/3.png, id=176, 516.93124pt x 917.4275pt>
+<figures/prototypes/ar/ios/3.png, id=180, 516.93124pt x 917.4275pt>
 File: figures/prototypes/ar/ios/3.png Graphic file (type png)
 
 <use figures/prototypes/ar/ios/3.png>
@@ -1607,9 +1612,9 @@ Overfull \hbox (45.86319pt too wide) in paragraph at lines 20--26
  [][] 
  []
 
-[25 <./figures/prototypes/ar/ios/1.png> <./figures/prototypes/ar/ios/2.png> <./
+[26 <./figures/prototypes/ar/ios/1.png> <./figures/prototypes/ar/ios/2.png> <./
 figures/prototypes/ar/ios/3.png>]
-<figures/prototypes/ar/android/1.jpg, id=184, 1084.05pt x 2228.325pt>
+<figures/prototypes/ar/android/1.jpg, id=187, 1084.05pt x 2228.325pt>
 File: figures/prototypes/ar/android/1.jpg Graphic file (type jpg)
 
 <use figures/prototypes/ar/android/1.jpg>
@@ -1617,7 +1622,7 @@ Package pdftex.def Info: figures/prototypes/ar/android/1.jpg used on input line
  35.
 (pdftex.def)             Requested size: 170.70569pt x 284.5242pt.
 
-<figures/prototypes/ar/android/2.jpg, id=185, 1084.05pt x 2228.325pt>
+<figures/prototypes/ar/android/2.jpg, id=188, 1084.05pt x 2228.325pt>
 File: figures/prototypes/ar/android/2.jpg Graphic file (type jpg)
 
 <use figures/prototypes/ar/android/2.jpg>
@@ -1625,16 +1630,16 @@ Package pdftex.def Info: figures/prototypes/ar/android/2.jpg used on input line
  35.
 (pdftex.def)             Requested size: 170.70569pt x 284.5242pt.
 
-<figures/prototypes/ar/android/3.jpg, id=186, 1084.05pt x 2228.325pt>
+<figures/prototypes/ar/android/3.jpg, id=189, 1084.05pt x 2228.325pt>
 File: figures/prototypes/ar/android/3.jpg Graphic file (type jpg)
 
 <use figures/prototypes/ar/android/3.jpg>
 Package pdftex.def Info: figures/prototypes/ar/android/3.jpg used on input line
  37.
 (pdftex.def)             Requested size: 170.70569pt x 284.5242pt.
- [26 <./figures/prototypes/ar/android/1.jpg> <./figures/prototypes/ar/android/2
+ [27 <./figures/prototypes/ar/android/1.jpg> <./figures/prototypes/ar/android/2
 .jpg> <./figures/prototypes/ar/android/3.jpg>]
-<figures/prototypes/ar/android/logs.pdf, id=190, 597.50786pt x 845.04686pt>
+<figures/prototypes/ar/android/logs.pdf, id=194, 597.50786pt x 845.04686pt>
 File: figures/prototypes/ar/android/logs.pdf Graphic file (type pdf)
 
 <use figures/prototypes/ar/android/logs.pdf>
@@ -1642,40 +1647,40 @@ Package pdftex.def Info: figures/prototypes/ar/android/logs.pdf used on input l
 ine 49.
 (pdftex.def)             Requested size: 398.33858pt x 563.3675pt.
 
-<figures/prototypes/ui/storyboard/1.pdf, id=191, 597.50786pt x 845.04686pt>
+<figures/prototypes/ui/storyboard/1.pdf, id=195, 597.50786pt x 845.04686pt>
 File: figures/prototypes/ui/storyboard/1.pdf Graphic file (type pdf)
 
 <use figures/prototypes/ui/storyboard/1.pdf>
 Package pdftex.def Info: figures/prototypes/ui/storyboard/1.pdf used on input l
 ine 59.
 (pdftex.def)             Requested size: 398.33858pt x 563.3675pt.
- [27 <./figures/prototypes/ar/android/logs.pdf>] [28 <./figures/prototypes/ui/s
+ [28 <./figures/prototypes/ar/android/logs.pdf>] [29 <./figures/prototypes/ui/s
 toryboard/1.pdf>]
-<figures/prototypes/ui/storyboard/2.pdf, id=226, 597.50786pt x 845.04686pt>
+<figures/prototypes/ui/storyboard/2.pdf, id=229, 597.50786pt x 845.04686pt>
 File: figures/prototypes/ui/storyboard/2.pdf Graphic file (type pdf)
 
 <use figures/prototypes/ui/storyboard/2.pdf>
 Package pdftex.def Info: figures/prototypes/ui/storyboard/2.pdf used on input l
 ine 68.
 (pdftex.def)             Requested size: 398.33858pt x 563.3675pt.
- [29 <./figures/prototypes/ui/storyboard/2.pdf>]
-<figures/prototypes/ui/storyboard/3.pdf, id=244, 597.50786pt x 845.04686pt>
+ [30 <./figures/prototypes/ui/storyboard/2.pdf>]
+<figures/prototypes/ui/storyboard/3.pdf, id=247, 597.50786pt x 845.04686pt>
 File: figures/prototypes/ui/storyboard/3.pdf Graphic file (type pdf)
 
 <use figures/prototypes/ui/storyboard/3.pdf>
 Package pdftex.def Info: figures/prototypes/ui/storyboard/3.pdf used on input l
 ine 76.
 (pdftex.def)             Requested size: 398.33858pt x 563.3675pt.
- [30 <./figures/prototypes/ui/storyboard/3.pdf>]
-<figures/prototypes/ui/storyboard/4.pdf, id=262, 597.50786pt x 845.04686pt>
+ [31 <./figures/prototypes/ui/storyboard/3.pdf>]
+<figures/prototypes/ui/storyboard/4.pdf, id=265, 597.50786pt x 845.04686pt>
 File: figures/prototypes/ui/storyboard/4.pdf Graphic file (type pdf)
 
 <use figures/prototypes/ui/storyboard/4.pdf>
 Package pdftex.def Info: figures/prototypes/ui/storyboard/4.pdf used on input l
 ine 84.
 (pdftex.def)             Requested size: 597.5064pt x 845.0448pt.
- [31 <./figures/prototypes/ui/storyboard/4.pdf>]
-<figures/prototypes/ui/storyboard/5.pdf, id=280, 597.50786pt x 845.04686pt>
+ [32 <./figures/prototypes/ui/storyboard/4.pdf>]
+<figures/prototypes/ui/storyboard/5.pdf, id=283, 597.50786pt x 845.04686pt>
 File: figures/prototypes/ui/storyboard/5.pdf Graphic file (type pdf)
 
 <use figures/prototypes/ui/storyboard/5.pdf>
@@ -1683,27 +1688,27 @@ Package pdftex.def Info: figures/prototypes/ui/storyboard/5.pdf used on input l
 ine 92.
 (pdftex.def)             Requested size: 398.33858pt x 563.3675pt.
 
-<figures/prototypes/ui/1.png, id=281, 1312.905pt x 373.395pt>
+<figures/prototypes/ui/1.png, id=284, 1312.905pt x 373.395pt>
 File: figures/prototypes/ui/1.png Graphic file (type png)
 
 <use figures/prototypes/ui/1.png>
 Package pdftex.def Info: figures/prototypes/ui/1.png used on input line 100.
 (pdftex.def)             Requested size: 398.33858pt x 113.28992pt.
- [32 <./figures/prototypes/ui/storyboard/5.pdf>] <figures/prototypes/ui/2.png, 
-id=299, 1276.77pt x 964.60374pt>
+ [33 <./figures/prototypes/ui/storyboard/5.pdf>] <figures/prototypes/ui/2.png, 
+id=303, 1276.77pt x 964.60374pt>
 File: figures/prototypes/ui/2.png Graphic file (type png)
 
 <use figures/prototypes/ui/2.png>
 Package pdftex.def Info: figures/prototypes/ui/2.png used on input line 109.
 (pdftex.def)             Requested size: 398.33858pt x 300.9375pt.
 
-<figures/prototypes/ui/3.png, id=300, 1141.26375pt x 971.63pt>
+<figures/prototypes/ui/3.png, id=304, 1141.26375pt x 971.63pt>
 File: figures/prototypes/ui/3.png Graphic file (type png)
 
 <use figures/prototypes/ui/3.png>
 Package pdftex.def Info: figures/prototypes/ui/3.png used on input line 118.
 (pdftex.def)             Requested size: 398.33858pt x 339.12674pt.
- [33 <./figures/prototypes/ui/1.png> <./figures/prototypes/ui/2.png>] [34 <./fi
+ [34 <./figures/prototypes/ui/1.png> <./figures/prototypes/ui/2.png>] [35 <./fi
 gures/prototypes/ui/3.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 125--127
 
@@ -1714,15 +1719,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
-[35] <figures/prototypes/ui/final.png, id=314, 1384.17125pt x 959.585pt>
+[36] <figures/prototypes/ui/final.png, id=317, 1384.17125pt x 959.585pt>
 File: figures/prototypes/ui/final.png Graphic file (type png)
 
 <use figures/prototypes/ui/final.png>
 Package pdftex.def Info: figures/prototypes/ui/final.png used on input line 139
 .
 (pdftex.def)             Requested size: 1384.1679pt x 959.58266pt.
- [36 <./figures/prototypes/ui/final.png>]
-<figures/prototypes/ui/final/1.png, id=319, 415.5525pt x 738.76pt>
+ [37 <./figures/prototypes/ui/final.png>]
+<figures/prototypes/ui/final/1.png, id=322, 415.5525pt x 738.76pt>
 File: figures/prototypes/ui/final/1.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/1.png>
@@ -1730,7 +1735,7 @@ Package pdftex.def Info: figures/prototypes/ui/final/1.png used on input line 1
 48.
 (pdftex.def)             Requested size: 170.71368pt x 284.53056pt.
 
-<figures/prototypes/ui/final/2.png, id=320, 415.5525pt x 738.76pt>
+<figures/prototypes/ui/final/2.png, id=323, 415.5525pt x 738.76pt>
 File: figures/prototypes/ui/final/2.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/2.png>
@@ -1738,7 +1743,7 @@ Package pdftex.def Info: figures/prototypes/ui/final/2.png used on input line 1
 48.
 (pdftex.def)             Requested size: 170.71368pt x 284.53056pt.
 
-<figures/prototypes/ui/final/3.png, id=321, 415.5525pt x 738.76pt>
+<figures/prototypes/ui/final/3.png, id=324, 415.5525pt x 738.76pt>
 File: figures/prototypes/ui/final/3.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/3.png>
@@ -1746,16 +1751,16 @@ Package pdftex.def Info: figures/prototypes/ui/final/3.png used on input line 1
 50.
 (pdftex.def)             Requested size: 170.71368pt x 284.53056pt.
 
-<figures/prototypes/ui/final/4.png, id=322, 416.55624pt x 667.49374pt>
+<figures/prototypes/ui/final/4.png, id=325, 416.55624pt x 667.49374pt>
 File: figures/prototypes/ui/final/4.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/4.png>
 Package pdftex.def Info: figures/prototypes/ui/final/4.png used on input line 1
 50.
 (pdftex.def)             Requested size: 170.71924pt x 284.53156pt.
- [37 <./figures/prototypes/ui/final/1.png> <./figures/prototypes/ui/final/2.png
+ [38 <./figures/prototypes/ui/final/1.png> <./figures/prototypes/ui/final/2.png
 > <./figures/prototypes/ui/final/3.png> <./figures/prototypes/ui/final/4.png>]
-<figures/prototypes/ui/final/5.png, id=330, 415.5525pt x 1218.5525pt>
+<figures/prototypes/ui/final/5.png, id=333, 415.5525pt x 1218.5525pt>
 File: figures/prototypes/ui/final/5.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/5.png>
@@ -1763,7 +1768,7 @@ Package pdftex.def Info: figures/prototypes/ui/final/5.png used on input line 1
 60.
 (pdftex.def)             Requested size: 170.71368pt x 284.5191pt.
 
-<figures/prototypes/ui/final/6a.png, id=331, 415.5525pt x 738.76pt>
+<figures/prototypes/ui/final/6a.png, id=334, 415.5525pt x 738.76pt>
 File: figures/prototypes/ui/final/6a.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/6a.png>
@@ -1771,7 +1776,7 @@ Package pdftex.def Info: figures/prototypes/ui/final/6a.png used on input line
 160.
 (pdftex.def)             Requested size: 170.71368pt x 284.53056pt.
 
-<figures/prototypes/ui/final/6b.png, id=332, 415.5525pt x 738.76pt>
+<figures/prototypes/ui/final/6b.png, id=335, 415.5525pt x 738.76pt>
 File: figures/prototypes/ui/final/6b.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/6b.png>
@@ -1779,17 +1784,17 @@ Package pdftex.def Info: figures/prototypes/ui/final/6b.png used on input line
 162.
 (pdftex.def)             Requested size: 170.71368pt x 284.53056pt.
 
-<figures/prototypes/ui/final/6c.png, id=333, 415.5525pt x 738.76pt>
+<figures/prototypes/ui/final/6c.png, id=336, 415.5525pt x 738.76pt>
 File: figures/prototypes/ui/final/6c.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/6c.png>
 Package pdftex.def Info: figures/prototypes/ui/final/6c.png used on input line 
 162.
 (pdftex.def)             Requested size: 170.71368pt x 284.53056pt.
- [38 <./figures/prototypes/ui/final/5.png> <./figures/prototypes/ui/final/6a.pn
+ [39 <./figures/prototypes/ui/final/5.png> <./figures/prototypes/ui/final/6a.pn
 g> <./figures/prototypes/ui/final/6b.png> <./figures/prototypes/ui/final/6c.png
 >]
-<figures/prototypes/ui/final/6d.png, id=341, 415.5525pt x 738.76pt>
+<figures/prototypes/ui/final/6d.png, id=346, 415.5525pt x 738.76pt>
 File: figures/prototypes/ui/final/6d.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/6d.png>
@@ -1797,7 +1802,7 @@ Package pdftex.def Info: figures/prototypes/ui/final/6d.png used on input line
 171.
 (pdftex.def)             Requested size: 170.71368pt x 284.53056pt.
 
-<figures/prototypes/ui/final/7.png, id=342, 415.5525pt x 738.76pt>
+<figures/prototypes/ui/final/7.png, id=347, 415.5525pt x 738.76pt>
 File: figures/prototypes/ui/final/7.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/7.png>
@@ -1805,7 +1810,7 @@ Package pdftex.def Info: figures/prototypes/ui/final/7.png used on input line 1
 71.
 (pdftex.def)             Requested size: 170.71368pt x 284.53056pt.
 
-<figures/prototypes/ui/final/8.png, id=343, 415.5525pt x 918.43124pt>
+<figures/prototypes/ui/final/8.png, id=348, 415.5525pt x 918.43124pt>
 File: figures/prototypes/ui/final/8.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/8.png>
@@ -1813,20 +1818,20 @@ Package pdftex.def Info: figures/prototypes/ui/final/8.png used on input line 1
 73.
 (pdftex.def)             Requested size: 170.71368pt x 284.52856pt.
 
-<figures/prototypes/ui/final/9.png, id=344, 415.5525pt x 738.76pt>
+<figures/prototypes/ui/final/9.png, id=349, 415.5525pt x 738.76pt>
 File: figures/prototypes/ui/final/9.png Graphic file (type png)
 
 <use figures/prototypes/ui/final/9.png>
 Package pdftex.def Info: figures/prototypes/ui/final/9.png used on input line 1
 73.
 (pdftex.def)             Requested size: 170.71368pt x 284.53056pt.
- [39 <./figures/prototypes/ui/final/6d.png> <./figures/prototypes/ui/final/7.pn
+ [40 <./figures/prototypes/ui/final/6d.png> <./figures/prototypes/ui/final/7.pn
 g> <./figures/prototypes/ui/final/8.png> <./figures/prototypes/ui/final/9.png>]
 
 
 pdfTeX warning: pdflatex (file ./figures/technicalarchitecture/backlog.pdf): PD
 F inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/technicalarchitecture/backlog.pdf, id=354, 849.1725pt x 600.2425pt>
+<figures/technicalarchitecture/backlog.pdf, id=357, 849.1725pt x 600.2425pt>
 File: figures/technicalarchitecture/backlog.pdf Graphic file (type pdf)
 
 <use figures/technicalarchitecture/backlog.pdf>
@@ -1837,15 +1842,15 @@ t line 183.
 
 pdfTeX warning: pdflatex (file ./figures/technicalarchitecture/mvc.pdf): PDF in
 clusion: found PDF version <1.7>, but at most version <1.5> allowed
-<figures/technicalarchitecture/mvc.pdf, id=355, 847.165pt x 599.23875pt>
+<figures/technicalarchitecture/mvc.pdf, id=358, 847.165pt x 599.23875pt>
 File: figures/technicalarchitecture/mvc.pdf Graphic file (type pdf)
 
 <use figures/technicalarchitecture/mvc.pdf>
 Package pdftex.def Info: figures/technicalarchitecture/mvc.pdf used on input li
 ne 191.
 (pdftex.def)             Requested size: 398.33858pt x 281.76112pt.
-) [40 <./figures/technicalarchitecture/backlog.pdf> <./figures/technicalarchite
-cture/mvc.pdf>] [40
+) [41 <./figures/technicalarchitecture/backlog.pdf> <./figures/technicalarchite
+cture/mvc.pdf>] [41
 
 ]
 Appendix C.
@@ -1854,15 +1859,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[41] [42] [43] [44] [45] [46]) [47]
+[42] [43] [44] [45] [46] [47]) [48]
 Overfull \hbox (0.85016pt too wide) in paragraph at lines 217--217
 \OT1/cmr/m/n/12 and the fu-ture, [On-line]. Avail-able: $\OT1/cmtt/m/n/12 https
  : / / www . interaction -[] design .
  []
 
-[48
+[49
 
-] [49] (./main.aux)
+] [50] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1888,10 +1893,10 @@ msy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmu1
 0.pfb>
-Output written on main.pdf (60 pages, 19002820 bytes).
+Output written on main.pdf (61 pages, 19005702 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
- 285 compressed objects within 3 object streams
+ 445 PDF objects out of 1000 (max. 8388607)
+ 288 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
