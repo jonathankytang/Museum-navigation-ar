@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  10 DEC 2018 23:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  11 DEC 2018 14:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1488,22 +1488,22 @@ Chapter 12.
 ] [16]
 Appendix A.
 (./appendix/systemsRequirementsSpecification.tex [17]
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--27
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
@@ -1511,7 +1511,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--27
 File: figures/uml/use_case.pdf Graphic file (type pdf)
 
 <use figures/uml/use_case.pdf>
-Package pdftex.def Info: figures/uml/use_case.pdf used on input line 49.
+Package pdftex.def Info: figures/uml/use_case.pdf used on input line 48.
 (pdftex.def)             Requested size: 398.33858pt x 282.3024pt.
  [19 <./figures/uml/use_case.pdf
 
@@ -1521,7 +1521,7 @@ lid other resource which is no dict (key 'ProcSets', type <array>); ignored.
 File: figures/uml/Activity_Diagram.pdf Graphic file (type pdf)
 
 <use figures/uml/Activity_Diagram.pdf>
-Package pdftex.def Info: figures/uml/Activity_Diagram.pdf used on input line 61
+Package pdftex.def Info: figures/uml/Activity_Diagram.pdf used on input line 60
 .
 (pdftex.def)             Requested size: 844.15169pt x 597.22978pt.
  [20 <./figures/uml/Activity_Diagram.pdf
@@ -1534,7 +1534,7 @@ File: figures/userstories/userstory_aTob.png Graphic file (type png)
 
 <use figures/userstories/userstory_aTob.png>
 Package pdftex.def Info: figures/userstories/userstory_aTob.png used on input l
-ine 73.
+ine 72.
 (pdftex.def)             Requested size: 398.33858pt x 289.14142pt.
 
 <figures/userstories/userstory_info.png, id=155, 416.55624pt x 549.05125pt>
@@ -1542,7 +1542,7 @@ File: figures/userstories/userstory_info.png Graphic file (type png)
 
 <use figures/userstories/userstory_info.png>
 Package pdftex.def Info: figures/userstories/userstory_info.png used on input l
-ine 80.
+ine 79.
 (pdftex.def)             Requested size: 398.33858pt x 525.06416pt.
  [21 <./figures/userstories/userstory_aTob.png>]
 <figures/userstories/userstory_explore.jpeg, id=161, 1341.01pt x 594.22pt>
@@ -1550,7 +1550,7 @@ File: figures/userstories/userstory_explore.jpeg Graphic file (type jpg)
 
 <use figures/userstories/userstory_explore.jpeg>
 Package pdftex.def Info: figures/userstories/userstory_explore.jpeg used on inp
-ut line 87.
+ut line 86.
 (pdftex.def)             Requested size: 398.33858pt x 176.50836pt.
  [22 <./figures/userstories/userstory_info.png>]) [23 <./figures/userstories/us
 erstory_explore.jpeg>]
@@ -1854,21 +1854,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-[41] [42] [43] [44] [45]) [46]
+[41] [42] [43] [44] [45] [46]) [47]
 Overfull \hbox (0.85016pt too wide) in paragraph at lines 217--217
 \OT1/cmr/m/n/12 and the fu-ture, [On-line]. Avail-able: $\OT1/cmtt/m/n/12 https
  : / / www . interaction -[] design .
  []
 
-[47
+[48
 
-]
-Overfull \hbox (9.77252pt too wide) in paragraph at lines 217--217
-[]\OT1/cmr/m/n/12 ``Standard glos-sary of soft-ware en-gi-neer-ing ter-mi-nol-o
-gy'', \OT1/cmr/m/it/12 IEEE Std 610.12-
- []
-
-[48] (./main.aux)
+] [49] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -1879,8 +1873,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### bottom level 
 Here is how much of TeX's memory you used:
  22219 strings out of 492995
- 423418 string characters out of 6132705
- 850167 words of memory out of 5000000
+ 423424 string characters out of 6132705
+ 850173 words of memory out of 5000000
  25294 multiletter control sequences out of 15000+600000
  9919 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1894,10 +1888,10 @@ msy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmu1
 0.pfb>
-Output written on main.pdf (59 pages, 19000605 bytes).
+Output written on main.pdf (60 pages, 19002618 bytes).
 PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
+ 441 PDF objects out of 1000 (max. 8388607)
+ 285 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  198 words of extra memory for PDF output out of 10000 (max. 10000000)
 
