@@ -52,15 +52,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.3}System Overview}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}References}{19}
+\contentsline {section}{\numberline {A.4}References}{18}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.5}Definitions}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.6}Use Cases}{20}
+\contentsline {section}{\numberline {A.6}Use Cases}{19}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.6.1}Use Case Model}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.2}Activity Model}{21}
+\contentsline {subsection}{\numberline {A.6.2}Activity Model}{20}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {A.6.3}User \& Acceptance Stories}{22}
 \defcounter {refsection}{0}\relax 
@@ -92,12 +92,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Prototype 3}{35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Prototype Reviews}{36}
+\contentsline {subsubsection}{Final Prototype}{36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Final Prototype}{37}
+\contentsline {section}{\numberline {B.2}Technical Architecture}{40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Technical Architecture}{41}
+\contentsline {chapter}{\numberline {C}Prototype Reviews}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Meeting Minutes}{42}
+\contentsline {chapter}{\numberline {D}Meeting Minutes}{43}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{48}
+\contentsline {chapter}{Bibliography}{49}
