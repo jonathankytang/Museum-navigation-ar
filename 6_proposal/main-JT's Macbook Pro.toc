@@ -36,8 +36,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}System Requirements Specification}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Difference between functional requirements (FR) and non-functional requirements (NFR)}{12}
-\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Ethical Audit}{14}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {10}Evaluation Plan}{15}
