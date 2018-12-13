@@ -44,66 +44,66 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{2. Simplicity of implementation}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{3. Re-usability}{14}
+\contentsline {subsubsection}{3. Re-usability}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Project Management}{15}
+\contentsline {chapter}{\numberline {11}Project Management}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Conclusion}{16}
+\contentsline {chapter}{\numberline {12}Conclusion}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Systems Requirements Specification}{17}
+\contentsline {chapter}{\numberline {A}Systems Requirements Specification}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Purpose}{17}
+\contentsline {section}{\numberline {A.1}Purpose}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Scope}{17}
+\contentsline {section}{\numberline {A.2}Scope}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}System Overview}{17}
+\contentsline {section}{\numberline {A.3}System Overview}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}References}{17}
+\contentsline {section}{\numberline {A.4}References}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Definitions}{18}
+\contentsline {section}{\numberline {A.5}Definitions}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.6}Use Cases}{18}
+\contentsline {section}{\numberline {A.6}Use Cases}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.1}Use Case Model}{19}
+\contentsline {subsection}{\numberline {A.6.1}Use Case Model}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.2}Activity Model}{19}
+\contentsline {subsection}{\numberline {A.6.2}Activity Model}{20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.3}User \& Acceptance Stories}{21}
+\contentsline {subsection}{\numberline {A.6.3}User \& Acceptance Stories}{22}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.7}Functional requirements}{23}
+\contentsline {section}{\numberline {A.7}Functional Requirements}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.8}Non-functional requirements}{23}
+\contentsline {section}{\numberline {A.8}Non-functional Requirements}{24}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Figures}{25}
+\contentsline {chapter}{\numberline {B}Figures}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Prototyping}{25}
+\contentsline {section}{\numberline {B.1}Prototyping}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.1}AR Prototypes}{25}
+\contentsline {subsection}{\numberline {B.1.1}AR Prototypes}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vulforia}{25}
+\contentsline {subsubsection}{Vulforia}{26}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{ARKit}{26}
+\contentsline {subsubsection}{ARKit}{27}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{ARCore}{27}
+\contentsline {subsubsection}{ARCore}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Android Sensors Logging}{28}
+\contentsline {subsubsection}{Android Sensors Logging}{29}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.1.2}UI/UX Prototypes}{29}
+\contentsline {subsection}{\numberline {B.1.2}UI/UX Prototypes}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Storyboard}{29}
+\contentsline {subsubsection}{Storyboard}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Prototype 1}{34}
+\contentsline {subsubsection}{Prototype 1}{35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Prototype 2}{34}
+\contentsline {subsubsection}{Prototype 2}{35}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Prototype 3}{35}
+\contentsline {subsubsection}{Prototype 3}{36}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Final Prototype}{36}
+\contentsline {subsubsection}{Final Prototype}{37}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Technical Architecture}{40}
+\contentsline {section}{\numberline {B.2}Technical Architecture}{41}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Prototype Reviews}{41}
+\contentsline {chapter}{\numberline {C}Prototype Reviews}{42}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Meeting Minutes}{43}
+\contentsline {chapter}{\numberline {D}Meeting Minutes}{44}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliography}{49}
+\contentsline {chapter}{Bibliography}{50}

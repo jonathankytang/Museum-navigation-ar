@@ -268,6 +268,17 @@
       \verb 10.1109/IEEESTD.2017.8016712
       \endverb
     \endentry
+    \entry{IEEE29148}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISO/IEC/IEEE Std 29148-2018}
+      \field{title}{International Standard - Systems and software engineering -- Life cycle processes --Requirements engineering}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1109/IEEESTD.2018.8559686
+      \endverb
+    \endentry
     \entry{ITProPortal}{online}{}
       \name{author}{1}{}{%
         {{hash=f57076ca0a12871e2ec6cb0a47d7c546}{%
@@ -295,6 +306,31 @@
       \verb https://www.itproportal.com/features/virtual-and-augmented-reality-time-to-update-the-legal-handbook/
       \endverb
     \endentry
+    \entry{codeutopia}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e1f0332a028c7b98bcf4d035f96c53b4}{%
+           family={CodeUtopia},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1f0332a028c7b98bcf4d035f96c53b4}
+      \strng{fullhash}{e1f0332a028c7b98bcf4d035f96c53b4}
+      \strng{authornamehash}{e1f0332a028c7b98bcf4d035f96c53b4}
+      \strng{authorfullhash}{e1f0332a028c7b98bcf4d035f96c53b4}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{What’s the difference between Unit Testing, TDD and BDD?}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://codeutopia.net/blog/2015/03/01/unit-testing-tdd-and-bdd/
+      \endverb
+    \endentry
     \entry{scrumroles}{online}{}
       \name{author}{1}{}{%
         {{hash=6257a18e1fa2d11a7b29e9598268a3d4}{%
@@ -320,17 +356,6 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb https://www.knowledgehut.com/blog/agile/agile-scrum-roles-responsibilities
-      \endverb
-    \endentry
-    \entry{IEEE29148}{article}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{ISO/IEC/IEEE Std 29148-2018}
-      \field{title}{International Standard - Systems and software engineering -- Life cycle processes --Requirements engineering}
-      \field{year}{2018}
-      \verb{doi}
-      \verb 10.1109/IEEESTD.2018.8559686
       \endverb
     \endentry
     \entry{IEEE730}{article}{}
