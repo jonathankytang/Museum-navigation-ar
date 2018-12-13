@@ -20,6 +20,8 @@
 		\nompageref{iii}
   \item [{SDK}]\begingroup Software Development Kit\nomeqref {0}
 		\nompageref{iii}
+  \item [{SRS}]\begingroup System Requirement Specification\nomeqref {0}
+		\nompageref{iii}
   \item [{TDD}]\begingroup Test Driven Development\nomeqref {0}
 		\nompageref{iii}
   \item [{UI}]\begingroup User Interface\nomeqref {0}\nompageref{iii}
