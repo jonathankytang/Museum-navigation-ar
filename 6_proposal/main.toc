@@ -36,37 +36,43 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}System Requirements Specification}{12}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Ethical Audit}{14}
+\contentsline {chapter}{\numberline {9}Ethical Audit}{13}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {10}Evaluation Plan}{15}
+\contentsline {chapter}{\numberline {10}Evaluation Plan}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {11}Project Management}{16}
+\contentsline {subsubsection}{1. Tangible results that can reviewed with efficacy}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {12}Conclusion}{17}
+\contentsline {subsubsection}{2. Simplicity of implementation}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Systems Requirements Specification}{18}
+\contentsline {subsubsection}{3. Re-usability}{14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Purpose}{18}
+\contentsline {chapter}{\numberline {11}Project Management}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}Scope}{18}
+\contentsline {chapter}{\numberline {12}Conclusion}{16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}System Overview}{18}
+\contentsline {chapter}{\numberline {A}Systems Requirements Specification}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}References}{18}
+\contentsline {section}{\numberline {A.1}Purpose}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.5}Definitions}{19}
+\contentsline {section}{\numberline {A.2}Scope}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.6}Use Cases}{19}
+\contentsline {section}{\numberline {A.3}System Overview}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.1}Use Case Model}{20}
+\contentsline {section}{\numberline {A.4}References}{17}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.2}Activity Model}{20}
+\contentsline {section}{\numberline {A.5}Definitions}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.6.3}User \& Acceptance Stories}{22}
+\contentsline {section}{\numberline {A.6}Use Cases}{18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.7}Functional requirements}{24}
+\contentsline {subsection}{\numberline {A.6.1}Use Case Model}{19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.8}Non-functional requirements}{24}
+\contentsline {subsection}{\numberline {A.6.2}Activity Model}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.6.3}User \& Acceptance Stories}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.7}Functional requirements}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.8}Non-functional requirements}{23}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Figures}{25}
 \defcounter {refsection}{0}\relax 

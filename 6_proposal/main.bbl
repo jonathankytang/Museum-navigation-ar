@@ -257,6 +257,17 @@
       \verb https://www.newgenapps.com/blog/arkit-vs-arcore-the-key-differences
       \endverb
     \endentry
+    \entry{IEEE24765}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ISO/IEC/IEEE Std 24765-2017}
+      \field{title}{International Standard - Systems and software engineering -Vocabulary}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1109/IEEESTD.2017.8016712
+      \endverb
+    \endentry
     \entry{ITProPortal}{online}{}
       \name{author}{1}{}{%
         {{hash=f57076ca0a12871e2ec6cb0a47d7c546}{%
@@ -309,17 +320,6 @@
       \field{urldateera}{ce}
       \verb{url}
       \verb https://www.knowledgehut.com/blog/agile/agile-scrum-roles-responsibilities
-      \endverb
-    \endentry
-    \entry{IEEE24765}{article}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{ISO/IEC/IEEE Std 24765-2017}
-      \field{title}{International Standard - Systems and software engineering -Vocabulary}
-      \field{year}{2017}
-      \verb{doi}
-      \verb 10.1109/IEEESTD.2017.8016712
       \endverb
     \endentry
     \entry{IEEE29148}{article}{}
