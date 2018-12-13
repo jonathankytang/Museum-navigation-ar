@@ -30,13 +30,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Technical Architecture}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Means of Software Development}{10}
+\contentsline {section}{\numberline {7.1}Technologies Supporting Functional Architecture}{10}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.2}Satisfying Questions From the User Stories}{11}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {8}System Requirements Specification}{12}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Difference between functional requirements (FR) and non-functional requirements (NFR)}{12}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Ethical Audit}{14}
 \defcounter {refsection}{0}\relax 
