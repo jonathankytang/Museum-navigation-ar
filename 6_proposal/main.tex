@@ -50,14 +50,14 @@
 \usepackage{setspace}
 \usepackage{csquotes}
 
-\usepackage[some]{background}
+% \usepackage[some]{background}
 
-\SetBgScale{1}
-\SetBgContents{\parbox{10cm}{%
-      \Huge Draft:  \today\\[14cm]\rotatebox{180}{\Huge Draft:  \today}}}
-      \SetBgColor{gray}
-      \SetBgAngle{270}
-      \SetBgOpacity{0.2}
+% \SetBgScale{1}
+% \SetBgContents{\parbox{10cm}{%
+%       \Huge Draft:  \today\\[14cm]\rotatebox{180}{\Huge Draft:  \today}}}
+%       \SetBgColor{gray}
+%       \SetBgAngle{270}
+%       \SetBgOpacity{0.2}
 
 %-----------------------
 % FRONT PAGE
@@ -65,7 +65,7 @@
 \begin{document}
 \begin{titlepage}
     \newgeometry{width=150mm,top=40mm,bottom=40mm}
-    \BgThispage
+    % \BgThispage
     \begin{center}
         \vspace*{1cm}
         Department of Computing\\
@@ -117,7 +117,7 @@
     \textbf{Abstract}\\
 \end{center}
 
-The use of mobile augmented reality by consumers and research in the field has become more prominent in the last decade. This has allowed for completely new approaches in solving current problems using this technology as there are increasing smartphone users across the world. 
+The use of mobile augmented reality by consumers, and research in the field has become more prominent in the last decade. This has allowed for completely new approaches in solving current problems using this technology as there is an increase in smartphone users across the world. 
 
 This proposal presents the use of augmented reality in museum navigation on mobile devices. After conducting stakeholder research, there were clear issues presented by current solutions on the market through the form of paper maps. Augmented reality library research was conducted on various platforms to find the appropriate toolkit for the proposed system, and UI/UX prototyping prioritised key design aspects of the system. Following this, the technical architecture and user stories are defined through the model-view controller architectural pattern, along with technologies to be used during implementation. Methods and approaches to implementation are outlined, namely through the agile methodology along with consulting various testing methods.
 
@@ -125,7 +125,7 @@ This proposal presents the use of augmented reality in museum navigation on mobi
 \begin{center}    
     \large
     \textbf{Word Count}\\
-    2984\\
+    2993\\
     \normalsize computed by \texttt{TeXcount}
 \end{center}
 
@@ -161,82 +161,65 @@ This proposal presents the use of augmented reality in museum navigation on mobi
 \pagenumbering{arabic}
 \input{chapters/1_conceptIntroduction.tex}
 
-
 \chapter{Stakeholder Requirements}
 \input{chapters/2_stakeholderRequirements.tex}
-
 
 \chapter{Prior Knowledge}
 \input{chapters/3_priorKnowledge.tex}
 
-
 \chapter{Design}
 \input{chapters/4_design.tex}
-
 
 \chapter{Prototyping}
 \input{chapters/5_prototyping.tex}
 
-
 \chapter{Functional Specification}
 \input{chapters/6_functionalSpecification.tex}
-
 
 \chapter{Technical Architecture}
 \input{chapters/7_technicalArchitecture.tex}
 
-
 \chapter{System Requirements Specification}
 \input{chapters/8_systemsRequirementsSpecification.tex}
-
 
 \chapter{Ethical Audit}
 \input{chapters/9_ethicalAudit.tex}
 
-
 \chapter{Evaluation Plan}
 \input{chapters/10_evaluationPlan.tex}
-
 
 \chapter{Project Management}
 \input{chapters/11_projectManagement.tex}
 
-
 \chapter{Conclusion}
 \input{chapters/12_conclusion.tex}
 
-
 \afterpage{\blankpage}
+
 %-----------------------
 % APPENDICES
 %-----------------------
-
 \begin{appendices}
 
 \chapter{Systems Requirements Specification}
-\input{appendix/systemsRequirementsSpecification.tex}
-
+\input{appendix/a_systemsRequirementsSpecification.tex}
 
 \chapter{Figures}
-\input{appendix/figures.tex}
-
+\input{appendix/b_figures.tex}
 
 \chapter{Prototype Reviews} \label{Prototype Reviews}
-\input{appendix/prototypeReviews.tex}
+\input{appendix/c_prototypeReviews.tex}
 
-
-\afterpage{\blankpage}
 \chapter{Meeting Minutes}
-\input{appendix/minutes.tex}
+\input{appendix/d_minutes.tex}
 
 \end{appendices}
 
 %-----------------------
 % BIBLIOGRAPHY
 %-----------------------
-% \bibliographystyle{unsrt}
-% \bibliography{references}
 \addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
 
+\afterpage{\blankpage}
 \end{document}
