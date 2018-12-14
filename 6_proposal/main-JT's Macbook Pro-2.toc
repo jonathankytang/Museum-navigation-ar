@@ -1,0 +1,111 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{iii}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Nomenclature}{iv}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Concept Introduction \& User Needs}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Stakeholder Requirements}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Stakeholder Research}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Project Requirements}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Museum Staff Requirements}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Prior Knowledge}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Current Solutions \& Competitors}{4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Design}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Unified Modeling Language (UML)}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Service Model}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Prototyping}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Augmented Reality Libraries}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}User Interface/User Experience Designs}{9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Functional Specification}{10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Technical Architecture}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Technologies Supporting Functional Architecture}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Satisfying Questions From the User Stories}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}System Requirements Specification}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Ethical Audit}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {10}Evaluation Plan}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10.1}Test Driven Development (TDD)}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {11}Project Management}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {12}Conclusion}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Systems Requirements Specification}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.1}Purpose}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}Scope}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}System Overview}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}References}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.5}Definitions}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.6}Use Cases}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.6.1}Use Case Model}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.6.2}Activity Model}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A.6.3}User \& Acceptance Stories}{26}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.7}Functional Requirements}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.8}Non-functional Requirements}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}Figures}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.1}Prototyping}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.1}AR Prototypes}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Vuforia}{30}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{ARKit}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{ARCore}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Android Sensors Logging}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B.1.2}UI/UX Prototypes}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Storyboard}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Prototype 1}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Prototype 2}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Prototype 3}{40}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Final Prototype}{41}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}Technical Architecture}{45}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Prototype Reviews}{46}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Meeting Minutes}{48}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{54}

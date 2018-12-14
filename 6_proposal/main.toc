@@ -82,7 +82,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {B.1.1}AR Prototypes}{30}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Vulforia}{30}
+\contentsline {subsubsection}{Vuforia}{30}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{ARKit}{31}
 \defcounter {refsection}{0}\relax 
