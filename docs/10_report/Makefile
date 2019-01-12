@@ -4,7 +4,7 @@ OPEN=open
 MAKEINDEX=makeindex
 TEXCOUNT=texcount
 
-all: main.pdf
+all:
 	@echo "Pass through 'pdf|nomen|count|clean' to use"
 
 pdf:
