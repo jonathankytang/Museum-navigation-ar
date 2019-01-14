@@ -1,3 +1,4 @@
+/* Change gabrieldiogo.testingapp to name of your app */
 package com.example.gabrieldiogo.testingapp;
 
 import android.bluetooth.BluetoothAdapter;
