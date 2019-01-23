@@ -10,3 +10,15 @@
 - Deciding weekly meeting time
 - Reviewing Christmas work
 - Discussion on technologies to use for the beacon
+
+## Monday 21th January - Group meeting
+- Discuss sprint 2
+- 
+
+
+## Tuesday 22th January - Supervisor meeting
+- Think about sub-mileston by next week 
+- Shows our undergoing testing plan
+- Discussed to changed the meeting date and time
+- Discuss about sprint 2
+
