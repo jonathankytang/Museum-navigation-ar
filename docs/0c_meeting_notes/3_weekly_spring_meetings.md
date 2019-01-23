@@ -13,7 +13,9 @@
 
 ## Monday 21th January - Group meeting
 - Discuss sprint 2
-- 
+- Discuss about testing plan to see how far we have worked
+- Buy Bluetooth Module(Arduino with HC-05)
+- Built the bluetooth module and test
 
 
 ## Tuesday 22th January - Supervisor meeting
