@@ -158,11 +158,52 @@ UAT:
 There are three key aspects to this version of the platform. For both route calculations and augmented reality implementation, unit and integration testing will be pivotal in ensuring these functions are implemented rigorously. UI testing will mainly focus on unit testing but user acceptance testing will be heavily featured to match the requirements of the stakeholders.
 
 \subsection{Alpha Testing (Unit Testing)}
+The alpha testing will be carried out in-house by the team. The application will be tested when development has reached 70\% or above. The goals of this testing will be to evaluate the quality of the application, finding any bugs, ensuring the product works and is ready to be tested by the users.\\
+
+%Alpha testing can also be carried out by technical experts
+
+Entry Criteria
+
+\begin{itemize}
+    \item 70\% – 90\% complete and assurance to go ahead with Alpha Testing
+    \item Alpha Test Cases should be designed and reviewed
+    \item Testing environment set up and and stability confirmed
+\end{itemize}
+
+Exit Criteria
+
+\begin{itemize}
+    \item All test cycles should be complete
+    \item All the Alpha Tests should be executed and Passed
+    \item Alpha version of the application frozen (i.e., no additional features, no modifications to existing features, no dropping of the existing features)
+    \item Alpha Test formal Sign-Off
+\end{itemize}
+
 \subsection{System and Integration Testing}
-\subsection{Performance and Stress Testing}
-\subsection{User Acceptance Testing}
+This type of testing will verify the behaviour of the integrated hardware and software environment of the complete system. Helping to evaluate the system's compliance with its specified requirements.\\
+
+Integration will be tested using incremental testing, taking on the 'top down' approach. First testing each module of the application individually and then continue testing by considering other modules in addition. As the nature of the application is an Augmented Reality navigation app, testing the Bluetooth functionality prior to testing the AR functionality is one example of how integration testing would occur. This would be followed by testing of both these modules combined.
+
+\subsection{Performance and Stress Testing} %https://www.blazemeter.com/blog/performance-testing-vs-load-testing-vs-stress-testing
+Performance testing examines responsiveness, stability, scalability, reliability, speed and resource usage of the software and infrastructure. As development of the application will be done under the agile methodology, continuous testing will be carried out to assess the performance of the application.\\
+
+Stress testing will be carried out to check the upper limits of the application, testing it under extreme loads. As the software developed will be an application used for navigational purposes in a commercial space, an example definition of a test case would be with a very high number of users, which is known as a 'Spike Test'.
+
+\subsection{User Acceptance Testing (UAT)} %https://www.softwaretestinghelp.com/what-is-user-acceptance-testing-uat/
+UAT will be performed at the very end of development, prior to the product going live. This testing will be carried out by real users who will decide whether or not the acceptance requirements provided by the team are to be accepted or rejected. One example of an acceptance requirement would be "the route calculation must be accurate". This is an optimal phase for also identifying any bugs.\\
+
+Acceptance criteria will be gathered by the team with real users comparing the system to the initial requirements. During testing, the team will \textbf{Assist In UAT}, who will be on stand-by to help users in the case of any difficulty. However, the main reason for the team to be on stand-by is to record results and log any bugs etc.
+
+%A complication with UAT is that it can be classified as both Alpha and Beta testing..
+
 \subsection{Batch Testing}
+%Not sure about this one.
+
 \subsection{Beta Testing}
+Beta testing %which is very similar to UAT
+is the final stage of the testing phase, where the application will be released to an external test group consisting of real users. The main entry criteria being that the development should be 90\% - 95\% completed, all components either fully or almost complete for testing. At this point in testing, the Alpha Testing should be signed off. Any bugs identified will be handled promptly and feedback analysed to ensure application satisfies the user. Test cases written in this phase will be clearly outlined, defining which feature is being examined, such as UI, Bluetooth recognition, location handling, route calculations etc.
+
+%However in the case of time constraints, beta testing might be carried out by stakeholders or companies such as Fuse etc. (instead of real users)
 
 \subsection{Validation and Defect Management}
 \begin{itemize}
