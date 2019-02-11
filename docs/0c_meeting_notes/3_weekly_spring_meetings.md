@@ -44,7 +44,7 @@
 
 ## Tuesday 5th February - Supervisor meeting
 -	Showed the route calculation coding
--	We have made Modified with the route 
+-	We have made Modification with the route 
 -	Working with Bluetooth module
 -	This week finished testing with Bluetooth module and route calculation
 -	Started building AR and front-end 
