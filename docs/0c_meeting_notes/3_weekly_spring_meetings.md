@@ -40,6 +40,7 @@
 
 ## Monday 4th February - Group meeting
 - Finished route calculation route
+- Discussed who is doing which task in the project 
 
 ## Tuesday 5th February - Supervisor meeting
 -	Showed the route calculation coding
