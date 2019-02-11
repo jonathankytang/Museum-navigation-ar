@@ -38,3 +38,14 @@
 - Discussed what problem can bluetooth bring in the project
 - Submission of project tracking form and sub-milestone plan
 
+## Monday 4th February - Group meeting
+- Finished route calculation route
+
+## Tuesday 5th February - Supervisor meeting
+-	Showed the route calculation coding
+-	We have made Modified with the route 
+-	Working with Bluetooth module
+-	This week finished testing with Bluetooth module and route calculation
+-	Started building AR and front-end 
+-	Achieved one sub-milestone
+-	Submission of project tracking form
