@@ -50,3 +50,13 @@
 -	Started building AR and front-end 
 -	Achieved one sub-milestone
 -	Submission of project tracking form
+
+## Monday 11th February - Group meeting
+- Review last week work
+- Discussed who is doing which task in the project
+
+##Tuesday 12 February - Supervisoe meeting
+- Started working with next sprint
+- We have managed to connect the bluetooth module with mobile phones
+- Progress of AR implementation
+- We are using A* Algorithms for route calculation
