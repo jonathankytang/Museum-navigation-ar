@@ -55,7 +55,7 @@
 - Review last week work
 - Discussed who is doing which task in the project
 
-##Tuesday 12 February - Supervisoe meeting
+##Tuesday 12th February - Supervisoe meeting
 - Started working with next sprint
 - We have managed to connect the bluetooth module with mobile phones
 - Progress of AR implementation
