@@ -15,7 +15,7 @@
 ## Monday 21th January - Group meeting
 - Discuss sprint 2
 - Discuss about testing plan to see how far we have worked
-- Buy Bluetooth Module(Arduino with HC-05)
+- Buy Bluetooth Module (Arduino with HC-05)
 - Built the bluetooth module and test
 
 ## Tuesday 22th January - Supervisor meeting
@@ -24,7 +24,7 @@
 - Discussed to changed the meeting date and time
 - Discuss about sprint 2
 - Submission of project tracking form 
-- Changed the meeting time to 11 o'clock
+- Changed the meeting time to 1100
 
 ## Monday 28th January - Group meeting 
 - Discuss sprint 2
@@ -43,20 +43,20 @@
 - Discussed who is doing which task in the project 
 
 ## Tuesday 5th February - Supervisor meeting
--	Showed the route calculation coding
--	We have made Modification with the route 
--	Working with Bluetooth module
--	This week finished testing with Bluetooth module and route calculation
--	Started building AR and front-end 
--	Achieved one sub-milestone
--	Submission of project tracking form
+- Showed the route calculation code
+- Modifications with the route explained 
+- Working with Bluetooth module
+- This week finished testing with Bluetooth module and route calculation
+- Started building AR and front-end 
+- Achieved one sub-milestone
+- Submission of project tracking form
 
 ## Monday 11th February - Group meeting
-- Review last week work
+- Review of last week work
 - Discussed who is doing which task in the project
 
-##Tuesday 12th February - Supervisoe meeting
-- Started working with next sprint
-- We have managed to connect the bluetooth module with mobile phones
+## Tuesday 12th February - Supervisoe meeting
+- Started working on next sprint
+- Managed to connect the bluetooth module with mobile phones
 - Progress of AR implementation
-- We are using A* Algorithms for route calculation
+- Using A\* Algorithms for route calculations
