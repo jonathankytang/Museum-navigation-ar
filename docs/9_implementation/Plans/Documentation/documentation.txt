@@ -1,0 +1,21 @@
+Sprint 1 - Bluetooth
+
+- understanding mechanics of bluetooth, find modules
+- found route calculations
+- logging bluetooth signals
+
+Sprint 2 - Route Calculations
+- finding solution to problem
+- debugging in their code (legacy program)
+- problems with manifest and layout files, solved by hard coding horizontal and vertical dimensions
+- finding the algorithm for the article in relation to the user
+- more debugging, different approach, graph approach taken using A* algorithm 
+- went back to debugging code, didn't have manifest file - created user permission
+- didn't give two entities as we aren't using a server and database in the mvp 
+- back to graph strategy, formative approach to creating solution
+	- phone realises it's gone 10m forward
+	- phone realises where it's gone
+	- turn 10m to a graph
+	- do same first 2 things in a graphical context
+	- map out room with graph
+	- go from door to door with graph
