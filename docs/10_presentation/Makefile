@@ -12,6 +12,9 @@ pdf:
 	$(PDFLATEX) main
 	$(OPEN) main.pdf
 
-clean:
+cleanall:
 	$(RM) -f main.pdf
+	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml *.nav *.out *.snm
+	
+clean:
 	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml *.nav *.out *.snm
