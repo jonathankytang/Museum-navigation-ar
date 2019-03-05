@@ -55,8 +55,23 @@
 - Review of last week work
 - Discussed who is doing which task in the project
 
-## Tuesday 12th February - Supervisoe meeting
+## Tuesday 12th February - Supervisor meeting
 - Started working on next sprint
 - Managed to connect the bluetooth module with mobile phones
 - Progress of AR implementation
 - Using A\* Algorithms for route calculations
+- Submission of project tracking form
+
+## Tuesday 26th February - Supervisor meeting
+- Discussed ongoing project
+- Continuation of testing
+- Finishing up implementation
+- Presentation preparation
+- Updating documentation
+- Submission of project tracking form
+
+## Monday 04th March - Group meeting
+- Reviewed first draft of the presentation
+- Designed and carried out additional testing
+- Reviewed documentation
+- Discussed the finalisation of implementation
