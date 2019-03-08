@@ -14,6 +14,7 @@ pdf:
 
 cleanall:
 	$(RM) -f main.pdf
+	$(RM) -f main*.pdf
 	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml *.nav *.out *.snm
 	
 clean:
