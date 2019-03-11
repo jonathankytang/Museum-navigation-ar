@@ -1,5 +1,4 @@
 Sprint 1 - Bluetooth
-
 - understanding mechanics of bluetooth, find modules
 - found route calculations
 - logging bluetooth signals
@@ -19,3 +18,19 @@ Sprint 2 - Route Calculations
 	- do same first 2 things in a graphical context
 	- map out room with graph
 	- go from door to door with graph
+
+Sprint 3 - AR
+- setup activity
+- ar fragment
+- problem with sdk versions
+- camera permissions
+- tried building obj file for line
+- setting up arcore scene
+- attempted but failed to rendering line on screen
+- built 3d model
+- tried rendering the line
+
+Sprint 4 - Integration
+- merging route calculations and ar
+- use nodes in the route calculations to anchor two locations
+- figured out how to get wifi fingerprints 
