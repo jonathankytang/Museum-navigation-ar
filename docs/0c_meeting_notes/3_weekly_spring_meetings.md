@@ -75,3 +75,29 @@
 - Designed and carried out additional testing
 - Reviewed documentation
 - Discussed the finalisation of implementation
+
+## Tuesday 05th March - Supervisor meeting
+- Showed the code to basil for back-end
+- Mentioned we are doing good progress with AR
+- Basil asked about using GitLab which we been using since start
+- Showed the AR model
+- Two milestone this week - Documentation and Testing plan
+- Next week - Do presentation for practice
+- Submission of project tracking form
+
+## Monday 11th March - Group meeting
+- Preparing presentation for basil
+- Work with AR and route calculation
+- This week plan:
+- Planning for major presenation
+- Update gantt chart
+
+## Tuesday 12th March - Supervisor meeting
+- Demo our testing plan
+- Practice presentation with basil
+- Submission of the project tracking form
+- Comments regarding presentation slides:
+- Slide number
+- Spread the text 
+- Add supervisor name in the presentation
+- Add the date in the presentation
