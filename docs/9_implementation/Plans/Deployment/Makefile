@@ -2,7 +2,7 @@ PDFLATEX=pdflatex
 OPEN=open
 
 all:
-	@echo "Pass through 'pdf|clean' to use"
+	@echo "Pass through 'pdf|clean|cleanall' to use"
 
 pdf:
 	$(PDFLATEX) main
