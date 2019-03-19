@@ -101,3 +101,13 @@
 - Spread the text 
 - Add supervisor name in the presentation
 - Add the date in the presentation
+
+## Monday 18th March - Group meeting
+- Discuused about deployment plan
+- Presentation notes
+
+## Tuesday 19th march - Supervisor meeting
+- Submission of the project tracking form and Deployment Plan
+- Next week basil want to see testing plan (Demo) as recording
+- Think about sub-milestones by next week for Easter
+- Are we going to add more function in our app during easter?
