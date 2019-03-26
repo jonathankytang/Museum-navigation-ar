@@ -5,7 +5,7 @@ MAKEINDEX=makeindex
 TEXCOUNT=texcount
 
 all:
-	@echo "Pass through 'pdf|nomen|count|clean' to use"
+	@echo "Pass through 'pdf|nomen|count|clean|cleanall' to use"
 
 pdf:
 	$(PDFLATEX) main
@@ -24,5 +24,8 @@ count:
 	$(TEXCOUNT) -total chapters/*.tex
 
 clean:
+	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml
+
+cleanall:
 	$(RM) -f main.pdf
 	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml

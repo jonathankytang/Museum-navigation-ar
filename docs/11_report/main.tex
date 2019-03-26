@@ -12,11 +12,10 @@
 \usepackage{afterpage}
 \usepackage{float}
 \usepackage{subcaption}
-% \usepackage{subfig}
 \usepackage[
     backend=biber,
     style=ieee,
-    urldate =comp
+    urldate=comp
   ]{biblatex}
  
  \addbibresource{references.bib}
@@ -42,7 +41,6 @@
 \usepackage[some]{background}
 \usepackage[intoc, english]{nomencl}
 \makenomenclature
-% \renewcommand{\nomname}{List of Abbreviations}
 
 % \setlength{\parindent}{4em}
 % \setlength{\parskip}{1em}
@@ -50,57 +48,21 @@
 \usepackage{setspace}
 \usepackage{csquotes}
 
-% \usepackage[some]{background}
+\usepackage[some]{background}
 
-% \SetBgScale{1}
-% \SetBgContents{\parbox{10cm}{%
-%       \Huge Draft:  \today\\[14cm]\rotatebox{180}{\Huge Draft:  \today}}}
-%       \SetBgColor{gray}
-%       \SetBgAngle{270}
-%       \SetBgOpacity{0.2}
+\SetBgScale{1}
+\SetBgContents{\parbox{10cm}{%
+      \Huge Draft:  \today\\[14cm]\rotatebox{180}{\Huge Draft:  \today}}}
+      \SetBgColor{gray}
+      \SetBgAngle{270}
+      \SetBgOpacity{0.2}
+ \linespread{1.5}
 
 %-----------------------
 % FRONT PAGE
 %-----------------------
 \begin{document}
-\begin{titlepage}
-    \newgeometry{width=150mm,top=40mm,bottom=40mm}
-    % \BgThispage
-    \begin{center}
-        \vspace*{1cm}
-        Department of Computing\\
-        Goldsmiths, University of London\\
-
-        \vspace*{3.25cm}
-
-        \textbf{\LARGE Augmented Reality Navigation System\\}
-        \vspace*{0.20cm}           
-        \textbf{\LARGE for Commercial Spaces}\\
-        \vspace*{0.55cm}           
-        {\large Report}\\
-        \vspace*{0.15cm}           
-
-        \vspace*{2cm}
-        by\\
-        \vspace*{0.25cm}   
-
-        \textbf{Arif Kharoti, Nicholas Orford-Williams, Hardik Ramesh,\\}
-        \textbf{Gabriel Sampaio Da Silva Diogo, Hamza Sheikh, Jonathan Tang\\}
-        \vspace*{0.1cm}    
-        Software Projects – Group 14\\  
-
-        \vspace{2cm}
-
-        Spring 2019
-        \vfill
-
-        Submitted in partial fulfillment for the degree of\\
-        \textit{Bachelor of Science} in \textit{Computer Science}
-
-        \vspace{1.5cm}
-
-    \end{center}
-\end{titlepage}
+\input{preface/1_frontpage.tex}
 
 \afterpage{\blankpage}
 
@@ -110,56 +72,56 @@
 %-----------------------
 % ABSTRACT
 %-----------------------
-
-\newgeometry{top=25mm,bottom=30mm,width=140mm}
-\begin{center}        
-    \large
-    \textbf{Abstract}\\
-\end{center}
-
-The use of mobile augmented reality by consumers, and research in the field has become more prominent in the last decade. This has allowed for completely new approaches in solving current problems using this technology as there is a year-on-year increase on smartphone users across the world. 
-
-This proposal presents the use of augmented reality in museum navigation on mobile devices. After conducting stakeholder research, there were clear issues presented by current solutions on the market through the form of paper maps. Augmented reality library research was conducted on various platforms to find the appropriate toolkit for the proposed system, and UI/UX prototyping prioritised key design aspects of the system. Following this, the technical architecture and user stories are defined through the model-view controller architectural pattern, along with technologies to be used during implementation. Methods and approaches to implementation are outlined, namely through the agile methodology along with consulting various testing methods.
-
-\vspace*{1.5cm}
-\begin{center}    
-    \large
-    \textbf{Word Count}\\
-    xyz\\
-    \normalsize computed by \texttt{TeXcount}
-\end{center}
-
-\vspace*{1.5cm}
-\begin{center}    
-    \large
-    \textbf{Supervisor}\\
-    \normalsize Dr. Basil Elmasri
-\end{center}
-
-\afterpage{\blankpage}
+\input{preface/2_abstract.tex}
 
 %-----------------------
 % TOC & NOMENCLATURE
 %-----------------------
-
-\setcounter{tocdepth}{0}
+\setcounter{tocdepth}{2}
 \tableofcontents
 
 \setcounter{tocdepth}{1}
 \listoffigures
 
-\input{nomenclature.tex}
+\setcounter{tocdepth}{1}
+\listoftables
+
+\input{preface/3_nomenclature.tex}
 \printnomenclature[1in]
 
+\chapter*{Acknowledgements}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+\input{preface/4_acknowledgements.tex}
 \afterpage{\blankpage}
 
 %-----------------------
 % CHAPTERS
 %-----------------------
 
-\chapter{Concept Introduction \& User Needs}
+\chapter{Introduction}
 \pagenumbering{arabic}
-% \input{chapters/1_conceptIntroduction.tex}
+\input{chapters/1_Introduction.tex}
+
+\chapter{Background and Literature Review}
+\input{chapters/2_Background.tex}
+
+\chapter{Project Management Processes}
+\input{chapters/3_ProjectManagement.tex}
+
+\chapter{Requirements}
+\input{chapters/4_Requirements.tex}
+
+\chapter{Design}
+\input{chapters/5_Design.tex}
+
+\chapter{Implementation}
+\input{chapters/6_Implementation.tex}
+
+\chapter{Testing \& Quality Assurance}
+\input{chapters/7_TestingQA.tex}
+
+\chapter{Project evaluation}
+\input{chapters/8_Evaluation.tex}
 
 \afterpage{\blankpage}
 
