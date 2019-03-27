@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  21 MAR 2019 21:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.6.8)  27 MAR 2019 09:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1242,7 +1242,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 64.
 Package biblatex Info: Reference segment=0 on input line 64.
- ABD: EveryShipout initializing macros (./preface/1_frontpage.tex
+ ABD: EveryShipout initializing macros (./preface/i_frontpage.tex
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1286,7 +1286,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 ])
-(./preface/2_abstract.tex [0
+(./preface/ii_abstract.tex [0
 
 ]
 *geometry* verbose mode - [ newgeometry ] result:
@@ -1330,28 +1330,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1] [1
 
-] (./main.toc)
+] (./main.toc [2] [3])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [2] (./main.lof)
+ [4] (./main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [3
+ [5
 
 ] (./main.lot)
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
 
-(./preface/3_nomenclature.tex)
+(./preface/iii_nomenclature.tex)
 No file main.nls.
-[4
+[6
 
-] (./preface/4_acknowledgements.tex) [5
+] (./preface/iv_acknowledgements.tex) [7
 
-] [5
+] [7
 
 ]
 Chapter 1.
@@ -1387,10 +1387,35 @@ Chapter 8.
 
 ]
 Appendix A.
+(./appendix/A_UserStakeholderResearch.tex) [9]
+Appendix B.
+(./appendix/B_UserStories.tex) [10
 
-LaTeX Warning: Empty bibliography on input line 142.
+]
+Appendix C.
+(./appendix/C_DocumentationPlan.tex) [11
 
-[9] [9
+]
+Appendix D.
+(./appendix/D_TestingPlan.tex) [12
+
+]
+Appendix E.
+(./appendix/E_DeploymentPlan.tex) [13
+
+]
+Appendix F.
+(./appendix/F_Testing.tex) [14
+
+]
+Appendix G.
+(./appendix/G_UserStakeholderFeedback.tex)
+
+LaTeX Warning: Empty bibliography on input line 161.
+
+[15
+
+] [15
 
 ] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1402,22 +1427,22 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 22280 strings out of 492995
- 419800 string characters out of 6132705
- 863598 words of memory out of 5000000
- 25401 multiletter control sequences out of 15000+600000
- 8847 words of font info for 31 fonts, out of 8000000 for 9000
+ 22303 strings out of 492995
+ 420394 string characters out of 6132705
+ 867598 words of memory out of 5000000
+ 25402 multiletter control sequences out of 15000+600000
+ 9154 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,56p,848b,13526s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,11n,56p,848b,15140s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmr12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
 /cmr17.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mti12.pfb>
-Output written on main.pdf (20 pages, 64067 bytes).
+Output written on main.pdf (28 pages, 70344 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

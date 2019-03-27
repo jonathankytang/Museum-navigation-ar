@@ -62,7 +62,7 @@
 % FRONT PAGE
 %-----------------------
 \begin{document}
-\input{preface/1_frontpage.tex}
+\input{preface/i_frontpage.tex}
 
 \afterpage{\blankpage}
 
@@ -72,7 +72,7 @@
 %-----------------------
 % ABSTRACT
 %-----------------------
-\input{preface/2_abstract.tex}
+\input{preface/ii_abstract.tex}
 
 %-----------------------
 % TOC & NOMENCLATURE
@@ -86,12 +86,12 @@
 \setcounter{tocdepth}{1}
 \listoftables
 
-\input{preface/3_nomenclature.tex}
+\input{preface/iii_nomenclature.tex}
 \printnomenclature[1in]
 
 \chapter*{Acknowledgements}
 \addcontentsline{toc}{chapter}{Acknowledgements}
-\input{preface/4_acknowledgements.tex}
+\input{preface/iv_acknowledgements.tex}
 \afterpage{\blankpage}
 
 %-----------------------
@@ -130,8 +130,27 @@
 %-----------------------
 \begin{appendices}
 
-\chapter{Systems Requirements Specification}
-% \input{appendix/}
+\chapter{User \& Stakeholder Research}
+\input{appendix/A_UserStakeholderResearch.tex}
+
+\chapter{User Stories}
+\input{appendix/B_UserStories.tex}
+
+\chapter{Documentation Plan}
+\input{appendix/C_DocumentationPlan.tex}
+
+\chapter{Testing Plan}
+\input{appendix/D_TestingPlan.tex}
+
+\chapter{Deployment Plan}
+\input{appendix/E_DeploymentPlan.tex}
+
+\chapter{Testing}
+\input{appendix/F_Testing.tex}
+
+\chapter{User \& Stakeholder Feedback}
+\input{appendix/G_UserStakeholderFeedback.tex}
+
 
 \end{appendices}
 
