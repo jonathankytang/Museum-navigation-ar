@@ -1,0 +1,17 @@
+Plan
+
+Week 1
+- Getting to grips with Android studio
+
+Week 2
+WEEK OFF
+
+Week 3
+- Create tests for development
+- Practice using CI/CD & issue tracking for Gitlab
+- Bluetooth on Raspberry Pi research
+- Define working space for project
+
+Week 4
+- Building a more functional prototype for the fair
+- Computer Fair preparation
