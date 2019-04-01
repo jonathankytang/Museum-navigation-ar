@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.1)  1 APR 2019 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.1)  1 APR 2019 16:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1033,15 +1033,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1] [1
 
-] (./main.toc [2] [3] [4])
+] (./main.toc [2] [3] [4] [5])
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [5] (./main.lof)
+ [6] (./main.lof)
 \tf@lof=\write8
 \openout8 = `main.lof'.
 
- [6
+ [7
 
 ] (./main.lot)
 \tf@lot=\write9
@@ -1050,11 +1050,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 (./preface/iii_nomenclature.tex)
 No file main.nls.
-[7
+[8
 
-] (./preface/iv_acknowledgements.tex) [8
+] (./preface/iv_acknowledgements.tex) [9
 
-] [8
+] [9
 
 ]
 Chapter 1.
@@ -1093,7 +1093,7 @@ Appendix A.
 (./appendix/A_UserStakeholderResearch.tex) [9]
 Appendix B.
 (./appendix/B_UserStories.tex
-<figures/userstories/userstory_aTob.png, id=79, 768.8725pt x 558.085pt>
+<figures/userstories/userstory_aTob.png, id=82, 768.8725pt x 558.085pt>
 File: figures/userstories/userstory_aTob.png Graphic file (type png)
 <use figures/userstories/userstory_aTob.png>
 Package pdftex.def Info: figures/userstories/userstory_aTob.png  used on input 
@@ -1102,14 +1102,14 @@ line 13.
  [10
 
 ]
-<figures/userstories/userstory_info.png, id=84, 416.55624pt x 549.05125pt>
+<figures/userstories/userstory_info.png, id=87, 416.55624pt x 549.05125pt>
 File: figures/userstories/userstory_info.png Graphic file (type png)
 <use figures/userstories/userstory_info.png>
 Package pdftex.def Info: figures/userstories/userstory_info.png  used on input 
 line 20.
 (pdftex.def)             Requested size: 398.33858pt x 525.06416pt.
  [11 <./figures/userstories/userstory_aTob.png>]
-<figures/userstories/userstory_explore.jpeg, id=89, 1341.01pt x 594.22pt>
+<figures/userstories/userstory_explore.jpeg, id=93, 1341.01pt x 594.22pt>
 File: figures/userstories/userstory_explore.jpeg Graphic file (type jpg)
 <use figures/userstories/userstory_explore.jpeg>
 Package pdftex.def Info: figures/userstories/userstory_explore.jpeg  used on in
@@ -1165,11 +1165,11 @@ Overfull \hbox (28.11671pt too wide) in paragraph at lines 112--113
 
 [23] [24]) [25]
 Appendix E.
-(./appendix/E_DeploymentPlan.tex) [26
+(./appendix/E_DeploymentPlan.tex [26
 
-]
+] [27] [28] [29]) [30]
 Appendix F.
-(./appendix/F_Testing.tex) [27
+(./appendix/F_Testing.tex) [31
 
 ]
 Appendix G.
@@ -1177,9 +1177,9 @@ Appendix G.
 
 LaTeX Warning: Empty bibliography on input line 161.
 
-[28
+[32
 
-] [28
+] [32
 
 ] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1199,10 +1199,10 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (42 pages, 549872 bytes).
+Output written on main.pdf (47 pages, 557455 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 186 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
