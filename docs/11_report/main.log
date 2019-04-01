@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.1)  1 APR 2019 16:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2019.4.1)  1 APR 2019 16:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1135,15 +1135,41 @@ LaTeX Warning: No positions in optional float specifier.
 
 [16]) [17]
 Appendix D.
-(./appendix/D_TestingPlan.tex) [18
+(./appendix/D_TestingPlan.tex [18
 
-]
+] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+[22]
+Overfull \hbox (28.11671pt too wide) in paragraph at lines 112--113
+[]\OT1/cmr/m/n/12 Test prepa-ra-tion and ex-e-cu-tion sta-tus - To re-port on %
+ com-plete [daily/weekly] 
+ []
+
+[23] [24]) [25]
 Appendix E.
-(./appendix/E_DeploymentPlan.tex) [19
+(./appendix/E_DeploymentPlan.tex) [26
 
 ]
 Appendix F.
-(./appendix/F_Testing.tex) [20
+(./appendix/F_Testing.tex) [27
 
 ]
 Appendix G.
@@ -1151,9 +1177,9 @@ Appendix G.
 
 LaTeX Warning: Empty bibliography on input line 161.
 
-[21
+[28
 
-] [21
+] [28
 
 ] (./main.aux)
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1167,16 +1193,16 @@ Here is how much of TeX's memory you used:
  25825 multiletter control sequences out of 15000+600000
  9154 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,11n,77p,848b,3360s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,12n,77p,848b,3360s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><
 /usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></u
 sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (35 pages, 535774 bytes).
+Output written on main.pdf (42 pages, 549872 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 170 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
