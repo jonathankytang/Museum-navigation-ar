@@ -12,8 +12,8 @@
 \BOOKMARK [1][-]{section.2.3}{Software Architecture}{chapter.2}% 12
 \BOOKMARK [1][-]{section.2.4}{Hardware - Arduino and Raspberry Pis}{chapter.2}% 13
 \BOOKMARK [0][-]{chapter.3}{Project Management Processes}{}% 14
-\BOOKMARK [1][-]{section.3.1}{Agile vs Waterfall vs Lean}{chapter.3}% 15
-\BOOKMARK [1][-]{section.3.2}{Software Development Lifecycle}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.1}{Development Methodology}{chapter.3}% 15
+\BOOKMARK [1][-]{section.3.2}{Software Development Life Cycle}{chapter.3}% 16
 \BOOKMARK [1][-]{section.3.3}{Test-Driven Development}{chapter.3}% 17
 \BOOKMARK [1][-]{section.3.4}{Repository Management}{chapter.3}% 18
 \BOOKMARK [0][-]{chapter.4}{Requirements}{}% 19
@@ -25,30 +25,66 @@
 \BOOKMARK [0][-]{chapter.5}{Design}{}% 25
 \BOOKMARK [1][-]{section.5.1}{Models}{chapter.5}% 26
 \BOOKMARK [1][-]{section.5.2}{User Interface}{chapter.5}% 27
-\BOOKMARK [1][-]{section.5.3}{Accessibility}{chapter.5}% 28
-\BOOKMARK [1][-]{section.5.4}{User consultations}{chapter.5}% 29
-\BOOKMARK [0][-]{chapter.6}{Implementation}{}% 30
-\BOOKMARK [1][-]{section.6.1}{Backlog}{chapter.6}% 31
-\BOOKMARK [1][-]{section.6.2}{Sprint Outlines}{chapter.6}% 32
-\BOOKMARK [1][-]{section.6.3}{Front-end}{chapter.6}% 33
-\BOOKMARK [1][-]{section.6.4}{Back-end}{chapter.6}% 34
-\BOOKMARK [1][-]{section.6.5}{Hardware}{chapter.6}% 35
-\BOOKMARK [1][-]{section.6.6}{Ethical Audit}{chapter.6}% 36
-\BOOKMARK [1][-]{section.6.7}{Challenges}{chapter.6}% 37
-\BOOKMARK [0][-]{chapter.7}{Testing \046 Quality Assurance}{}% 38
-\BOOKMARK [1][-]{section.7.1}{Testing conducted}{chapter.7}% 39
-\BOOKMARK [1][-]{section.7.2}{Deployment}{chapter.7}% 40
-\BOOKMARK [1][-]{section.7.3}{Formative evaluation}{chapter.7}% 41
-\BOOKMARK [1][-]{section.7.4}{Functional requirements review}{chapter.7}% 42
-\BOOKMARK [1][-]{section.7.5}{Non-Functional requirements review}{chapter.7}% 43
-\BOOKMARK [0][-]{chapter.8}{Project evaluation}{}% 44
-\BOOKMARK [1][-]{section.8.1}{Summative evaluation}{chapter.8}% 45
-\BOOKMARK [1][-]{section.8.2}{Future developments}{chapter.8}% 46
-\BOOKMARK [0][-]{Appendix.a.A}{User \046 Stakeholder Research}{}% 47
-\BOOKMARK [0][-]{Appendix.a.B}{User Stories}{}% 48
-\BOOKMARK [0][-]{Appendix.a.C}{Documentation Plan}{}% 49
-\BOOKMARK [0][-]{Appendix.a.D}{Testing Plan}{}% 50
-\BOOKMARK [0][-]{Appendix.a.E}{Deployment Plan}{}% 51
-\BOOKMARK [0][-]{Appendix.a.F}{Testing}{}% 52
-\BOOKMARK [0][-]{Appendix.a.G}{User \046 Stakeholder Feedback}{}% 53
-\BOOKMARK [0][-]{Appendix.a.G}{Bibliography}{}% 54
+\BOOKMARK [1][-]{section.5.3}{Technical Architecture}{chapter.5}% 28
+\BOOKMARK [1][-]{section.5.4}{Accessibility}{chapter.5}% 29
+\BOOKMARK [1][-]{section.5.5}{User consultations}{chapter.5}% 30
+\BOOKMARK [0][-]{chapter.6}{Implementation}{}% 31
+\BOOKMARK [1][-]{section.6.1}{Backlog}{chapter.6}% 32
+\BOOKMARK [1][-]{section.6.2}{Sprint Outlines}{chapter.6}% 33
+\BOOKMARK [1][-]{section.6.3}{Front-end}{chapter.6}% 34
+\BOOKMARK [1][-]{section.6.4}{Back-end}{chapter.6}% 35
+\BOOKMARK [1][-]{section.6.5}{Hardware}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.6}{Ethical Audit}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.7}{Challenges}{chapter.6}% 38
+\BOOKMARK [0][-]{chapter.7}{Testing \046 Quality Assurance}{}% 39
+\BOOKMARK [1][-]{section.7.1}{Testing conducted}{chapter.7}% 40
+\BOOKMARK [1][-]{section.7.2}{Deployment}{chapter.7}% 41
+\BOOKMARK [1][-]{section.7.3}{Formative evaluation}{chapter.7}% 42
+\BOOKMARK [1][-]{section.7.4}{Functional requirements review}{chapter.7}% 43
+\BOOKMARK [1][-]{section.7.5}{Non-Functional requirements review}{chapter.7}% 44
+\BOOKMARK [0][-]{chapter.8}{Project evaluation}{}% 45
+\BOOKMARK [1][-]{section.8.1}{Summative evaluation}{chapter.8}% 46
+\BOOKMARK [1][-]{section.8.2}{Future developments}{chapter.8}% 47
+\BOOKMARK [0][-]{Appendix.a.A}{User \046 Stakeholder Research}{}% 48
+\BOOKMARK [0][-]{Appendix.a.B}{User Stories}{}% 49
+\BOOKMARK [1][-]{section.a.B.1}{Use Case Model}{Appendix.a.B}% 50
+\BOOKMARK [1][-]{section.a.B.2}{User \046 Acceptance Stories}{Appendix.a.B}% 51
+\BOOKMARK [0][-]{Appendix.a.C}{Systems Requirements Specification}{}% 52
+\BOOKMARK [0][-]{Appendix.a.D}{Documentation Plan}{}% 53
+\BOOKMARK [1][-]{section.a.D.1}{Introduction}{Appendix.a.D}% 54
+\BOOKMARK [1][-]{section.a.D.2}{Scope}{Appendix.a.D}% 55
+\BOOKMARK [1][-]{section.a.D.3}{Assumptions}{Appendix.a.D}% 56
+\BOOKMARK [1][-]{section.a.D.4}{Constraints}{Appendix.a.D}% 57
+\BOOKMARK [1][-]{section.a.D.5}{Existing Documentation}{Appendix.a.D}% 58
+\BOOKMARK [1][-]{section.a.D.6}{Documentation Specifications}{Appendix.a.D}% 59
+\BOOKMARK [1][-]{section.a.D.7}{Process \046 Schedule}{Appendix.a.D}% 60
+\BOOKMARK [1][-]{section.a.D.8}{Risks}{Appendix.a.D}% 61
+\BOOKMARK [1][-]{section.a.D.9}{Issues}{Appendix.a.D}% 62
+\BOOKMARK [0][-]{Appendix.a.E}{Testing Plan}{}% 63
+\BOOKMARK [1][-]{section.a.E.1}{Introduction}{Appendix.a.E}% 64
+\BOOKMARK [1][-]{section.a.E.2}{Objectives and Tasks}{Appendix.a.E}% 65
+\BOOKMARK [1][-]{section.a.E.3}{Testing Strategy}{Appendix.a.E}% 66
+\BOOKMARK [1][-]{section.a.E.4}{Hardware Requirements}{Appendix.a.E}% 67
+\BOOKMARK [1][-]{section.a.E.5}{Test Schedule}{Appendix.a.E}% 68
+\BOOKMARK [1][-]{section.a.E.6}{Control Procedures}{Appendix.a.E}% 69
+\BOOKMARK [1][-]{section.a.E.7}{Features to Be Tested}{Appendix.a.E}% 70
+\BOOKMARK [1][-]{section.a.E.8}{Features Not to Be Tested}{Appendix.a.E}% 71
+\BOOKMARK [1][-]{section.a.E.9}{Risks/Assumptions}{Appendix.a.E}% 72
+\BOOKMARK [1][-]{section.a.E.10}{Tools}{Appendix.a.E}% 73
+\BOOKMARK [0][-]{Appendix.a.F}{Deployment Plan}{}% 74
+\BOOKMARK [1][-]{section.a.F.1}{Introduction}{Appendix.a.F}% 75
+\BOOKMARK [1][-]{section.a.F.2}{Assessment of Deployment Readiness}{Appendix.a.F}% 76
+\BOOKMARK [1][-]{section.a.F.3}{Phase Rollout}{Appendix.a.F}% 77
+\BOOKMARK [1][-]{section.a.F.4}{Notification of Deployment}{Appendix.a.F}% 78
+\BOOKMARK [1][-]{section.a.F.5}{Deployment Systems}{Appendix.a.F}% 79
+\BOOKMARK [1][-]{section.a.F.6}{DevOps}{Appendix.a.F}% 80
+\BOOKMARK [0][-]{Appendix.a.G}{Testing}{}% 81
+\BOOKMARK [1][-]{section.a.G.1}{Number of Pass and Fail}{Appendix.a.G}% 82
+\BOOKMARK [0][-]{Appendix.a.H}{User \046 Stakeholder Feedback}{}% 83
+\BOOKMARK [0][-]{Appendix.a.I}{Systems Requirements Specification}{}% 84
+\BOOKMARK [1][-]{section.a.I.1}{Purpose}{Appendix.a.I}% 85
+\BOOKMARK [1][-]{section.a.I.2}{Scope}{Appendix.a.I}% 86
+\BOOKMARK [1][-]{section.a.I.3}{System Overview}{Appendix.a.I}% 87
+\BOOKMARK [1][-]{section.a.I.4}{References}{Appendix.a.I}% 88
+\BOOKMARK [1][-]{section.a.I.5}{Definitions}{Appendix.a.I}% 89
+\BOOKMARK [0][-]{section.a.I.5}{Bibliography}{}% 90
