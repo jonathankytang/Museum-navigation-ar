@@ -11,12 +11,13 @@
 \hypersetup{
     colorlinks=true,
     linkcolor=blue,
-    filecolor=magenta,      
-    urlcolor=cyan,
-    pdftitle={Sharelatex Example},
-    bookmarks=true,
+    filecolor=black,      
+    urlcolor=black,
+    % pdftitle={Sharelatex Example},
+    % bookmarks=true,
     pdfpagemode=FullScreen,
 }
+
 \graphicspath{{figures/}}
 \usepackage[a4paper,top=20mm,bottom=30mm,width=140mm]{geometry}
 \usepackage{pdflscape}
@@ -26,7 +27,8 @@
 \usepackage[
     backend=biber,
     style=ieee,
-    urldate=comp
+    urldate=comp,
+    hyperref=false
   ]{biblatex}
  
  \addbibresource{references.bib}
@@ -53,6 +55,8 @@
 \usepackage[intoc, english]{nomencl}
 \makenomenclature
 
+\setlength{\parindent}{0in}
+\usepackage[parfill]{parskip}
 % \setlength{\parindent}{4em}
 % \setlength{\parskip}{1em}
 % \renewcommand{\baselinestretch}{1.25}
@@ -61,21 +65,19 @@
 
 \usepackage[some]{background}
 
-
-% \usepackage{rotating}
-% \usepackage{colortbl,booktabs}
-% \usepackage[paper=portrait,pagesize]{typearea}
-% \usepackage[a4paper, total={6in, 8in}]{geometry}
-% \usepackage{ulem}
-% \KOMAoptions{paper=landscape,pagesize}
-
-\SetBgScale{1}
-\SetBgContents{\parbox{10cm}{%
-      \Huge Draft:  \today\\[14cm]\rotatebox{180}{\Huge Draft:  \today}}}
-      \SetBgColor{gray}
-      \SetBgAngle{270}
-      \SetBgOpacity{0.2}
+% \SetBgScale{1}
+% \SetBgContents{\parbox{10cm}{%
+%       \Huge Draft:  \today\\[14cm]\rotatebox{180}{\Huge Draft:  \today}}}
+%       \SetBgColor{gray}
+%       \SetBgAngle{270}
+%       \SetBgOpacity{0.2}
  \linespread{1.5}
+
+\usepackage{ulem}
+\usepackage{textcomp}
+ 
+\usepackage[margins]{trackchanges}
+\usepackage{adjustbox}
 
 %-----------------------
 % FRONT PAGE
@@ -108,6 +110,7 @@
 \input{preface/iii_nomenclature.tex}
 \printnomenclature[1in]
 
+\afterpage{\blankpage}
 \chapter*{Acknowledgements}
 \addcontentsline{toc}{chapter}{Acknowledgements}
 \input{preface/iv_acknowledgements.tex}
@@ -173,15 +176,13 @@
 \chapter{User \& Stakeholder Feedback}
 \input{appendix/H_UserStakeholderFeedback.tex}
 
-\chapter{Systems Requirements Specification}
-\input{appendix/H_SystemsRequirementsSpecification.tex}
 \end{appendices}
 
 %-----------------------
 % BIBLIOGRAPHY
 %-----------------------
-\addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
+\addcontentsline{toc}{chapter}{Bibliography}
 
 \afterpage{\blankpage}
 \end{document}

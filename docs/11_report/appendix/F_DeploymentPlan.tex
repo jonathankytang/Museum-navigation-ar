@@ -1,8 +1,8 @@
-\section{Introduction}
-\subsection{Purpose}
+\section*{Introduction}
+\subsection*{Purpose}
 The purpose of the deployment plan is to ensure that the system successfully reaches its users and new features to the system are delivered successfully. The aim of the deployment plan is to provide a detailed schedule of events, persons responsible, and dependencies required to integrate the new version of the app with the previous version. It should minimize the impact of the integration of the new system on the users and stakeholders.
 
-\subsection{Assumptions}
+\subsection*{Assumptions}
 The application would have a place for users to:
 \begin{itemize}
     \item Have a login activity, where the user can enter credentials to login, or continue as a guest.
@@ -12,7 +12,7 @@ The application would have a place for users to:
     \item The user can take a quick snap of a exhibit and the application provides more information about it.
 \end{itemize}
 
-\subsection{Dependencies}
+\subsection*{Dependencies}
 Dependencies that can hinder or slow the process of deployment are:
 \begin{itemize}
     \item Dependent on using an Android device
@@ -33,7 +33,7 @@ Dependencies that can hinder or slow the process of deployment are:
     \end{itemize}
 \end{itemize}
 
-\subsection{Constraints}
+\subsection*{Constraints}
 \begin{itemize}
     \item Reliance with Google's map services (server can crash)
     \item Repository could be down
@@ -46,19 +46,19 @@ Dependencies that can hinder or slow the process of deployment are:
     \item Database error: Existing accounts may not be able to login if the DB server is down
 \end{itemize}
 
-\section{Assessment of Deployment Readiness}
+\section*{Assessment of Deployment Readiness}
 \begin{enumerate}
     \item Verify that the application does not have any broken links and that all content is accessible.
     \item Verify that all dependent files have been uploaded to the relevant directories so that they can be accessed from other calls.
     \item Supervisor approval
 \end{enumerate}
-\subsection{Product Content}
+\subsection*{Product Content}
 Configuration would include the following:
 \begin{itemize}
     \item Accuracy and reliability of separation of programming plans by members.
     \item How easy to download all the documentation, report or code from gitlab.
 \end{itemize}
-\subsection{Deviations and Waivers}
+\subsection*{Deviations and Waivers}
 Deviations from the original plan included:
 \begin{itemize}
     \item Implemented Route Calculations using Wi-Fi instead of Bluetooth
@@ -66,7 +66,7 @@ Deviations from the original plan included:
     \item Implemented outside commercial spaces instead of within a museum setting - to deliver applicable concept
 \end{itemize}
 
-\section{Phase Rollout}
+\section*{Phase Rollout}
 Phase I
 \begin{itemize}
     \item Map showing user's current location
@@ -88,10 +88,10 @@ Phase III
     \item User can rate and review the visited museums
 \end{itemize}
 
-\section{Notification of Deployment}
+\section*{Notification of Deployment}
 After the application is successfully released, a notification will be sent to stakeholders and clients. All iterations of the system will be detailed in the changelog.
 
-\subsection{Steps}
+\subsection*{Steps}
 \begin{enumerate}
     \item Check all procedures and ensure everything is done.
     \item Email client for meeting.
@@ -101,10 +101,10 @@ After the application is successfully released, a notification will be sent to s
     \item Release of project and approval of supervisor.
 \end{enumerate}
 
-\section{Deployment Systems}
+\section*{Deployment Systems}
 Continuous Integration and Continuous Delivery (CI/CD) will be used to deliver any changes to the system. Automated tests are written to for each new feature to ensure that less bugs are passed to the production stage and captured early by regression, reducing the risks at every release. Gitlab have built-in tools to support CI/CD, which provides a simplified setup and execution of software development using continuous methodology.
 
-\section{DevOps}
+\section*{DevOps}
 Much like Agile development, adopting a DevOps culture allows for smoother processes within development.
 \begin{itemize}
     \item \textbf{Building the right product}: After code has been written, the team will be able to receive faster feedback as a result of live testing.
@@ -112,5 +112,5 @@ Much like Agile development, adopting a DevOps culture allows for smoother proce
     \item \textbf{Reliable releases}: Smaller and more frequent releases would allow for less changes made to the code as well as the bugs.
 \end{itemize}
 
-\subsection{A/B Testing}
+\subsection*{A/B Testing}
 The main idea behind A/B Testing is that testing can be performed on variants based on live environments. Since development followed the agile methodology as well conforming to a test-driven development approach - testing was performed in conjunction with the coding. After new code has been written and when testing is required, the environment would already be set up for current and future tests.

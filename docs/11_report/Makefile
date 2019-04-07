@@ -8,13 +8,17 @@ all:
 	@echo "Pass through 'pdf|nomen|count|clean|cleanall' to use"
 
 pdf:
+	$(RM) -f main.pdf
+	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml *.out
 	$(PDFLATEX) main
 	$(BIBER) main
 	$(PDFLATEX) main
 	$(PDFLATEX) main
+	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml *.out
 	$(OPEN) main.pdf
 
 nomen:
+	$(RM) -f main.pdf
 	$(PDFLATEX) main
 	$(MAKEINDEX) main.nlo -s nomencl.ist -o main.nls
 	$(PDFLATEX) main
@@ -24,8 +28,8 @@ count:
 	$(TEXCOUNT) -total chapters/*.tex
 
 clean:
-	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml
+	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml *.out
 
 cleanall:
 	$(RM) -f main.pdf
-	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml
+	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml *.out
