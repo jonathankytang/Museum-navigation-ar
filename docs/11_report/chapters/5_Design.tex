@@ -1,18 +1,71 @@
-\section{Models}
+\section{Technical Architecture}
 Gabe week 1
 
-\subsection{Use Case}
+figure here
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=\textwidth]
+%     {technicalarchitecture/mvc.pdf}
+%     \caption{MVC}
+%     \label{fig:technicalArchitecture}
+% \end{figure}
 
+\annote{To develop the Muse application. A reliable technical foundation was necessary.}{rephrase this} \annote{And}{Don't start a sentence with and} with the explained user-based nature of the application, \annote{the speculation}{huh?} was quickly drawn that the \add{Model-View Controller (MVC)} architecture (Figure~\ref{fig:technicalArchitecture}) would be the most relevant to creating the \remove{most} optimal version of the application. The group had already been familiar with the architecture, and \remove{the architecture} is proven to be massively successful in the mobile application market. In order to make sure this pattern would suit it \change{. Technology's}{, technologies} needed to be picked around the model. 
+
+\subsection{Model}
+The model of the MVC architecture is known to be the core component of an application. This is where data is stored and manipulated \change{so within the case of the application. This would be, as shown in the MVC the users location, the destination and the information held by the exhibit.}{in this case, the users location, destination, and information held by the exhibit.} These were to be manifested as a hard-coded location within a virtual geo-space \remove{created using Java} to simulate the venue \remove{(this would be the user and destination location because the initial arduino solution in the back-end section was unfeasible)}, and string data regarding the destination.
+
+\subsection{View}
+Android devices were the \remove{obvious conclusion as the} platforms to develop \change{for}{on} because of group/stakeholder familiarity with the system. \remove{To go through with it successfully. The entirety of the group's view specifications needed to be met within the Android ecosystem}
+
+\subsection{Controller}
+As the mediating section within the architecture. This was the most difficult \note{what happened here?}
+
+\section{Models}
+Gabe Week 1
+
+The following models are based on user interaction with the application.
+
+\subsection{Use Case}
+\annote{The use case diagram is crucial because it clarifies the lifecycle of a user on a user-based application. With this model, developing a user-based application like this becomes more manageable.}{not sure if you need this}
+
+The use-case diagram (Figure~\ref{fig:model1}) deals with the two states that the user could be in when using the Muse application; the lost state and the exploration state.
+
+The lost state is initialised by the user when they request a destination. \annote{Which is then followed by the application picking up their current location, calculating the quickest route between their requested destination and current location and displaying it to them via the superimposition of a line in their camera view.}{rephrase this} \remove{Once the route calculations are done.} The user simply needs to follow the route until they arrive at their destination so \remove{that} they can \remove{stop using the application, or} consider another destination given by the \remove{Muse} application.
+
+\annote{If the user considers another destination, or starts the application with no destination in mind. They have declared themselves to be in the exploration state. Which then initialises itself with by looking at the users past visits (if they have any) and current location to calculate recommendations.}{rephrase this} The user then chooses one of the recommendations so that the application can again, extract their location and use it to calculate the best route between them and the location of the recommendation. From this point, the exploration state is identical to the lost state. The user follows the superimposed line and reaches their destination for the lifecycle to either begin again, or end.
+
+Figure here
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=\textwidth]
+%     {uml/use_case.pdf}
+%     \caption{Use case diagram}
+%     \label{fig:model1}
+% \end{figure}
 
 \subsection{Activity}
+The activity diagram (Figure~\ref{fig:model2}) distinguishes the details in two sections of the use case diagram, user definitions, and route calculations.
 
+The route calculation process in the application, is linear (Figure~\ref{fig:model2}). The user location is received from the GPS - this distinguishes what venue the user is in. The building makeup is then requested from the server in order to make an analysis on the geospacial coordinates that the user will have to traverse. After the analysis is complete, the route between the user and whatever destination they requested in the user definition section can be calculated and the route can be superimposed \remove{on the live camera feed}.
+
+The user definitions that the activity diagram (Figure~\ref{fig:model2}) deals with are case specific to the exploration case. If the user would like to explore their venue, and they do not have an account on the \remove{Muse} application; they are prompted to make an account so that the application can provide optimised recommendations. In the case that they have an account, their previously visited locations can be used in presenting recommendations.
+
+Figure here
+% \begin{figure}[H]
+%     \centering
+%     \includegraphics[width=\textwidth]
+%     {uml/activity_diagram.pdf}
+%     \caption{Activity diagram}
+%     \label{fig:model2}
+% \end{figure}
 
 \section{User Interface}
 Hamza Week 1
-
+% complete
 The project lends substantial importance to its user interface and experience. As it will be used by people with a wide range of technical ability, the aim will be to make the app as simple as possible without having an impinging effect on any service the end product will feature. This prerequisite was clearly outlined in the surveying of museum guests and staff alike. The first mission was determining what interfaces, and experiences currently exists within the museum sector. Many museums employed simple interfaces but due to their mass-manufacturing, their design felt unoptimised with simple bare-bones media not beyond text and images. Furthermore, this design would fail to deliver anything more complex than texts and images.
   
-The approach to the UI/UX prototyping was to create different interface mock ups and exhibit them alongside existing solutions. An initial storyboard was drawn up and three potential interfaces (Figure~\ref{fig:prototype1}~\ref{fig:prototype2}~\ref{fig:prototype3}) were designed and shown to stakeholders. The feedback gained from the stakeholders was invaluable in the process as it allowed for the group to \change{understand the positive and negative attributes}{consider all aspects} of the prototypes. It was decided that a final version of the application's user interface would be designed, implementing all the positive attributes, and combining it into one (Figure~\ref{fig:finaloverview}), whilst also considering the negative attributes.
+The approach to the UI/UX prototyping was to create different interface mock ups and exhibit them alongside existing solutions. An initial storyboard was drawn up and three potential interfaces (Figure~\ref{fig:prototype1}~\ref{fig:prototype2}~\ref{fig:prototype3}) were designed and shown to stakeholders. The feedback gained from the stakeholders was invaluable in the process as it allowed for the group to consider all aspects of the prototypes. It was decided that a final version of the application's user interface would be designed, implementing all the positive attributes, and combining it into one (Figure~\ref{fig:finaloverview}), whilst also considering the negative attributes.
 
 Figure here
 
@@ -57,10 +110,6 @@ Figure here
 
 \newpage
 
-
-\section{Technical Architecture}
-Gabe Week 1
-
 \section{Accessibility}
 Arif Week 1
 
@@ -79,8 +128,7 @@ Accessibility is about making \change{your application usable}{the product} to m
 
 \section{User consultations}
 Hamza Week 1
+% complete
+End-users and other key stakeholders such as an interested domain expert, Matt Isherwood, Managing Director at Fuse\textsuperscript{\textcopyright}, were consulted during the design stage to clarify user needs and requirements. In addition to online interactions with stakeholders, the group had also conducted field research, and had face-to-face talks with potential users at the Natural History Museum, Science Museum, and the V\&A museum to obtain a more nuanced input from key stakeholders. When prototyping the application, drawing and designing the user interface was not as simple as bringing ideas to life - it was imperative that users were consulted when making these decisions. More specifically, the group also consulted Fine Arts students studying at the University of Oxford who provided a more in-depth perspective on user experience. These students were consulted to get a better understanding of what it is they would like for the application to provide. For example, some students had said that they would like for the application to provide further information about a specific exhibit that the museum does not have on display.
 
-\note{Might convert this section to requirements gathering}
-\remove{Consultation addressed potential} \add{End-}users and other key stakeholders such as an interested domain expert, Matt Isherwood, Managing Director at Fuse\textsuperscript{\textcopyright}, \add{were consulted during the design stage} to clarify \change{their}{user} needs and requirements. In addition to our \remove{online questionnaires and } online interactions with our stakeholders, the group had also conducted field research, and had face-to-face talks with potential users at \change{museums in London (e.g.} the Natural History Museum, Science Museum, \add{and} the V\&A museum \remove{)} to obtain \add{a} more nuanced input from key stakeholders. When prototyping the application, drawing and designing the user interface was not as simple as bringing ideas to life - it was imperative that our users were consulted when making these decisions. 
-
-Upon consulting the users, it became apparently easier to actualize the designs put forward - acknowledging the fact that the users had all required a system that was relatively simple to navigate around. However, users were also consulted when it came to the technical aspect of the project. For example, deciding which medium would be best to track user location was one of the questions that arised in the early stages of development. \add{In that regard,} \remove{consulted} Mr Isherwood \add{was consulted} about this, and he \remove{had} brought to light the plethora of solutions that were readily available to begin development, primarily highlighting that the use of \change{bluetooth}{Bluetooth} beacons would be most efficient to implement given the scope of the project. \note{Why did Matt say Bluetooth was good?} \note{Add somewhere we spoke to some Fine Art students at the University of Oxford to give us perspective on user experience etc.}
+Upon consulting the users, it became apparently easier to actualize the designs put forward - acknowledging the fact that the users had all required a system that was relatively simple to navigate around. However, users were also consulted when it came to the technical aspect of the project. For example, deciding which medium would be best to track user location was one of the questions that arised in the early stages of development. In that regard, Mr Isherwood was consulted about this, and he brought to light the plethora of solutions that were readily available to begin development, primarily highlighting that the use of Bluetooth beacons would be most efficient to implement given the scope of the project.

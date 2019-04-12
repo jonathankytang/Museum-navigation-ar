@@ -1,29 +1,55 @@
 \section{Testing conducted}
 Hardik Week 2
 
-\subsection{Unit Testing}
+This section present the testing and quality assurance of our project. During development \annote{we}{no first person} create different testing rule to improve maintainability and limit bugs in our application. We explore various testing techniques used in Software Development Life Cycle(SDLC) and Test-Driven Development(TDD). \annote{In order to test the product, testing plan tables has been created as follows: Type, Features, Last Conducted, Description, Usage, Expected outcome, Actual outcome and once the test was completed then give the grade Pass or Fail.}{tell the reader to checkout the appendix} We approach six level of testing: \textbf{Unit Testing}, \textbf{Integration Testing}, \textbf{Performance and Stress Testing}, \textbf{Regression testing}, \textbf{User Acceptance Testing(UAT)} \& \textbf{Beta Testing}.
 
+\note{following sections needs to relate back to our project}
+\subsection{Unit Testing}
+The unit testing was carried out in house by the team. The aim for this testing to evaluate the quality of the application and finding bugs to ensure the product works as expected. We have tested 14 different unit testing for our application and 5 of them test did not pass.
 
 \subsection{Integration Testing}
-
+It has been tested using incremental testing, taking on the 'top down' approach. As the nature of the application is an Augmented Reality navigation app, we can not tested AR \& Bluetooth functionality because it is still in progress to make the feature live.
 
 \subsection{Performance and stress testing}
-
+Performance testing examines stability, usability, reliability, responsiveness and speed of our application therefore testing was carried out to assess the performance of the application. Stress testing was carried out to check he upper limits of the application. As application will used in commercial space so our application need to make sure it does not crash during high volume of users. We have run and test our application in various devices to see the performance of each features in different mobile devices and also to check if the application crash during the installation process.
 
 \subsection{Regression testing}
-
+It is the process of testing changes to our application to make sure that the older iteration still works with the new features. Before releasing a new version of application, the old version are tested against the new version to make sure that all the old features still work with new program. During development, a two various branch was created in Git-Lab for route calculation. By testing and merging two branches will shows if previous iterations are still compatible with v.0.0.1 and v.0.0.2. During the testing, we pass this features in our application.
 
 \subsection{User Acceptance Testing (UAT)}
-
+The purpose behind UAT is to conform to the system being developed and ready for operational use according to the specified user requirements. We have tested seven various user acceptance where four of them can not be executed because the development team has not written the code. The only test we pass during testing was when the login my our application as guest. During the testing we found that user can not use camera functionality and select destination. This feature will be conducted in future with our next version.
 
 \subsection{Beta Testing}
-
+This is the final stage of the testing, where the application released to an external test group consisting of real users. It helps us to find if their is any bugs in our application before releasing to public. We carried out one UI function testing where user can input credentials, destination and exhibit information. At the end, the program pass all the users input and shows the correct outcome.
 
 \section{Deployment}
 Hamza Week 2
 
+After the application is ready and successfully released, a notification will be sent to stakeholders and clients. All iterations of the system will be detailed in the changelog.
+
+Notification of deployment procedure (Taken from Appendix F):
+
+\begin{enumerate}
+	\item Check all procedures and ensure everything is done.
+	\item Email client for meeting.
+	\item Present the client with the application.
+	\item Sign off documents.
+	\item Email client with application information.
+	\item Release of project and approval of supervisor.
+\end{enumerate}
+
+To deliver a solution of quality, the project employs a set of practices of continuous automated integration and deployment throughout development. The set of practices (properly pipelined, automated and frequently executed) allows for the developers to recieve feedback quickly about the quality of the software. To facilitate continuous integration effort the project uses GitLab \add{'s in house features}.
+
+\textbf{Source Code Control (Management)}: The project has its own repository in GitLab so that the source code and supporting documents can be tracked, maintained, versioned, and audited.
+
+\textbf{Build Automation}: Build Automation is handled using Android Studio. All separate software components of the project are Android projects. For example, the route calculations was considered as a separate project in the repository, and the AR was built in a separate Android project. This allows for a common build interface and specification of concise instructions for the components testing, building and upload to the project's distribution repository. This is the initial initial step \change{in terms of Continuous Integration}{for continuous integration}.
+
+\textbf{Unit Test Automation}: Android Studio has JUnit built-in which is an open source unit test framework. During development, unit testing becomes much easier to perform as Android Studio allows for this as a feature.
+
+\textbf{Deployment Automation}: Using an online continuous integration and delivery platform such as CircleCI, it is possible to automate the deployment process through the use scripts. Google also provides an API to edit a PlayStore listing which will be used to upload the APK and publish it. This can be done directly through HTTP as it will have to be used in combination with CircleCI.
+
 \section{Formative evaluation}
-Arif Week 2
+Everyone
 
 \section{Functional requirements review}
 Arif Week 2
