@@ -5,22 +5,13 @@ MAKEINDEX=makeindex
 TEXCOUNT=texcount
 
 all:
-	@echo "Pass through 'pdf|nomen|count|clean|cleanall' to use"
+	@echo "Pass through 'pdf|count|clean|cleanall' to use"
 
 pdf:
-	$(RM) -f main.pdf
-	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml *.out
 	$(PDFLATEX) main
 	$(BIBER) main
-	$(PDFLATEX) main
-	$(PDFLATEX) main
-	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml *.out
-	$(OPEN) main.pdf
-
-nomen:
-	$(RM) -f main.pdf
-	$(PDFLATEX) main
 	$(MAKEINDEX) main.nlo -s nomencl.ist -o main.nls
+	$(PDFLATEX) main
 	$(PDFLATEX) main
 	$(OPEN) main.pdf
 

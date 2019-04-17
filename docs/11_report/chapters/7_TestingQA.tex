@@ -1,7 +1,7 @@
 \section{Testing conducted}
-Hardik Week 2
-
-This section present the testing and quality assurance of our project. During development \annote{we}{no first person} create different testing rule to improve maintainability and limit bugs in our application. We explore various testing techniques used in Software Development Life Cycle(SDLC) and Test-Driven Development(TDD). \annote{In order to test the product, testing plan tables has been created as follows: Type, Features, Last Conducted, Description, Usage, Expected outcome, Actual outcome and once the test was completed then give the grade Pass or Fail.}{tell the reader to checkout the appendix} We approach six level of testing: \textbf{Unit Testing}, \textbf{Integration Testing}, \textbf{Performance and Stress Testing}, \textbf{Regression testing}, \textbf{User Acceptance Testing(UAT)} \& \textbf{Beta Testing}.
+% Hardik Week 2
+% not complete
+This section present the testing and quality assurance of our project. During development our team created various testing rule to improve maintainability and limit bugs in our application. We explore various testing techniques used in Software Development Life Cycle(SDLC) and Test-Driven Development(TDD). All testing list of the system has be detailed in the Appendix G (Testing).
 
 \note{following sections needs to relate back to our project}
 \subsection{Unit Testing}
@@ -38,11 +38,11 @@ Notification of deployment procedure (Taken from Appendix F):
 	\item Release of project and approval of supervisor.
 \end{enumerate}
 
-To deliver a solution of quality, the project employs a set of practices of continuous automated integration and deployment throughout development. The set of practices (properly pipelined, automated and frequently executed) allows for the developers to recieve feedback quickly about the quality of the software. To facilitate continuous integration effort the project uses GitLab \add{'s in house features}.
+To deliver a solution of quality, the project employs a set of practices of continuous automated integration and deployment throughout development. The set of practices (properly pipelined, automated and frequently executed) allows for the developers to recieve feedback quickly about the quality of the software. To facilitate continuous integration effort the project uses GitLab's in house features.
 
 \textbf{Source Code Control (Management)}: The project has its own repository in GitLab so that the source code and supporting documents can be tracked, maintained, versioned, and audited.
 
-\textbf{Build Automation}: Build Automation is handled using Android Studio. All separate software components of the project are Android projects. For example, the route calculations was considered as a separate project in the repository, and the AR was built in a separate Android project. This allows for a common build interface and specification of concise instructions for the components testing, building and upload to the project's distribution repository. This is the initial initial step \change{in terms of Continuous Integration}{for continuous integration}.
+\textbf{Build Automation}: Build Automation is handled using Android Studio. All separate software components of the project are Android projects. For example, the route calculations was considered as a separate project in the repository, and the AR was built in a separate Android project. This allows for a common build interface and specification of concise instructions for the components testing, building and upload to the project's distribution repository. This is the initial initial step for continuous integration.
 
 \textbf{Unit Test Automation}: Android Studio has JUnit built-in which is an open source unit test framework. During development, unit testing becomes much easier to perform as Android Studio allows for this as a feature.
 
@@ -52,7 +52,11 @@ To deliver a solution of quality, the project employs a set of practices of cont
 Everyone
 
 \section{Functional requirements review}
-Arif Week 2
+% Arif Week 2
+% Hamza Week 2
+To verify and validate that the requirements have been met, as mentioned previously, the team had adopted a test-driven development (TDD) approach which ensured that the team was working towards a fully functional system. The system successfully navigates a user from one point to another. This was achievable by displaying navigational routes in real-time and superimposing a 3-D line with AR technology. The quickest route was calculated by implementing the A* algorithm and tested in regression testing during development. However, other requirements have not been yet due to discussions made by the team regarding further iterations of the application. For example, although developed in protoyping - the requirement of implementing camera recognition on artworks/exhibits and displaying further information about them was not met but was decided to be inlcuded in further iterations of the application. However considering the complexity of the application, this was a reasonable decision to make as the Minimal Viable Product agreed upon by the team was to deliver the foundational service of the system: AR-assisted navigation. Lastly, the requirement of having the system suggest recommendations based on the user's route was also not met. However, this was also decided by the team to not be included in the first release of the application; suggesting recommendations is a feature that can only be implemented with a database. Due to the lack of resources available at hand, having an account database would be too costly as it would require the use of a server. Stakeholder feedback encouraged the introduction of an account system, therefore implementation of an account system is possible in further development of the application.
 
 \section{Non-Functional requirements review}
-Arif Week 2
+% Arif Week 2
+% Hamza Week 2
+As with the functional requirements, implementing a TDD approach greatly helped the team adhere to the requirements as much as possible, ensuring the foundational requirements are met. For example, the performance of the system should not be slow - after a new feature was added to the system, the developers would then test-run the app to make sure that the new feature did not affect the performance. Similarly the usability was also tested to ensure ease of use - going back to the stakeholders to gain feedback on the simplicity of the navigation of the system. Once the stakeholders were happy, it meant that the requirement was met. In terms of the data usage of the application on the user's device; the only real data being sent out by the device is the user location and internet connectivity. It was imperative the system requested the user for location permissions and the application is also able to function on Wi-Fi so this requirement was always kept in mind during development. In terms of safety, development has not reached a level of complexity where the user would need to concerned about hitting an immutable object in their path - however, further development will always house this concern and take it into consideration. Having avoided the use of Bluetooth for route calculations, the concern of security in the user's location being accessed by third-party users was invalidated. 
