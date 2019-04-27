@@ -670,6 +670,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable bear
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -711,6 +712,7 @@ drawable sceneform_plane
 drawable signinbg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable transparent
 id ALT
 id CTRL
 id FUNCTION
@@ -834,6 +836,7 @@ id right
 id right_icon
 id right_side
 id satellite
+id sceneforem_ux_fragment
 id sceneform_ar_scene_view
 id sceneform_hand_image
 id sceneform_hand_layout
@@ -889,7 +892,6 @@ id topPanel
 id uniform
 id up
 id useLogo
-id ux_fragment
 id wide
 id withText
 id wrap
@@ -957,7 +959,6 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 mipmap ic_launcher_round
-raw export
 raw keep
 raw line
 raw sceneform_camera_material

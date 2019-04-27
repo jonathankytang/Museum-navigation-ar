@@ -24,7 +24,7 @@ public final class R {
     public static final class raw {
         private raw() {}
 
-        public static final int keep = 0x7f0b0001;
+        public static final int keep = 0x7f0b0000;
     }
     public static final class string {
         private string() {}
