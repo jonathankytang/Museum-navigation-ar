@@ -1,0 +1,339 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f2a80ee6c587f158ebd787876e155f32/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1c47e5fd91636cf64c10d84a1942641e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/sceneform-ux-1.7.0.aar/839ef364d85c7424929d3023f7b36903/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/ce65ee230e25b34dedd7a0b7877f0c00/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:rendering:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/rendering-1.7.0.aar/77e6eda0f6f9bd75edc80e6f8b2dc7cb/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:17:1-46:12
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/8b0cf9fab7aaed7f4b78a2ceeaa2fc1e/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1f57b407e8efe7ebf59ab21f7dc34e3e/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/34a2c217fbccdf3895cf8cfaa15af1ee/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/664d3531f0b04f3779af81b41eb44f14/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e2d0b3c77ff9ec7d4116637e6eb32911/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/14e5ef156de4898a2174ae434dbe5cc5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/50c4e7c4631e7b44dc7b3121370c4429/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a1eb7788d28bc96ef6acfc0fd917b9a4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f41da5b59bdafe4e7635184fcef3a280/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/43bea10acdf9712ab7007a4e4e99b6dc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/adaa2a154606a9b19c26f6ca2674843c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/cd793692225b00e56ce59b64e88b01d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/8691667dafd3fd4c8e75365755801b89/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/37c6942184f9f6454dad45162acd4b69/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ca50875f0dbddeb0409f4716386b6318/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f5d6dc2b23f9996ce07e83b57bd87cc3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4df02addd38a7eae4c52e90802ba97af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/95efbdefd318fe720ccefa694b8b36c7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6ceae8396f5afd3083b5890b17647315/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d11437e9b9c32b18fdec5915d84a7413/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/175898e4d3614c500a7823723d77bd4b/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0393f4b410e41b923541bb7983a4ca5d/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6f2b20376c423adcbfff057702cb2694/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7b16ed92c7d33779ceb372b4e9f29c0d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cb4bedc842c8bdb50b75c37149c5e377/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/2d7c16614d6293f4c8ae780f3e7e56e8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/713dbd73af5769a6dba007d943709827/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/917918a44e534b45e95b1b803cfe67e3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0cdd34e633cec4e2a22c73e8c81ccd13/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/362fb2dc61ae8590140e3276a69274b6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/84f0a9d5a2c062dd780355b363963052/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.ar.sceneform:sceneform-base:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/sceneform-base-1.7.0.aar/d7b134e16dd86dd9161b85bf0e49ca61/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.ar.sceneform:filament-android:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/filament-android-1.7.0.aar/494c3ae05adc8eb4c1817332cc86c105/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:2:1-52:12
+	package
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:6:22-76
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:7:5-97
+	android:required
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:7:72-95
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:7:19-71
+uses-permission#android.permission.CAMERA
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:9:22-62
+uses-feature#android.hardware.camera.ar
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:10:5-86
+	android:required
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:10:61-84
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:10:19-60
+application
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:12:5-50:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1c47e5fd91636cf64c10d84a1942641e/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1c47e5fd91636cf64c10d84a1942641e/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:30:5-44:19
+MERGED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:30:5-44:19
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/8b0cf9fab7aaed7f4b78a2ceeaa2fc1e/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/8b0cf9fab7aaed7f4b78a2ceeaa2fc1e/AndroidManifest.xml:22:5-28:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1f57b407e8efe7ebf59ab21f7dc34e3e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1f57b407e8efe7ebf59ab21f7dc34e3e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/34a2c217fbccdf3895cf8cfaa15af1ee/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/34a2c217fbccdf3895cf8cfaa15af1ee/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/664d3531f0b04f3779af81b41eb44f14/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/664d3531f0b04f3779af81b41eb44f14/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e2d0b3c77ff9ec7d4116637e6eb32911/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e2d0b3c77ff9ec7d4116637e6eb32911/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d11437e9b9c32b18fdec5915d84a7413/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d11437e9b9c32b18fdec5915d84a7413/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/175898e4d3614c500a7823723d77bd4b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/175898e4d3614c500a7823723d77bd4b/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0393f4b410e41b923541bb7983a4ca5d/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0393f4b410e41b923541bb7983a4ca5d/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/175898e4d3614c500a7823723d77bd4b/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:17:9-35
+	android:label
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:15:9-41
+	tools:ignore
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:19:9-48
+	android:roundIcon
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:16:9-54
+	android:icon
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:14:9-43
+	android:allowBackup
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:18:9-40
+activity#com.muse.h.muse.ARActivity
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:20:9-22:20
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:20:19-45
+activity#com.muse.h.muse.LoginActivity
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:23:9-29:20
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:23:19-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:27:27-74
+activity#com.muse.h.muse.MenuActivity
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:30:9-50
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:30:19-47
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:39:9-108
+	android:value
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:39:66-105
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:39:20-65
+meta-data#com.google.ar.core
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:41:9-81
+	android:value
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:41:54-78
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:41:20-53
+activity#com.muse.h.muse.MapActivity
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:43:9-49:20
+	android:label
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:45:13-55
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:44:13-40
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:46:13-48:64
+	android:value
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml:47:17-63
+uses-sdk
+INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f2a80ee6c587f158ebd787876e155f32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/f2a80ee6c587f158ebd787876e155f32/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1c47e5fd91636cf64c10d84a1942641e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/1c47e5fd91636cf64c10d84a1942641e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/sceneform-ux-1.7.0.aar/839ef364d85c7424929d3023f7b36903/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform.ux:sceneform-ux:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/sceneform-ux-1.7.0.aar/839ef364d85c7424929d3023f7b36903/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/ce65ee230e25b34dedd7a0b7877f0c00/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/ce65ee230e25b34dedd7a0b7877f0c00/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/rendering-1.7.0.aar/77e6eda0f6f9bd75edc80e6f8b2dc7cb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:rendering:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/rendering-1.7.0.aar/77e6eda0f6f9bd75edc80e6f8b2dc7cb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:26:5-28:41
+MERGED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:26:5-28:41
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/8b0cf9fab7aaed7f4b78a2ceeaa2fc1e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/8b0cf9fab7aaed7f4b78a2ceeaa2fc1e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1f57b407e8efe7ebf59ab21f7dc34e3e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1f57b407e8efe7ebf59ab21f7dc34e3e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/34a2c217fbccdf3895cf8cfaa15af1ee/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/34a2c217fbccdf3895cf8cfaa15af1ee/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/664d3531f0b04f3779af81b41eb44f14/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/664d3531f0b04f3779af81b41eb44f14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e2d0b3c77ff9ec7d4116637e6eb32911/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e2d0b3c77ff9ec7d4116637e6eb32911/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/14e5ef156de4898a2174ae434dbe5cc5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/14e5ef156de4898a2174ae434dbe5cc5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/50c4e7c4631e7b44dc7b3121370c4429/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/50c4e7c4631e7b44dc7b3121370c4429/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a1eb7788d28bc96ef6acfc0fd917b9a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/a1eb7788d28bc96ef6acfc0fd917b9a4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f41da5b59bdafe4e7635184fcef3a280/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f41da5b59bdafe4e7635184fcef3a280/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/43bea10acdf9712ab7007a4e4e99b6dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/43bea10acdf9712ab7007a4e4e99b6dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/adaa2a154606a9b19c26f6ca2674843c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/adaa2a154606a9b19c26f6ca2674843c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/cd793692225b00e56ce59b64e88b01d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/cd793692225b00e56ce59b64e88b01d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/8691667dafd3fd4c8e75365755801b89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/8691667dafd3fd4c8e75365755801b89/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/37c6942184f9f6454dad45162acd4b69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/37c6942184f9f6454dad45162acd4b69/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ca50875f0dbddeb0409f4716386b6318/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/ca50875f0dbddeb0409f4716386b6318/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f5d6dc2b23f9996ce07e83b57bd87cc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/f5d6dc2b23f9996ce07e83b57bd87cc3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4df02addd38a7eae4c52e90802ba97af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/4df02addd38a7eae4c52e90802ba97af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/95efbdefd318fe720ccefa694b8b36c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/95efbdefd318fe720ccefa694b8b36c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6ceae8396f5afd3083b5890b17647315/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/6ceae8396f5afd3083b5890b17647315/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d11437e9b9c32b18fdec5915d84a7413/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d11437e9b9c32b18fdec5915d84a7413/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-compat:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/175898e4d3614c500a7823723d77bd4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/175898e4d3614c500a7823723d77bd4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0393f4b410e41b923541bb7983a4ca5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/0393f4b410e41b923541bb7983a4ca5d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6f2b20376c423adcbfff057702cb2694/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/6f2b20376c423adcbfff057702cb2694/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7b16ed92c7d33779ceb372b4e9f29c0d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7b16ed92c7d33779ceb372b4e9f29c0d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cb4bedc842c8bdb50b75c37149c5e377/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/cb4bedc842c8bdb50b75c37149c5e377/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/2d7c16614d6293f4c8ae780f3e7e56e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/2d7c16614d6293f4c8ae780f3e7e56e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/713dbd73af5769a6dba007d943709827/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/713dbd73af5769a6dba007d943709827/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/917918a44e534b45e95b1b803cfe67e3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/917918a44e534b45e95b1b803cfe67e3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0cdd34e633cec4e2a22c73e8c81ccd13/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/0cdd34e633cec4e2a22c73e8c81ccd13/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/362fb2dc61ae8590140e3276a69274b6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/362fb2dc61ae8590140e3276a69274b6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/84f0a9d5a2c062dd780355b363963052/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/84f0a9d5a2c062dd780355b363963052/AndroidManifest.xml:20:5-44
+MERGED from [com.google.ar.sceneform:sceneform-base:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/sceneform-base-1.7.0.aar/d7b134e16dd86dd9161b85bf0e49ca61/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:sceneform-base:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/sceneform-base-1.7.0.aar/d7b134e16dd86dd9161b85bf0e49ca61/AndroidManifest.xml:5:5-44
+MERGED from [com.google.ar.sceneform:filament-android:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/filament-android-1.7.0.aar/494c3ae05adc8eb4c1817332cc86c105/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.ar.sceneform:filament-android:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/filament-android-1.7.0.aar/494c3ae05adc8eb4c1817332cc86c105/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e2d0b3c77ff9ec7d4116637e6eb32911/AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gabrieldiogo/Documents/goldsmiths/software/software-project/Muse/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-maps-16.1.0.aar/1f0bff7d564f30a2c7ef5ec2f352c6d0/AndroidManifest.xml:34:13-50
+meta-data#com.google.ar.core.min_apk_version
+ADDED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:33:9-35:41
+	android:value
+		ADDED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:35:13-38
+	android:name
+		ADDED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:34:13-62
+activity#com.google.ar.core.InstallActivity
+ADDED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:37:9-43:80
+	android:excludeFromRecents
+		ADDED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:40:13-46
+	android:launchMode
+		ADDED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:42:13-43
+	android:exported
+		ADDED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:41:13-37
+	android:configChanges
+		ADDED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:39:13-74
+	android:theme
+		ADDED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:43:13-77
+	android:name
+		ADDED from [com.google.ar:core:1.7.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/core-1.7.0.aar/c62a0e579186fe169256665b2be955c2/AndroidManifest.xml:38:13-62
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/8b0cf9fab7aaed7f4b78a2ceeaa2fc1e/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/8b0cf9fab7aaed7f4b78a2ceeaa2fc1e/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/8b0cf9fab7aaed7f4b78a2ceeaa2fc1e/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/8b0cf9fab7aaed7f4b78a2ceeaa2fc1e/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/extensions-1.1.0.aar/8b0cf9fab7aaed7f4b78a2ceeaa2fc1e/AndroidManifest.xml:24:13-83
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1f57b407e8efe7ebf59ab21f7dc34e3e/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1f57b407e8efe7ebf59ab21f7dc34e3e/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1f57b407e8efe7ebf59ab21f7dc34e3e/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/1f57b407e8efe7ebf59ab21f7dc34e3e/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/664d3531f0b04f3779af81b41eb44f14/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/664d3531f0b04f3779af81b41eb44f14/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/664d3531f0b04f3779af81b41eb44f14/AndroidManifest.xml:24:13-58
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e2d0b3c77ff9ec7d4116637e6eb32911/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d11437e9b9c32b18fdec5915d84a7413/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/d11437e9b9c32b18fdec5915d84a7413/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e2d0b3c77ff9ec7d4116637e6eb32911/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] /Users/gabrieldiogo/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/e2d0b3c77ff9ec7d4116637e6eb32911/AndroidManifest.xml:27:13-51
