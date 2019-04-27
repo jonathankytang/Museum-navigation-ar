@@ -8,6 +8,7 @@ all:
 	@echo "Pass through 'pdf|count|clean|cleanall' to use"
 
 pdf:
+	$(RM) -f *.log *.aux *.toc *.bbl *.lot *.lof *.bcf *.blg *.ilg *.nlo *.nls *.run.xml *.out
 	$(PDFLATEX) main
 	$(BIBER) main
 	$(MAKEINDEX) main.nlo -s nomencl.ist -o main.nls

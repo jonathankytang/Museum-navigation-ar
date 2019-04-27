@@ -1,3 +1,109 @@
-Nick Week 1
 
-\note{um where's this?}
+\section*{Quotes from field research}
+\subsection*{Statement 1}
+Visitor I - "Doesn't change the experience for me, maps are helpful already"\\
+Visitor H - "Big tech companies haven't produced products like that"\\
+Staff L - "If successful, it will raise the overall visitor count"
+
+\subsection*{Statement 2}
+Visitor G - "Exhibits with QR codes allows me to look at more details for a particular work of art"\\
+Visitor D - "Want device to recognise what exhibit I am looking at"\\
+Staff L - "Takes away the need for human interaction"
+
+\subsection*{Statement 3}
+Visitor B - "Takes away immersive experience and distracting"\\
+Visitor G - "Don't like having mobile phone out in a museum"\\
+Visitor C - "If app was free of charge, more people would use that instead of paying for maps - particularly those in younger generations"\\
+Staff N - "Simple to use detract experience, make their current jobs harder and target market"
+
+\subsection*{Statement 4}
+Visitor E - "Will allow to me plan journey more efficient"\\
+Visitor I - "Great to navigate museum with a mobile phone, don't need to ask strangers for help"\\
+Visitor F - "Didn't have much information available on hand"\\
+Staff M - "Too many questions and about the app foreseen, retracts experience for museum-goers"
+
+% \newpage
+\section*{Ratings}
+Focus groups answered statements as set out by the group with guidance from the market research proposals. Responses will be a range of agreement from 10, being strongly agree to 1, strongly disagree. Total is multiplied by 2 to ensure equal weighting.
+
+\begin{sidewaystable}
+\renewcommand{\arraystretch}{1.5}
+\begin{table}[H]
+\centering
+\begin{tabular}{ | p{5cm} | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | c | }
+\toprule
+	Statement &  \multicolumn{10}{c}{Museum Visitors} & \multicolumn{5}{c}{Museum Staff}\\
+
+	 & A & B & C & D & E & F & G & H & I & J & K & L & M & N & O & Total \\ 
+	\midrule
+	1. Current Museum Navigation aids are inadequate & 6 & 9 & 6 & 3 & 6 & 7 & 8 & 10 & 4 & 10 & 8 & 9 & 7 & 6 & 10 & 73 \\ \hline
+	2. I would like to see more interactivity with exhibits & 3 & 10 & 8 & 7 & 5 & 9 & 10 & 10 & 7 & 5 & 7 & 2 & 7 & 6 & 8 & 69 \\ \hline
+	3. I would be happy to use my own device to aid experience & 2 & 5 & 8 & 6 & 9 & 4 & 3 & 7 & 6 & 9 & 10 & 6 & 8 & 3 & 8 & 65 \\ \hline
+	4. Often have to ask/answer navigation questions & 9 & 5 & 9 & 8 & 9 & 7 & 6 & 9 & 8 & 7 & 10 & 10 & 8 & 10 & 9 & 83 \\
+\bottomrule
+\end{tabular}
+\caption{Responses from focus groups on agreement with statements \\ Interviewees A-J are visitors, K-O are museum staff members}
+\label{table:fgresponseratings}
+\end{table}
+\end{sidewaystable}
+
+\newpage
+\section*{Domain Expert meetings}
+Snippets from meetings with the project's domain expert
+\subsection*{GPS}
+\begin{itemize}
+	\item GPS indoor not very reliable
+\end{itemize}
+
+\subsection*{Bluetooth}
+\begin{itemize}
+	\item Bluetooth beacon
+		\begin{itemize}
+			\item estimate
+			\item proximity beacon
+			\item not to the absolute distance
+		\end{itemize}
+	\item most cost effective
+	\item through raspberry pi
+	\item individual desk level/25m range
+\end{itemize}
+
+\subsection*{Optical Solutions}
+\begin{itemize}
+	\item Rear/forward facing for marker like QR code
+	\item All stored locally on device
+	\item Lo-fi solutions
+\end{itemize}
+
+\subsection*{Other things}
+\begin{itemize}
+	\item Indoor challenge not completely met currently (e.g. by Google)
+	\item Infra-red approach, differency frequency \& delta
+		\begin{itemize}
+		\item Point A to point B, not cost effective
+		\end{itemize}
+	\item Estimate using accelerometer between markers
+	\item 2D top-down map for displaying optimal route?
+	\item Finite number of routes - do natively
+		\begin{itemize}
+			\item Calculate peak times in certain spaces
+		\end{itemize}
+	\item Work with environment \& orientation
+		\begin{itemize}
+			\item Know you fix beacons
+		\end{itemize}
+\end{itemize}
+
+\subsection*{QA}
+For UX
+\begin{itemize}
+	\item A/B testing
+	\item In field testing
+	\item Azure wireframing prototypes
+\end{itemize}
+
+Development
+\begin{itemize}
+	\item 2 weeks of tuning location
+	\item Monitor data from users to find optimal performance
+\end{itemize}

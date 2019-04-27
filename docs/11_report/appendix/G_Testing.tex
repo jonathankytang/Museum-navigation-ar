@@ -1,218 +1,89 @@
-% % \usepackage{rotating}
-% % \usepackage{colortbl,booktabs}
-% % \usepackage[paper=portrait,pagesize]{typearea}
-% % \usepackage[a4paper, total={6in, 8in}]{geometry}
-% % \newpage
-% % \KOMAoptions{paper=landscape,pagesize}
-% % \begin{turn}{-0}
-% % \begin{tabular}{ | l | l | l | l | l |}
-% % \hline
-% % 	\textbf{No} & \textbf{Type} & \textbf{Feature} & \textbf{Last Conducted} & \textbf{Description}\\ \hline
-	
-% % 	1 & Unit & Route calculations & 25/02/2019 & Receving destination of desire from user input\\ \hline
-	
-% % 	2 & Unit & Route calculations &25/02/2019& Allow bluetooth usage from user device\\ \hline
-	
-% % 	3 & Unit & Route calculations &25/02/2019 & User denies bluetooth permissions\\ \hline
-	
-% % 	4 & Unit & Route calculations & 25/02/2019& User does not follow route\\ \hline
-	
-% % 	5 & Unit & Route calculations & 25/02/2019 & Receiving current location as destination of desire from user input\\ \hline
-	
-% % 	6 & Unit & Route calculations & 25/02/2019 & User gets to their desired destination\\ \hline
-	
-% % 	7 & Unit & Route calculations & 04/03/2019& Allow location usage from user device  \\ \hline
-	
-% % 	8 & Unit & Route calculations & 08/03/2019 & Get sensor information from user device\\ \hline
-	
-% % 	9 & Unit & Route calculations & 08/03/2019 & User declines sensor information being sent\\ \hline
-	
-% % 	10 & Unit & AR & 04/03/2019& User allowing camera permissions \\ \hline
-	
-% % 	11 & Unit & AR & 04/03/2019& AR Scene is viewable \\ \hline
-	
-% % 	12 & Unit & AR & 07/03/2019 & Navigation activity camera functionality \\ \hline
-	
-% % 	13 & Unit & AR & 04/03/2019& 3D model is created and viewable on the user's device.   \\ \hline
-	
-% % 	14 & Unit & AR & 04/03/2019 & Installation of ARCore\\ \hline
-	
-% % 	15 & Unit & AR & 04/03/2019 & Installation of ARCore\\ \hline
-	
-% % 	16 & Unit & AR & 04/03/2019& User not allowing camera permissions for the app\\  \hline
-	
-% % 	17 & \sout{User Acceptance} & \sout{User Interface} & \sout{25/02/2019} & \sout{User logging into system with an existing account}\\ \hline
-	
-% % 	18 & User Acceptance & User Interface & 25/02/2019 & User logging in as a guest\\ \hline
-	
-% % 	19 & \sout{User Acceptance} & \sout{User Interface} & \sout{25/02/2019} & \sout{User logging into system with an account not registered}\\ \hline
-	
-% % 	20 & User Acceptance & User Interface &25/02/2019 & Select destination\\ \hline
-	
-% % 	21 & User Acceptance & User Interface & 25/02/2019& Select destination that does not exist but still registered on the app\\ \hline
-	
-% % 	22 & User Acceptance & User Interface & 25/02/2019 & Camera functionality\\ \hline
-	
-% % 	23 & \sout{User Acceptance} & \sout{User Interface} & \sout{25/02/2019} & \sout{User can register an account}\\ \hline
-	
-% % 	24 & System \& Integration & Functional &  & AR \& Bluetooth integration\\ \hline
-	
-% % 	25 & System \& Integration & Functional &  & UI \& functionality (AR \& Bluetooth) integration\\ \hline
-	
-% % 	26 & \sout{Performance \& Stress} &  &  & \sout{Time taken to load application and features}\\ \hline
-	
-% % 	27 & \sout{Performance \& Stress (BATCH)} & \sout{Wi-Fi} &  & \sout{Affects on WiFi in the case of multiple users}\\ \hline
-	
-% % 	28 & \sout{Performance \& Stress (BATCH)} & \sout{System} &  & \sout{System handling in the case of multiples users}\\ \hline
-	
-% % 	29 & Regression & v.0.0.2 &07/03/2019& Checking if previous iterations are still compatible with v.0.0.1\\ \hline
-	
-% % 	30 & Regression & v.0.0.3 & 07/03/2019& Checking if previous iterations are still compatible with v.0.0.1 and v.0.0.2\\ \hline
-	
-% % 	31 & Beta & System &  & Bluetooth recognised by AR \\ \hline
-	
-% % 	32 & Beta & System & 04/03/2019 & UI functions\\ \hline
-	
-% % \end{tabular}
-% % \end{turn}
+\begin{sidewaystable}
+\begin{longtable}{|p{2cm}|p{5cm}|l|p{5cm}|p{5cm}|l|}
+\toprule
+\textbf{Type} & \textbf{Description}                                                   & \textbf{Usage} & \textbf{Expected Outcome}                                               & \textbf{Actual Outcome}                                                   & \textbf{Status} \\ \midrule
+Unit          & 1. Allow bluetooth usage from user device                              & Normal         & User permission given                                                   & App ask for user permission for bluetooth                                 & Pass            \\ \hline
+Unit          & 2. User denies bluetooth permissions                                   & Erroneous      & Stop app and send user an alert encouraging bluetooth use               & The app will stop working                                                 & Pass            \\ \hline
+Unit          & 3. User does not follow route                                          & Erroneous      & Route is re-calculated according to their current location              & Code not written                                                          & Pass            \\ \hline
+Unit          & 4. Receiving current location as destination of desire from user input & Erroneous      & User goes back one screen                                               & User is taken one screen back                                             & Pass            \\ \hline
+Unit          & 5. User gets to their desired destination                              & Normal         & Alert conveying that the user has arrived at their destination          & User is taken one screen back                                             & Pass            \\ \hline
+Unit          & 6. Allow location usage from user device                               & Normal         & User permission given                                                   & User permission for location requested                                    & Pass            \\ \hline
+Unit          & 7. Get sensor information from user device                             & Normal         & Receive acceleromter and orientation information                        & Utilise sensor information for route calculation                          & Pass            \\ \hline
+Unit          & 8. User declines sensor information being sent                         & Erroneous      & Application closes            & Application terminates                                                    & Pass            \\ \hline
+Unit          & 9. User allowing camera permissions                                    & Normal         & User permission given                                                   & The system does give permission to the user                               & Pass            \\ \hline
+Unit          & 10. AR Scene is viewable                                               & Normal         & The screen displays AR scene on user's device.                          & AR fragment and Scene is created successfully                             & Pass            \\ \hline
+Unit          & 11. Navigation activity camera functionality                           & Normal         & Navigation activity loads device camera                                 & Device camera is loaded upon navigation activity                          & Pass            \\ \hline
+Unit          & 12. 3D model is created and viewable on the user's device.             & Normal         & 3D model is rended on the device.                                       & Straight line is shown                                                    & Pass            \\ \hline
+Unit          & 13. Installation of ARCore                                             & Normal         & Upon navigation activity, redirected to ARCore on the Google Play Store & User is redirected and navigation activity works                          & Pass            \\ \hline
+Unit          & 14. Installation of ARCore                                             & Erroneous      & User does not install ARCore: Redirected to menu.                       & Navigation activity closed and user redirected to menu                    & Pass            \\ \hline
+Unit          & 15. User not allowing camera permissions for the app                   & Erroneous      & Alert displayed to force user to allow camera                           & A message pops up on the users device "the app require camera permission" & Pass            \\
+\bottomrule
+\end{longtable}
+\caption{Unit Tests}
+\label{table:unittests}
+\end{sidewaystable}
 
-% % \centering{\textbf{Figure 1: }Continued on next page}
+\begin{sidewaystable}
+\begin{table}[H]
+\begin{tabular}{|p{2cm}|p{5cm}|l|p{5cm}|p{5cm}|l|}
+\toprule
+\textbf{Type}         & \textbf{Description}                                 & \textbf{Usage} & \textbf{Expected Outcome}                             & \textbf{Actual Outcome} & \textbf{Status} \\ \midrule
+Integration & 1. AR \& Bluetooth integration                       & Normal         & Bluetooth development recognised by AR                & No collisions           & Pass            \\ \hline
+Integration & 2. UI \& functionality (AR \& Bluetooth) integration & Normal         & User input works the functionality behind application & No collisions           & Pass            \\
+\bottomrule
+\end{tabular}
+% \end{longtable}
+\caption{Integration Tests}
+\label{table:integrationtests}
+\end{table}
 
-% % \newpage
-% % \KOMAoptions{paper=landscape,pagesize}
-% % \begin{turn}{-0}
-% % \begin{tabular}{ | l | l | p{9cm} | p{10.5cm} | l | l |}
-% % \hline
-% % 	\textbf{No} & \textbf{Usage} & \textbf{Expected Outcome} & \textbf{Actual Outcome} & \textbf{Pass/Fail}\\ \hline
-	
-% % 	1 & Normal & Vector distance from exhibition & Code not written.& \cellcolor{red}Fail\\ \hline
-	
-% % 	2 & Normal & User permission given & App ask for user permission for bluetooth & \cellcolor{green}Pass \\ \hline
-	
-% % 	3 & Erroneous & Stop app and send user an alert encouraging bluetooth use & The app will stop working & \cellcolor{green}Pass\\ \hline
-	
-% % 	4 & Erroneous & Route is re-calculated according to their current location & Code not written & \cellcolor{red}Fail\\ \hline
-	
-% % 	5 & Erroneous & Alert displayed conveying that the user is already at their desired location & Code not written & \cellcolor{red}Fail\\ \hline
-	
-% % 	6 & Normal & Alert conveying that the user has arrived at their destination & Code not written & \cellcolor{red}Fail\\ \hline
-	
-% % 	7 & Normal & User permission given & User permission for location requested & \cellcolor{green}Pass\\ \hline
-	
-% % 	8 & Normal & Receive acceleromter and orientation information & Utilise sensor information for route calculation & \cellcolor{green}Pass\\ \hline
-	
-% % 	9 & Erroneous & Application terminates since calculation's become stipulated & Application terminates & \cellcolor{green}Pass\\ \hline
-	
-% % 	10 & Normal & User permission given & The system does give permission to the user & \cellcolor{green}Pass\\ \hline
-	
-% % 	11 & Normal & The screen displays AR scene on user's device. & AR fragment and Scene is created successfully & \cellcolor{green}Pass\\ \hline
-	
-% % 	12 & Normal & Navigation activity loads device camera & Device camera is loaded upon navigation activity & \cellcolor{green}Pass\\ \hline
-	
-% % 	13 & Normal & 3D model is rended on the device. & 3D Model is not rendered to the screen & \cellcolor{red}Fail\\ \hline
-	
-% % 	14 & Normal & Upon navigation activity, redirected to ARCore on the Google Play Store & User is redirected and navigation activity works & \cellcolor{green}Pass\\ \hline
-	
-% % 	15 & Erroneous & User does not install ARCore: Redirected to menu. & Navigation activity closed and user redirected to menu & \cellcolor{green}Pass\\ \hline
-	
-% % 	16 & Erroneous & Alert displayed to force user to allow camera & A message pops up on the users device "the app require Camera Permission & \cellcolor{green}Pass\\ \hline
-	
-% % 	17 & \sout{Normal} & \sout{Access to application services with an existing account.} & \sout{The system allows an existing account to login} & \\ \hline
-	
-% % 	18 & Normal & Access to application services with Guest login & The system allows a Guest user  to login & \cellcolor{green}Pass\\ \hline
-	
-% % 	19 & \sout{Erroneous} & \sout{Display login error message} & \sout{No messsages pops up on the screeen informing the user to create an account} &\\ \hline
-	
-% % 	20 & Normal & AR navigation show ups & AR navigations don't show up on the screen & \cellcolor{red}Fail\\ \hline
-	
-% % 	21 & Erroneous & Display destination error message & Code not written & \cellcolor{red}Fail\\ \hline
-	
-% % 	22 & Normal & Camera snapshot recognises exhibit and displays exhibit information & Snapshot works when test indivuailly but not yet fully intergrated & \cellcolor{red}Fail\\ \hline
-	
-% % 	23 & \sout{Normal} & \sout{User can enter credentials to register an Account.} & \sout{Code not written} &\\ \hline
-	
-% % 	24 & Normal & Bluetooth development recognised by AR & & \cellcolor{yellow}In progress\\ \hline
-	
-% % 	25 & Normal & User input works the functionality behind application & & \cellcolor{yellow}In progress\\ \hline
-	
-% % 	26 & \sout{Normal} & \sout{Quick responses from system} & \sout{Not conducted.} & \\ \hline
-	
-% % \end{tabular}
-% % \end{turn}
-% % \centering{\textbf{Figure 2: }Continued on next page}
+\begin{table}[H]
+\begin{tabular}{|p{2cm}|p{5cm}|l|p{5cm}|p{5cm}|l|}
+\toprule
+\textbf{Type}         & \textbf{Description}                           & \textbf{Usage} & \textbf{Expected Outcome}   & \textbf{Actual Outcome}                                                & \textbf{Status} \\ \hline
+Performance \& Stress & 1. Time taken to load application and features & Normal         & Quick responses from system & Quick responses from system, but large amount of device resources used & Pass            \\
+\bottomrule
+\end{tabular}
+\caption{Performance and Stress Tests}
+\label{table:stresstests}
+\end{table}
 
-% % \newpage
-% % \KOMAoptions{paper=landscape,pagesize}
-% % \begin{turn}{-0}
-% % \begin{tabular}{ | l | l | p{9cm} | p{10.5cm} | l | l |}
-% % \hline
-% % 	\textbf{No} & \textbf{Usage} & \textbf{Expected Outcome} & \textbf{Actual Outcome} & \textbf{Pass/Fail}\\ \hline
-	
-% % 	27 & \sout{Normal} & \sout{Unaffected Wi-Fi responses} & \sout{Not conducted.} & \\ \hline
-	
-% % 	28 & \sout{Normal} & \sout{System does not crash or hang on multiple users in same vicinity} & \sout{Not conducted.} & \\ \hline
-	
-% % 	29 & Normal & New integration does not affect previous version & No affect to previous versions & \cellcolor{green}Pass\\ \hline
-	
-% % 	30 & Normal & New integration does not affect previous version & No affect to previous versions & \cellcolor{green}Pass\\ \hline
-	
-% % 	31 & \sout{Normal} & \sout{Bluetooth recognised and navigation derived} & &\\ \hline
-	
-% % 	32 & Normal & User can input credentials, destination and exhibit information & User can perform all actions as described & \cellcolor{green}Pass\\ \hline
-	
-% % 	\end{tabular}
-% % \end{turn}
+\begin{table}[H]
+\begin{tabular}{|p{2cm}|p{5cm}|l|p{5cm}|p{5cm}|l|}
+\toprule
+\textbf{Type} & \textbf{Description}                                                             & \textbf{Usage} & \textbf{Expected Outcome}                        & \textbf{Actual Outcome}        & \textbf{Status} \\ \hline
+Regression    & 1. Checking if previous iterations are still compatible with v.0.0.1             & Normal         & New integration does not affect previous version & No affect to previous versions & Pass            \\ \hline
+Regression    & 2. Checking if previous iterations are still compatible with v.0.0.1 and v.0.0.2 & Normal         & New integration does not affect previous version & No affect to previous versions & Pass            \\
+\bottomrule
+\end{tabular}
+\caption{Regression Tests}
+\label{table:regressiontests}
+\end{table}
+\end{sidewaystable}
 
-% % \section{Number of Pass and Fail}
-% % \setlength{\parindent}{4em}
-% % \setlength{\parskip}{1em}
-% % \renewcommand{\baselinestretch}{2.0}
-% % \KOMAoptions{paper=landscape,pagesize}
-% % \begin{turn}{-0}
-% % \begin{tabular}{ |p{2cm}| |p{2cm}| |p{2cm}|}
-% % \hline 
-% % \cellcolor{red}\textbf{Pass} & \cellcolor{green}\textbf{Fail} & \cellcolor{yellow}\textbf{Total}\\ \hline
-% % 15 & 8 & 23 \\ \hline
+\begin{sidewaystable}
+\begin{table}[H]
+\begin{tabular}{|p{2cm}|p{5cm}|l|p{5cm}|p{5cm}|l|}
+\toprule
+\textbf{Type}   & \textbf{Description}                                                      & \textbf{Usage} & \textbf{Expected Outcome}                                           & \textbf{Actual Outcome}                                            & \textbf{Status} \\ \hline
+UAT & 1. User logging in as a guest                                             & Normal         & Access to application services with Guest login                     & The system allows a Guest user  to login                           & Pass            \\ \hline
+UAT & 2. Select destination                                                     & Normal         & AR navigation show ups                                              & AR Sceneform is generated, and camera is turned on                         & Pass            \\ \hline
+UAT & 3. Select destination that does not exist but still registered on the app & Erroneous      & Display destination error message                                   & Error message displayed                                                   & Pass            \\
+\bottomrule
+\end{tabular}
+\caption{User Acceptance Tests}
+\label{table:uatests}
+\end{table}
 
-% % \end{tabular}
-% % \end{turn}
-% \newpage
-% \begin{adjustbox}{angle=90}
-% % \begin{table}[]
-% \begin{tabular}{l|l|l|l|p{3cm}|l|p{3cm}|p{3cm}|l}
-% No      & Type                          & Feature            & Last Conducted & Description                                                                   & Usage     & Expected Outcome                                                             & Actual Outcome                                                              & Pass/Fail   \\
-% 1       & Unit                          & Route calculations & 25/02/2019     & Receving destination of desire from user input                                & Normal    & Vector distance from exhibition                                              & Code not written.                                                           & Fail        \\
-% 2       & Unit                          & Route calculations & 25/02/2019     & Allow bluetooth usage from user device                                        & Normal    & User permission given                                                        & App ask for user permission for bluetooth                                   & Pass        \\
-% 3       & Unit                          & Route calculations & 25/02/2019     & User denies bluetooth permissions                                             & Erroneous & Stop app and send user an alert encouraging bluetooth use                    & The app will stop working                                                   & Pass        \\
-% 4       & Unit                          & Route calculations & 25/02/2019     & User does not follow route                                                    & Erroneous & Route is re-calculated according to their current location                   & Code not written                                                            & Fail        \\
-% 5       & Unit                          & Route calculations & 25/02/2019     & Receiving current location as destination of desire from user input           & Erroneous & Alert displayed conveying that the user is already at their desired location & Code not written                                                            & Fail        \\
-% 6       & Unit                          & Route calculations & 25/02/2019     & User gets to their desired destination                                        & Normal    & Alert conveying that the user has arrived at their destination               & Code not written                                                            & Fail        \\
-% 7       & Unit                          & Route calculations & 04/03/2019     & Allow location usage from user device                                         & Normal    & User permission given                                                        & User permission for location requested                                      & Pass        \\
-% 8       & Unit                          & Route calculations & 08/03/2019     & Get sensor information from user device                                       & Normal    & Receive acceleromter and orientation information                             & Utilise sensor information for route calculation                            & Pass        \\
-% 9       & Unit                          & Route calculations & 08/03/2019     & User declines sensor information being sent                                   & Erroneous & Application terminates since calculation's become stipulated                 & Application terminates                                                      & Pass        \\
-% 8       & Unit                          & AR                 & 04/03/2019     & User allowing camera permissions                                              & Normal    & User permission given                                                        & The system does give permission to the user                                 & Pass        \\
-% 9       & Unit                          & AR                 & 04/03/2019     & AR Scene is viewable                                                          & Normal    & The screen displays AR scene on user's device.                               & AR fragment and Scene is created successfully                               & Pass        \\
-% 10      & Unit                          & AR                 & 07/03/2019     & Navigation activity camera functionality                                      & Normal    & Navigation activity loads device camera                                      & Device camera is loaded upon navigation activity                            & Pass        \\
-% 11      & Unit                          & AR                 & 04/03/2019     & 3D model is created and viewable on the user's device.                        & Normal    & 3D model is rended on the device.                                            & 3D Model is not rendered to the screen                                      & Fail        \\
-% 12      & Unit                          & AR                 & 04/03/2019     & Installation of ARCore                                                        & Normal    & Upon navigation activity, redirected to ARCore on the Google Play Store      & User is redirected and navigation activity works                            & Pass        \\
-% 13      & Unit                          & AR                 & 04/03/2019     & Installation of ARCore                                                        & Erroneous & User does not install ARCore: Redirected to menu.                            & Navigation activity closed and user redirected to menu                      & Pass        \\
-% 14      & Unit                          & AR                 & 04/03/2019     & User not allowing camera permissions for the app                              & Erroneous & Alert displayed to force user to allow camera                                & A message pops up on the users device "the app require camera permission"   & Pass        \\
-% 15      & User Acceptance               & User Interface     & 25/02/2019     & User logging into system with an existing account                             & Normal    & Access to application services with an existing account.                     & The system allows an existing account to login                              &             \\
-% 16      & User Acceptance               & User Interface     & 25/02/2019     & User logging in as a guest                                                    & Normal    & Access to application services with Guest login                              & The system allows a Guest user  to login                                    & Pass        \\
-% 17      & User Acceptance               & User Interface     & 25/02/2019     & User logging into system with an account not registered                       & Erroneous & Display login error message                                                  & No messsages pops up on the screeen informing the user to create an account &             \\
-% 18      & User Acceptance               & User Interface     & 25/02/2019     & Select destination                                                            & Normal    & AR navigation show ups                                                       & AR navigations don't show up on the screen                                  & Fail        \\
-% 19      & User Acceptance               & User Interface     & 25/02/2019     & Select destination that does not exist but still registered on the app        & Erroneous & Display destination error message                                            & Code not written                                                            & Fail        \\
-% 20      & User Acceptance               & User Interface     & 25/02/2019     & Camera functionality                                                          & Normal    & Camera snapshot recognises exhibit and displays exhibit information          & Snapshot works when test indivuailly but not yet fully intergrated          & Fail        \\
-% 21      & User Acceptance               & User Interface     & 25/02/2019     & User can register an account                                                  & Normal    & User can enter credentials to register an Account.                           & Code not written                                                            &             \\
-% 22      & System \& Integration         & Functional         &                & AR \& Bluetooth integration                                                   & Normal    & Bluetooth development recognised by AR                                       &                                                                             & In Progress \\
-% 23      & System \& Integration         & Functional         &                & UI \& functionality (AR \& Bluetooth) integration                             & Normal    & User input works the functionality behind application                        &                                                                             & In Progress \\
-% 24      & Performance \& Stress         & System             &                & Time taken to load application and features                                   & Normal    & Quick responses from system                                                  & Not conducted.                                                              &             \\
-% 25      & Performance \& Stress         & Wi-Fi              &                & Affects on WiFi in the case of multiple users                                 & Normal    & Unaffected Wi-Fi responses                                                   & Not conducted.                                                              &             \\
-% 26      & Performance \& Stress         & System             &                & System handling in the case of multiples users                                & Normal    & System does not crash or hang on multiple users in same vicinity             & Not conducted.                                                              &             \\
-% 27      & Regression                    & v.0.0.2            & 07/03/2019     & Checking if previous iterations are still compatible with v.0.0.1             & Normal    & New integration does not affect previous version                             & No affect to previous versions                                              & Pass        \\
-% 28      & Regression                    & v.0.0.3            & 07/03/2019     & Checking if previous iterations are still compatible with v.0.0.1 and v.0.0.2 & Normal    & New integration does not affect previous version                             & No affect to previous versions                                              & Pass        \\
-% 29      & Beta                          & System             &                & Bluetooth recognised by AR                                                    & Normal    & Bluetooth recognised and navigation derived                                  &                                                                             &             \\
-% 30      & Beta                          & System             & 04/03/2019     & UI functions                                                                  & Normal    & User can input credentials, destination and exhibit information              & User can perform all actions as described                                   & Pass        \\
-% \end{tabular}
-% % \end{table}
-% \end{adjustbox}
+\begin{table}[H]
+\begin{tabular}{|p{2cm}|p{5cm}|l|p{5cm}|p{5cm}|l|}
+\toprule
+\textbf{Type} & \textbf{Description} & \textbf{Usage} & \textbf{Expected Outcome}                                      & \textbf{Actual Outcome}             & \textbf{Status} \\ \hline
+Beta          & Field testing        & Normal         & No unexpected or unnormal behaviours during runtime with users & Application runtime ran as expected & Pass            \\
+\bottomrule
+\end{tabular}
+\caption{Beta Tests}
+\label{table:betatests}
+\end{table}
+
+\end{sidewaystable}

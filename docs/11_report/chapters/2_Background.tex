@@ -1,21 +1,18 @@
 \section{Background}
-% changes fixed
-Recently, a new exciting segment of the technology sector has sprung up – indoor navigation with a catalyst of growth in indoor navigational research. Most current solutions on the market cater very well for a basic navigation of large open public spaces, though failing to display a competency to more complex navigational requirements coupled with an even proportion of navigational and interactive content with well-presented data. Through the use of augmented reality, the concept can provide an interactive solution for museums and exhibitions – with a wide future scope.
+A new exciting segment of the technology sector has sprung up recently – indoor navigation with a catalyst of growth in indoor navigational research. Current solutions on the market cater very well for basic navigation of large open public spaces, though failing to display competencies to more complex navigational requirements coupled with even proportions of navigational, and interactive content with well-presented data. Through the use of AR, the concept can provide an interactive solution for museums.
 
-Since most museums and galleries use a portable audio guide, user experiences can be vastly improved by the use of a phone. Currently only a few solutions can be found; the Orpheo group \cite{orpheo} provide a unique app for each place meaning that their solution is somewhat cumbersome to regular museum users who would wish to have a hassle-free setup process. As we hope to appeal to museums and by virtue of this, museum-goers, having one app whereby the user can simply walk into a museum or exhibition and be greeted with relevant information to be a vital differentiating factor \cite{microsoft}. Even though the intention is to create one app for every museum and exhibition for the project, each client would have a large input on the content of their institution within the app. 
+Since most museums use portable audio guides, user experiences can be vastly improved by the use of a smartphone. Currently only a few solutions can be found; the Orpheo group provide a unique app for each individual museum though their solution is somewhat cumbersome to regular museum users who wish to have a hassle-free setup. The appeal to museums and by virtue of this, museum-goers, having one app whereby the user can simply walk into a museum or exhibition, and be greeted with relevant information to be a differentiating factor \cite{microsoft}. Even though the intention is to create one app for every museum and exhibition for the project, each client would have a large input on the content of their institution within the app. 
 
-If a museum, wanted a solution for navigation, due to the low number of museum-specific competitors, would choose to use a standard indoor map- ping software \cite{murphy}. However, while there are many options out there from Google and Mapspeople \cite{mapspeople} who set out to provide this, they lack important exigences that are very imperative for museums like heavily integrated augmented reality, intelligent tour guiding from your location, and virtual reality to take a scene from the museum, for instance, and place the user to the artefact’s original time and place. 
-\note{could you summarise and add in one paragraph the studies that Hamza researched?}
+If a museum wanted a solution for navigation, due to the low number of museum-specific competitors, would choose standard indoor mapping softwares \cite{murphy}. While there are many options out there from Google, and Mapspeople \cite{mapspeople} who provide this, they lack important exigences that are imperative for museums like heavily integrated augmented reality, intelligent tour guiding from your location.
 
 \section{AR Libraries}
-The AR component of an AR based application is perhaps the most crucial component. Therefore the group evaluated three libraries before developing any software. Those were, ARKit developed by Apple for its native iOS platform, the AR Core library by Google for Android systems, and Vuforia - a cross-platform SDK built by PTC for Unity/Android, specialising in image recognition.
+The group evaluated three libraries before developing any software. ARKit developed by Apple for its native iOS platform, the ARCore library by Google for Android systems, and Vuforia - a cross-platform SDK built by PTC for Unity/Android, specialising in image recognition.
 
 \subsection{ARKit}
-ARKit was a strong candidate in becoming the library of choice because of its nativity to iOS devices.
+ARKit was a strong candidate in becoming the library of choice because of its nativity to iOS devices. The prototype built would hover over an image, in this scenario - the Mona Lisa, and the device would recognise the painting. Subsequently, it would display information about it, and if scanned again, a green tick would be displayed on the screen.
 
-Although the application is only supported by Objective-C/Swift, it has more thorough and straight-forward documentation than Android's AR Core and PTC's Vulforia. This would possibly make the idea easier to manifest because the debugging process would likely run more smoothly. But due to the lack of the total group's familiarity with the platform. Only one person was able to partake in creating the image recognition prototype (Figure~\ref{fig:arlibrary1}). \annote{Meaning It would take a period of time for the group to acclimate to. Making it an unfit library to move forward with.}{I think you can make this more succinct}
+Although the application is only written in Swift, it has more thorough, and straight-forward documentation than Android's ARCore and PTC's Vulforia. This would make the idea easier to manifest because the debugging process would likely run more smoothly. However, due to the lack of the group's familiarity with the platform, only one person was able to partake in creating the image recognition prototype (Figure~\ref{fig:arlibrary1}), making it an unfit library to move forward with.
 
-% figure here
 \begin{figure}[H]
 	\centering  
 	\begin{tabular}{cc}
@@ -29,11 +26,10 @@ Although the application is only supported by Objective-C/Swift, it has more tho
 \end{figure}
 
 \subsection{Vuforia}
-Unity is a cross-platform game engine, used to test a simple AR camera prototype where the device’s camera hovers an image, and displays information about that image on the device. The application was built using Vuforia, an SDK that enables recognition, and tracking of image targets. This library can be used for the exploration case in the use case model. Although, there are a lack of tools for locating user current location compared to Android.
+Unity is a cross-platform game engine, used to test a simple AR camera prototype where the device’s camera hovers over an image, and displays information about that image on the device. The application was built using Vuforia, an SDK that enables recognition, and tracking of image targets. This library can be used for the exploration case in the use case model. Although, there are a lack of tools for locating user's current location compared to Android.
 
 The Vuforia library was used to test a simple AR camera prototype where the device’s camera hovers an image, and displays information about that image on the device.
 
-% Figure here
 \begin{figure}[H]
 	\centering  
 	\begin{tabular}{cc}
@@ -44,12 +40,11 @@ The Vuforia library was used to test a simple AR camera prototype where the devi
 	\label{fig:arlibrary2}
 \end{figure}
 
-\subsection{AR Core (Android)}
-AR Core was used to create an AR experience (Figure~\ref{fig:arlibrary3}) giving the user the ability to superimpose a 3D object when the camera is focused on a flat surface.
+\subsection{ARCore}
+ARCore was used to create an AR experience (Figure~\ref{fig:arlibrary3}) giving the user the ability to superimpose a 3D object when the camera is focused on a flat surface. This prototype simply recognised a flat surface, and when detected the user could place the Android robot on the surface.
 
-During the process it was found that unlike ARKit, the library is suitable with Java/Kotlin, hence the group would have an easier time acclimating the nature of AR Core. As AR Core is a native Android SDK, it can be integrated with other Android features such as Android's GPS and Android's WiFi libraries. Despite this, the documentation was scattered and vague, making it a difficult program to debug with. After exploring this prototyping process and discussing the accessibility of AR Core(Android) and android to the stakeholders, the group distinguished it as the most suitable library for the project.
+During the process it was found that unlike ARKit, the library is suitable with Java/Kotlin, hence the group would have an easier time acclimating the nature of ARCore. As ARCore is a native Android SDK, it can be integrated with other Android features such as Android's GPS, and Android's WiFi libraries. Despite this, the documentation was scattered and vague, making it difficult to debug with. After exploring this prototyping process, and discussing the accessibility of ARCore, and Android to the stakeholders, the group distinguished it as the most suitable library for the project.
 
-% Figure here
 \begin{figure}[H]
 	\centering  
 	\begin{tabular}{cc}
@@ -63,52 +58,19 @@ During the process it was found that unlike ARKit, the library is suitable with 
 \end{figure}
 
 \section{Software Architecture}
-% changes still need to be made
-By analyzing software architecture to identify the potential risks, and to verify the quality of software have been addressed in the design. It will helps to determine which software will be useful to use in terms of developing our application. The team identify two system to choose from Android and Apple. Within those two system, the team need to find which one of the system is best for our application.
+To aid with selecting AR technologies, two systems were analysed to identify the potential risks and verify the quality of software prototypes in design.
 
 \subsection{Android}
-An open-source OS developed by Google, it provides an SDK for development of an application. It uses \textit{.apk} extension that can be downloaded and installed on mobile phones. In order to make AR application, we use ARCore to create our app. There are many advantages and disadvantages when choosing the ARCore for android.
+An open-source OS developed by Google, it provides an SDK for development. It uses the \textit{.apk} extension that can be downloaded, and installed on mobile phones. The Android emulator is nearly three time faster in CPU speed compared to Apple, allowing for smoother development of non-camera features. GPS location data is easier to use in Android due to how packages are imported into files, so there is low coupling. Further, the creation of user interface elements is straightforward, and can be executed on a wide variety of devices. However, it is harder creating more complex layouts and animations, and there is a steeper learning curve in Android development compared to other operating systems.
 
-\subsection{Advantages}
-\begin{itemize}
-  \item Android Emulator - It is nearly three faster in CPU, I/O and RAM compared to ARKit(Apple). This will help our application to load/get faster in user screen. 
-  \item Easy to log GPS location compared to iOS.
-  \item Easy to build UI with Layout Editor.
-  \item Easy to run on multiple android devices such as Samsung, Google Pixel, OnePlus,etc.
-  \item Easy to create a simple 3D model that will show on a mobile device when its camera targeted flat surface.
-  \item ARCore can detect horizontal surfaces that is similar to motion tracking, and can accurately anchor virtual objects.
-  \item Cost effective
-\end{itemize}
+\subsection{iOS}
+iOS is a mobile operating system developed by Apple, providing ARKit SDK for development of the application. Only Swift is compatible with iOS, though this is notoriously an easy language to learn, and develop apps on. Apple devices have more accurate accelerometers, and gyroscope, enabling stable and fast motion tracking \cite{pmc}. There are also fewer dependencies compared to Android, hence application load time is faster. Yet, there are limitations of the ARKit map, and the application would only support fewer devices.
 
-\subsection{Disadvantages}
-\begin{itemize}
-    \item It's more difficult to code complex layouts and animations.
-\end{itemize}
+\section{Hardware}
+As part of the exploration it was recommended, based off lengthy research, and the project’s domain expert's advice the need for a physical beacon. 
 
-\subsection{Apple(iOS)}
-It is a mobile operating system developed by apple. It provides ARKit SDK for development of application. In order to create an Ar application, you have to use ARKit. There are many advantages and disadvantages when choosing the ARKit for apple.
+This role of this beacon was to broadcast a signal; three main current technologies exist exist: optical infra-red, Bluetooth and, WiFi. Speaking to the project's domain expert, the former –  underpins their navigation technology and yields pin-point accuracy – important in dealing with small indoor spaces, but this is expensive; Bluetooth, while less accurate is far cheaper to manufacture, and develop; the latter-most offers the least in accuracy, and not too expensive. From this probing, Bluetooth became the team’s solution.
 
-\subsection{Advantages}
-\begin{itemize}
-    \item ARKit using the Swift, which is easy to learn.
-    \item Stable and fast motion tracking.
-    \item It helps to load our application in user screen faster.
-\end{itemize}
+Looking at relatable past projects, the favourable direction was using a Arduino (UNO R3 Mega 2560) or the Raspberry Pi 3 Model B+. Both solutions gave a clear, small, and light-weight canvases on which to design. With a smaller physical footprint – and in keeping with the project’s eco-friendly policy, the Arduino was cheaper. This was a priority to give the technology a wide-spread appeal.
 
-\subsection{Disadvantages}
-\begin{itemize}
-    \item limitation of ARKit map compare to Android
-    \item Not easy to log GPS location.
-    \item It is not flexible only support iOS devices.
-    \item Not easy to create an 3D model for naviagation.
-\end{itemize}
-
-\section{Hardware - Arduino and Raspberry Pis}
-% changes fixed
-As part of our exploration it was recommended, based off lengthy research and from an interlocution with the project’s domain expert the need for a to a physical beacon. 
-
-This role of this beacon, no matter the configuration, was to broadcast a signal. Three main current technologies exist exist: optical infra-red, Bluetooth and, WiFi. Speaking to industry specialists, the former – which underpins their navigation technology and would yield pin-point accuracy – important if you are dealing with small indoor spaces, but this is expensive; Bluetooth, while less accurate, is far cheaper to manufacture and develop; the latter-most (thricely), WiFi offers the least in accuracy and not too expensive. From this probing, Bluetooth became the team’s solution.
-
-Turning in to more a physical project which was not anticipated, a task was set to design a beacon. Looking at relatable past projects, the favourable direction was using a Arduino (UNO R3 Mega 2560) or the Raspberry Pi 3 Model B+. Both solutions gave a clear, small and light-weight canvas on which to design our beacon. However, with a smaller physical footprint – also in keeping with the project’s eco-friendly policy, the Arduino was cheaper. This was a priority to get the technology to have a wide-spread appeal. 
-
-Taking forward the Arduino platform, it was kitted out with a Bluetooth HC-05 RF transceiver. This setup was able to broadcast a simple Bluetooth signal where software can decipher a signal strength from which a distance could be determined. Despite this, it became apparent that there was a need to have further invest in more beacons to give a more accurate and reliable result via triangulation. This was not a suitable solution as one underpinning goal of this project is to make our technology assessable and available to a wide range of applications – an increase in cost would hinder this.
+The Arduino platform was kitted out with a Bluetooth HC-05 RF transceiver. This setup was able to broadcast a simple Bluetooth signal where software can decipher a signal strength from which a distance could be determined. It became apparent that there was a need to further invest in more beacons to give more accurate, and reliable results via triangulation. This was not a suitable solution as the technology was not as accessible, and available to a wide range of applications – an increase in cost would hinder this.
