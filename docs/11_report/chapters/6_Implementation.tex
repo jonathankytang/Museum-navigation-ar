@@ -7,7 +7,7 @@
     \label{fig:productbacklog}
 \end{figure}
 
-The product backlog was used as the single source of requirements in order to prioritise releases, and allowed for transparent iteration planning. From the requirements and project scope, each of the five core functionalities were broken down into its major components. Considering the time estimates, the scrum team decided that to demonstrate originality in the project, and to build the base functionalities first, the route calculations and the AR implementation were to form the MVP. Features which required a database such as exhibition item/image recognition, user profiles/logins, and building servers were placed in future releases. These components would take longer than the amount of development time available along with the base functionalities. The team recognised the added time for the construction and integration of a database to the app would increase the risk in not delivering a functional MVP. As a living scrum artifact, the backlog changed accordingly when there were requirements, enhancements, and fixes during the implementation and testing phases of each sprint. In practice, the backlog was maintained on the scrum board hosted on Trello.
+The product backlog was used as the single source of requirements in order to prioritise releases, and allowed for transparent iteration planning. From the requirements and project scope, each of the five core functionalities were broken down into its major components. Considering the time estimates, the scrum team decided that to demonstrate originality in the project, and to build the base functionalities first, the route calculations and the AR implementation were to form the minimal viable product. Features which required a database such as exhibition item/image recognition, user profiles/logins, and building servers were placed in future releases. These components would take longer than the amount of development time available along with the base functionalities. The team recognised the added time for the construction and integration of a database to the app would increase the risk in not delivering a functional MVP. As a living scrum artifact, the backlog changed accordingly when there were requirements, enhancements, and fixes during the implementation and testing phases of each sprint. In practice, the backlog was maintained on the scrum board hosted on Trello.
 
 % table of time estimates
 \begingroup
@@ -67,7 +67,7 @@ As soon as the application is opened, the user is faced with the login page aski
 
 There are three different services that the user can utilise. The 'Map' which shows the user their current location, and surroundings on a 2D map. The 'Nav' menu takes the user to the screen which the user has to then enter their desired destination or exhibit. After all the information has been entered by the user, the user's device displays the AR-enabled camera with the highlighted navigational line directing the user to their destination. However, if the user's device is not compatible with Google's ARCore then the user will not see this screen, and instead faced with an error message. Lastly, the 'info' page will allow the user to see additional information about an exhibit of their choice - this also requires the user to fill out a form.
 
-\lstinputlisting[language=Java, firstline=46, lastline=71]{src/MenuActivity.java}
+\lstinputlisting[language=Java, firstline=46, lastline=71, caption=Enabling AR from MenuActivity]{src/MenuActivity.java}
 
 \begin{figure}[H]
     \centering
@@ -95,7 +95,7 @@ As a result of all the planning and prototyping, when it came to actualising the
 \end{figure}
 
 \section{Back-end}
-The back-end implementation consisted of developing the application's AR, and route calculations systems, along with integrating, and testing the two constantly throughout the process.
+The back-end implementation consisted of developing the application's AR, and route calculations systems, along with integrating, and testing the two constantly throughout the process. Since most of the development team were unfamilar with Android Studio, time over the Christmas vacation was used to gain a firmer understanding of the IDE to reduce the amount of time during implementation to learn basic new skills.
 
 \subsection{Route Calculations}
 The scrum team delegated both a sprint, and a consultation with the domain expert in order to ensure this was done correctly.
@@ -109,12 +109,12 @@ The application's AR research began with the group understanding how Android's A
 
 Once the research was completed, the group delegated a sprint and some research time beforehand to setting up the AR environment that would be utilised by the route calculation system. Therefore, over the sprint, a testing plan was formulated with seven tests to ensure the environment worked in a sound fashion.
 
-\lstinputlisting[language=Java, firstline=93, lastline=115, caption=Creating AR Scene]{src/ARActivity.java}
+\lstinputlisting[language=Java, firstline=93, lastline=115, caption=Creating AR Scene from ARActivity]{src/ARActivity.java}
 
-The AR sceneform (which assists in rendering straightforward 3D scenes without OpenGL) is retreived from the UX XML fragment and the AR Activity fragment. THe model is then setup and rendered with an sfb file (the line), and if unrenderable, an exception is thrown. Using the device's camera, when a flat surface is recognised, the object's position is anchored on the device's screen. After, transformable functions are added to the line including qualities such as scale, and position. Finally, the line is then displayed.
+The AR sceneform (which assists in rendering straightforward 3D scenes without OpenGL) is retreived from the UX XML fragment and the AR Activity fragment. The model is then setup and rendered with an sfb file (the line), and if unrenderable, an exception is thrown. Using the device's camera, when a flat surface is recognised, the object's position is anchored on the device's screen. After, transformable functions are added to the line including qualities such as scale, and position. Finally, the line is then displayed.
 
-\lstinputlisting[language=Java, firstline=118, lastline=127, caption=Setup Model]{src/ARActivity.java}
-\lstinputlisting[language=Java, firstline=129, lastline=134, caption=Creating Model]{src/ARActivity.java}
+\lstinputlisting[language=Java, firstline=117, lastline=126, caption=Setup Model from ARActivity]{src/ARActivity.java}
+\lstinputlisting[language=Java, firstline=128, lastline=134, caption=Creating Model from ARActivity]{src/ARActivity.java}
 
 \begin{figure}[H]
     \centering
@@ -161,7 +161,7 @@ The group initialised the solution by finding a prototype that had already exist
 
 This halted the software development of the application for a period of time, until the prevailing solution had been devised. A theoretical solution would involve the group hard-coding the geometry of the area to be traversed by the user, and using the coded geospace along with a hard-coded location anchor within that geospace to navigate (A* algorithm with a vector function as the heuristic) the users device.
 
-Finding problems with ARCore library, the group had problems debugging since documentation was vague and information was scarce. An example of a faced issue was the inability to have the AR section of the application open up on different mobile devices.
+Finding problems with ARCore library, the group had problems debugging since documentation was vague, and information was scarce. An example of a faced issue was the inability to have the AR section of the application open up on different mobile devices.
 
 A large amount of implementation time was finding usable AR resources, namely the straight line to direct users. Initially, the line file was created, and rendered but did not display on the user's device. To resolve this, a different object file from a GitHub repository was utilised instead. In this case, the line was displayed on the screen, and the group came to resolve that it was an issue to do with the object file, and not sections of the source code.
 

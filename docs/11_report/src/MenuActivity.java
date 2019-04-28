@@ -58,7 +58,8 @@ void enableArButton() {
         Intent intent = new Intent(MenuActivity.this, ARActivity.class);
         startActivity(intent);
         // indicator on the button.
-    } else { // Unsupported or unknown.
+    } 
+    else { // Unsupported or unknown.
         Context context = getApplicationContext();
         CharSequence text = "Android version not compatible";
         int duration = Toast.LENGTH_SHORT;
@@ -66,7 +67,6 @@ void enableArButton() {
         Toast toast = Toast.makeText(context, text, duration);
         toast.setGravity(Gravity.TOP|Gravity.LEFT, 0, 0);
         toast.show();
-
     }
 }
 }

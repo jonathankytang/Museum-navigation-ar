@@ -23,9 +23,9 @@ The use case diagram is crucial because it clarifies the lifecycle of a user dur
 
 The use-case diagram (Figure~\ref{fig:model1}) deals with the two states that the user could be in; the lost state, and the exploration state.
 
-The lost state is initialised by picking up the user's current location (once they have requested a destination) and calculating the shortest route between them, and their requested destination. This is finalised by collecting the user's current location, and displaying it to them via the superimposition of a 3D line in their camera view. From this step, the user just needs to follow the route until they arrive at their destination.
+The lost state is initialised by picking up the user's current location (once they have requested a destination), and calculating the shortest route between them, and their requested destination. This is finalised by collecting the user's current location, and displaying it to them via the superimposition of a 3D line in their camera view. From this step, the user just needs to follow the route until they arrive at their destination.
 
-If the user considers another destination, or starts the application with no destination in mind. They have indirectly declared themselves to be in the exploration state. This state initialises itself by looking at the users past visits (if they have any) and current location to calculate recommendations. From this point on, once the user chooses a destination, the exploration state is identical to the lost state. The user follows the superimposed line and reaches their destination for the lifecycle to either begin again, or end.
+If the user considers another destination, or starts the application with no destination in mind. They have indirectly declared themselves to be in the exploration state. This state initialises itself by looking at the users past visits (if they have any), and current location to calculate recommendations. From this point on, once the user chooses a destination, the exploration state is identical to the lost state. The user follows the superimposed line and reaches their destination for the lifecycle to either begin again, or end.
 
 \begin{figure}[H]
     \centering
@@ -43,7 +43,7 @@ The route calculation process in the application is linear (Figure~\ref{fig:mode
 User definitions that the activity diagram (Figure~\ref{fig:model2}) deals with are case specific to the exploration case. If the user would like to explore their venue, and they do not have one on the application; they are prompted to make an account so that the application can provide optimised recommendations. Inf they do, their previously visited locations can be used in presenting recommendations.
 
 \newpage
-
+\vspace*{\fill}
 \begin{figure}[H]
     \centering
     \includegraphics[angle=90, width=\textwidth]
@@ -51,6 +51,7 @@ User definitions that the activity diagram (Figure~\ref{fig:model2}) deals with 
     \caption{Activity diagram}
     \label{fig:model2}
 \end{figure}
+\vspace*{\fill}
 
 \section{User Interface}
 The project lends substantial importance to its user interface, and experience. As it will be used by people with a wide range of technical ability, the aim will be to make the app as simple as possible without having an impinging effect on any service the end product will feature. This prerequisite was clearly outlined in the surveying of museum visitors, and staff alike. The first mission was determining what interfaces, and experiences currently exists within the museum sector. Many museums employed simple interfaces but due to their mass-manufacturing, their design felt unoptimised with simple bare-bones media not beyond text and images. Furthermore, this design would fail to deliver anything more complex than texts and images.
@@ -85,7 +86,7 @@ The approach to the UI/UX prototyping was to create different interface mock ups
 \end{figure}
 
 \newpage
-
+\vspace*{\fill}
 \subsubsection{Final Prototype}
 \begin{figure}[H]
     \centering
@@ -94,6 +95,7 @@ The approach to the UI/UX prototyping was to create different interface mock ups
     \caption{Overview of final UI prototype}
     \label{fig:finaloverview}
 \end{figure}
+\vspace*{\fill}
 
 \newpage
 

@@ -111,7 +111,6 @@ protected void onCreate(Bundle savedInstanceState) {
             createModel(anchorNode);
         }
     });
-
 }
 
 
@@ -126,12 +125,12 @@ private void setupModel() {
         );
 }
 
-    private void createModel(AnchorNode anchorNode) {
-        TransformableNode navLine1 = new TransformableNode(baseArFragment.getTransformationSystem());
-        navLine1.setParent(anchorNode);
-        navLine1.setRenderable(navLine1Renderable);
-        navLine1.select();
-    }
+private void createModel(AnchorNode anchorNode) {
+    TransformableNode navLine1 = new TransformableNode(baseArFragment.getTransformationSystem());
+    navLine1.setParent(anchorNode);
+    navLine1.setRenderable(navLine1Renderable);
+    navLine1.select();
+}
 
     @Override
     public void onClick(View v) {
