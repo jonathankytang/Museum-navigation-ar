@@ -1,7 +1,14 @@
-# Software Project - Group 14
+# Augmented Reality Navigation System for Commercial Spaces
 
-## Build Status
-[![Inline docs](http://inch-ci.org/github/gold/software-project.svg?branch=master)](http://inch-ci.org/github/gold/software-project)
+## Getting Started
+Download the Muse file, and run on Android Studio. The app will install on the connected device.
 
-## Directory Structure
-Each directory will be in line with either a milestone or a major deadline
+## Report
+The full analysis, design, and testing are detailed in the pdf file, [Report.pdf](https://github.com/jonathankytang/Museum-navigation-ar/blob/master/report.pdf).
+
+## License
+License
+This project is licensed under the [MIT License](https://github.com/jonathankytang/Museum-navigation-ar/blob/master/LICENSE). Permissions beyond the scope of this license may be available under Goldsmiths, University of London Copyright Licenses.
+
+## Acknowledgements
+Sincere thanks go to Basil Elmasri who served as our project supervisor. He provided timely advice, encouragement and guidance throughout the project.
