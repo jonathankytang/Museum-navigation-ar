@@ -1,0 +1,29 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{AR}]\begingroup Augmented Reality\nomeqref {0}
+		\nompageref{iii}
+  \item [{GDPR}]\begingroup General Data Protection Regulation 2016/679\nomeqref {0}
+		\nompageref{iii}
+  \item [{GPS}]\begingroup Global Positioning System\nomeqref {0}
+		\nompageref{iii}
+  \item [{IDE}]\begingroup Integrated Development Environment\nomeqref {0}
+		\nompageref{iii}
+  \item [{IP}]\begingroup Intellectual Property\nomeqref {0}
+		\nompageref{iii}
+  \item [{MVC}]\begingroup Model-View Controller\nomeqref {0}
+		\nompageref{iii}
+  \item [{SDK}]\begingroup Software Development Kit\nomeqref {0}
+		\nompageref{iii}
+  \item [{SRS}]\begingroup System Requirement Specification\nomeqref {0}
+		\nompageref{iii}
+  \item [{TDD}]\begingroup Test Driven Development\nomeqref {0}
+		\nompageref{iii}
+  \item [{UI}]\begingroup User Interface\nomeqref {0}\nompageref{iii}
+  \item [{UML}]\begingroup Unified Modeling Language\nomeqref {0}
+		\nompageref{iii}
+  \item [{UX}]\begingroup User Experience\nomeqref {0}\nompageref{iii}
+  \item [{VR}]\begingroup Virtual Reality\nomeqref {0}\nompageref{iii}
+
+\end{thenomenclature}
